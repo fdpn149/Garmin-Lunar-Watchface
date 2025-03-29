@@ -1,0 +1,38 @@
+import Toybox.Lang;
+using Toybox.WatchUi;
+using Toybox.WatchUi as Ui;
+using Toybox.Graphics;
+using Toybox.Graphics as Gfx;
+
+module Rez {
+    module Drawables {
+        (:initialized) var week_1 as ResourceId;
+        (:initialized) var week_2 as ResourceId;
+        (:initialized) var week_3 as ResourceId;
+        (:initialized) var week_4 as ResourceId;
+        (:initialized) var week_5 as ResourceId;
+        (:initialized) var week_6 as ResourceId;
+        (:initialized) var week_7 as ResourceId;
+        (:initialized) var bluetooth as ResourceId;
+        (:initialized) var alarm as ResourceId;
+        (:initialized) var LauncherIcon as ResourceId;
+    } // Drawables
+
+    module Fonts {
+        (:initialized) var num_font as ResourceId;
+    } // Fonts
+
+    module Layouts {
+        function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var rez_cmp_local_text_TimeLabel = new WatchUi.Text({:identifier=>"TimeLabel", :color=>Graphics.COLOR_BLUE, :locX=>(240 * 0.5), :locY=>((240 - dc.getFontHeight(Graphics.FONT_LARGE)) * 0.5), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_LARGE});
+
+            var rez_cmp_local_text_TimeLabel2 = new WatchUi.Text({:identifier=>"TimeLabel2", :color=>Graphics.COLOR_GREEN, :locX=>(240 * 0.5), :locY=>70, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_LARGE});
+
+            return [rez_cmp_local_text_TimeLabel, rez_cmp_local_text_TimeLabel2] as Array<WatchUi.Drawable>;
+        }
+    } // Layouts
+
+    module Strings {
+        (:initialized) var AppName as ResourceId;
+    } // Strings
+} // Rez

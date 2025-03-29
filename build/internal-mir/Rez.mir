@@ -1,0 +1,189 @@
+[ @file = "e:\Garmin\Projects\Test\build\gen\006-B3600-00\source\Rez.mcgen"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "e:\Garmin\Projects\Test\build\gen\006-B3600-00\source\Rez.mcgen"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [WatchUi,2,13,20]; ]
+using Toybox.WatchUi;
+[ @file = "e:\Garmin\Projects\Test\build\gen\006-B3600-00\source\Rez.mcgen"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [WatchUi,3,13,20]; @symbol_usingAlias = [Ui,3,24,26]; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "e:\Garmin\Projects\Test\build\gen\006-B3600-00\source\Rez.mcgen"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [Graphics,4,13,21]; ]
+using Toybox.Graphics;
+[ @file = "e:\Garmin\Projects\Test\build\gen\006-B3600-00\source\Rez.mcgen"; @line = 5; @symbol_usingdef<0> = [Toybox,5,6,12]; @symbol_usingdef<1> = [Graphics,5,13,21]; @symbol_usingAlias = [Gfx,5,25,28]; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "e:\Garmin\Projects\Test\build\gen\006-B3600-00\source\Rez.mcgen"; @line = 7; @symbol_moduledef = [Rez,7,7,10]; ]
+module Rez {
+    [ @file = "e:\Garmin\Projects\Test\build\gen\006-B3600-00\source\Rez.mcgen"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "e:\Garmin\Projects\Test\build\gen\006-B3600-00\source\Rez.mcgen"; @line = 8; @symbol_moduledef = [Drawables,8,11,20]; ]
+    module Drawables {
+        [ @file = "e:\Garmin\Projects\Test\build\gen\006-B3600-00\source\Rez.mcgen"; @line = 8; ]
+        <init> {
+        }
+        [ @file = "e:\Garmin\Projects\Test\build\gen\006-B3600-00\source\Rez.mcgen"; @line = 9; @position = 27; initialized = true; @symbol_vardef = [week_1,9,27,33]; @symbol_type<0> = [ResourceId,9,37,47]; ]
+        var week_1 as ResourceId;
+        [ @file = "e:\Garmin\Projects\Test\build\gen\006-B3600-00\source\Rez.mcgen"; @line = 10; @position = 27; initialized = true; @symbol_vardef = [week_2,10,27,33]; @symbol_type<0> = [ResourceId,10,37,47]; ]
+        var week_2 as ResourceId;
+        [ @file = "e:\Garmin\Projects\Test\build\gen\006-B3600-00\source\Rez.mcgen"; @line = 11; @position = 27; initialized = true; @symbol_vardef = [week_3,11,27,33]; @symbol_type<0> = [ResourceId,11,37,47]; ]
+        var week_3 as ResourceId;
+        [ @file = "e:\Garmin\Projects\Test\build\gen\006-B3600-00\source\Rez.mcgen"; @line = 12; @position = 27; initialized = true; @symbol_vardef = [week_4,12,27,33]; @symbol_type<0> = [ResourceId,12,37,47]; ]
+        var week_4 as ResourceId;
+        [ @file = "e:\Garmin\Projects\Test\build\gen\006-B3600-00\source\Rez.mcgen"; @line = 13; @position = 27; initialized = true; @symbol_vardef = [week_5,13,27,33]; @symbol_type<0> = [ResourceId,13,37,47]; ]
+        var week_5 as ResourceId;
+        [ @file = "e:\Garmin\Projects\Test\build\gen\006-B3600-00\source\Rez.mcgen"; @line = 14; @position = 27; initialized = true; @symbol_vardef = [week_6,14,27,33]; @symbol_type<0> = [ResourceId,14,37,47]; ]
+        var week_6 as ResourceId;
+        [ @file = "e:\Garmin\Projects\Test\build\gen\006-B3600-00\source\Rez.mcgen"; @line = 15; @position = 27; initialized = true; @symbol_vardef = [week_7,15,27,33]; @symbol_type<0> = [ResourceId,15,37,47]; ]
+        var week_7 as ResourceId;
+        [ @file = "e:\Garmin\Projects\Test\build\gen\006-B3600-00\source\Rez.mcgen"; @line = 16; @position = 27; initialized = true; @symbol_vardef = [bluetooth,16,27,36]; @symbol_type<0> = [ResourceId,16,40,50]; ]
+        var bluetooth as ResourceId;
+        [ @file = "e:\Garmin\Projects\Test\build\gen\006-B3600-00\source\Rez.mcgen"; @line = 17; @position = 27; initialized = true; @symbol_vardef = [alarm,17,27,32]; @symbol_type<0> = [ResourceId,17,36,46]; ]
+        var alarm as ResourceId;
+        [ @file = "e:\Garmin\Projects\Test\build\gen\006-B3600-00\source\Rez.mcgen"; @line = 18; @position = 27; initialized = true; @symbol_vardef = [LauncherIcon,18,27,39]; @symbol_type<0> = [ResourceId,18,43,53]; ]
+        var LauncherIcon as ResourceId;
+    }
+    [ @file = "e:\Garmin\Projects\Test\build\gen\006-B3600-00\source\Rez.mcgen"; @line = 21; @symbol_moduledef = [Fonts,21,11,16]; ]
+    module Fonts {
+        [ @file = "e:\Garmin\Projects\Test\build\gen\006-B3600-00\source\Rez.mcgen"; @line = 21; ]
+        <init> {
+        }
+        [ @file = "e:\Garmin\Projects\Test\build\gen\006-B3600-00\source\Rez.mcgen"; @line = 22; @position = 27; initialized = true; @symbol_vardef = [num_font,22,27,35]; @symbol_type<0> = [ResourceId,22,39,49]; ]
+        var num_font as ResourceId;
+    }
+    [ @file = "e:\Garmin\Projects\Test\build\gen\006-B3600-00\source\Rez.mcgen"; @line = 25; @symbol_moduledef = [Layouts,25,11,18]; ]
+    module Layouts {
+        [ @file = "e:\Garmin\Projects\Test\build\gen\006-B3600-00\source\Rez.mcgen"; @line = 25; ]
+        <init> {
+        }
+        [ @file = "e:\Garmin\Projects\Test\build\gen\006-B3600-00\source\Rez.mcgen"; @line = 26; @symbol_functiondef = [WatchFace,26,17,26]; @symbol_param<0> = [dc,26,27,29]; @symbol_param<0>_type<0> = [Graphics,26,33,41]; @symbol_param<0>_type<1> = [Dc,26,42,44]; @symbol_return<0> = [Array,26,49,54]; @symbol_return<1> = [WatchUi,26,55,62]; @symbol_return<2> = [Drawable,26,63,71]; ]
+        function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+e_Garmin_Projects_Test_build_gen_006_B3600_00_source_Rez_mcgen_26_73_32_8_start:
+[ "e:\Garmin\Projects\Test\build\gen\006-B3600-00\source\Rez.mcgen" 27 12 ]
+            [ "e_Garmin_Projects_Test_build_gen_006_B3600_00_source_Rez_mcgen_26_73_32_8_start" "e_Garmin_Projects_Test_build_gen_006_B3600_00_source_Rez_mcgen_26_73_32_8_stop" ]
+            %rez_cmp_local_text_TimeLabel.1 = local;
+            symbol [ rez_cmp_local_text_TimeLabel %rez_cmp_local_text_TimeLabel.1 27 16 44 ];
+            symbol [ WatchUi %tmp.3 27 51 58 ];
+            %tmp.3 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.4 27 59 63 ];
+            %tmp.4 = getv function ? %tmp.3 :Text;
+            %tmp.5 = newd 6;
+            %tmp.7 = const :identifier;
+            %tmp.8 = "TimeLabel";
+            %tmp.9 = dup %tmp.5;
+            %tmp.10 = aputv %tmp.9 %tmp.7 %tmp.8;
+            %tmp.12 = const :color;
+            symbol [ Graphics %tmp.13 27 99 107 ];
+            %tmp.13 = getm $.Toybox.Graphics;
+            symbol [ COLOR_BLUE %tmp.14 27 108 118 ];
+            %tmp.14 = getv %tmp.13 :COLOR_BLUE;
+            %tmp.15 = dup %tmp.10;
+            %tmp.16 = aputv %tmp.15 %tmp.12 %tmp.14;
+            %tmp.18 = const :locX;
+            %tmp.19 = 240;
+            %tmp.20 = 0.5;
+            %tmp.21 = mul %tmp.19 %tmp.20;
+            %tmp.22 = dup %tmp.16;
+            %tmp.23 = aputv %tmp.22 %tmp.18 %tmp.21;
+            %tmp.25 = const :locY;
+            %tmp.26 = 240;
+            %tmp.27 = lgetv %dc;
+            symbol [ dc %tmp.27 27 155 157 ];
+            symbol [ getFontHeight %tmp.28 27 158 171 ];
+            %tmp.28 = getv function %tmp.27 :getFontHeight;
+            symbol [ Graphics %tmp.29 27 172 180 ];
+            %tmp.29 = getm $.Toybox.Graphics;
+            symbol [ FONT_LARGE %tmp.30 27 181 191 ];
+            %tmp.30 = getv %tmp.29 :FONT_LARGE;
+            %tmp.31 = invoke %tmp.27 %tmp.28(%tmp.30);
+            %tmp.32 = sub %tmp.26 %tmp.31;
+            %tmp.33 = 0.5;
+            %tmp.34 = mul %tmp.32 %tmp.33;
+            %tmp.35 = dup %tmp.23;
+            %tmp.36 = aputv %tmp.35 %tmp.25 %tmp.34;
+            %tmp.38 = const :justification;
+            symbol [ Graphics %tmp.39 27 218 226 ];
+            %tmp.39 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_CENTER %tmp.40 27 227 246 ];
+            %tmp.40 = getv %tmp.39 :TEXT_JUSTIFY_CENTER;
+            %tmp.41 = dup %tmp.36;
+            %tmp.42 = aputv %tmp.41 %tmp.38 %tmp.40;
+            %tmp.44 = const :font;
+            symbol [ Graphics %tmp.45 27 255 263 ];
+            %tmp.45 = getm $.Toybox.Graphics;
+            symbol [ FONT_LARGE %tmp.46 27 264 274 ];
+            %tmp.46 = getv %tmp.45 :FONT_LARGE;
+            %tmp.47 = dup %tmp.42;
+            %tmp.48 = aputv %tmp.47 %tmp.44 %tmp.46;
+            %tmp.1 = newc %tmp.4 (%tmp.48);
+            lputv %rez_cmp_local_text_TimeLabel.1 %tmp.1;
+            symbol [ rez_cmp_local_text_TimeLabel %rez_cmp_local_text_TimeLabel.1 27 16 44 ];
+[ "e:\Garmin\Projects\Test\build\gen\006-B3600-00\source\Rez.mcgen" 29 12 ]
+            [ "e_Garmin_Projects_Test_build_gen_006_B3600_00_source_Rez_mcgen_26_73_32_8_start" "e_Garmin_Projects_Test_build_gen_006_B3600_00_source_Rez_mcgen_26_73_32_8_stop" ]
+            %rez_cmp_local_text_TimeLabel2.2 = local;
+            symbol [ rez_cmp_local_text_TimeLabel2 %rez_cmp_local_text_TimeLabel2.2 29 16 45 ];
+            symbol [ WatchUi %tmp.51 29 52 59 ];
+            %tmp.51 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.52 29 60 64 ];
+            %tmp.52 = getv function ? %tmp.51 :Text;
+            %tmp.53 = newd 6;
+            %tmp.55 = const :identifier;
+            %tmp.56 = "TimeLabel2";
+            %tmp.57 = dup %tmp.53;
+            %tmp.58 = aputv %tmp.57 %tmp.55 %tmp.56;
+            %tmp.60 = const :color;
+            symbol [ Graphics %tmp.61 29 101 109 ];
+            %tmp.61 = getm $.Toybox.Graphics;
+            symbol [ COLOR_GREEN %tmp.62 29 110 121 ];
+            %tmp.62 = getv %tmp.61 :COLOR_GREEN;
+            %tmp.63 = dup %tmp.58;
+            %tmp.64 = aputv %tmp.63 %tmp.60 %tmp.62;
+            %tmp.66 = const :locX;
+            %tmp.67 = 240;
+            %tmp.68 = 0.5;
+            %tmp.69 = mul %tmp.67 %tmp.68;
+            %tmp.70 = dup %tmp.64;
+            %tmp.71 = aputv %tmp.70 %tmp.66 %tmp.69;
+            %tmp.73 = const :locY;
+            %tmp.74 = 70;
+            %tmp.75 = dup %tmp.71;
+            %tmp.76 = aputv %tmp.75 %tmp.73 %tmp.74;
+            %tmp.78 = const :justification;
+            symbol [ Graphics %tmp.79 29 170 178 ];
+            %tmp.79 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_CENTER %tmp.80 29 179 198 ];
+            %tmp.80 = getv %tmp.79 :TEXT_JUSTIFY_CENTER;
+            %tmp.81 = dup %tmp.76;
+            %tmp.82 = aputv %tmp.81 %tmp.78 %tmp.80;
+            %tmp.84 = const :font;
+            symbol [ Graphics %tmp.85 29 207 215 ];
+            %tmp.85 = getm $.Toybox.Graphics;
+            symbol [ FONT_LARGE %tmp.86 29 216 226 ];
+            %tmp.86 = getv %tmp.85 :FONT_LARGE;
+            %tmp.87 = dup %tmp.82;
+            %tmp.88 = aputv %tmp.87 %tmp.84 %tmp.86;
+            %tmp.49 = newc %tmp.52 (%tmp.88);
+            lputv %rez_cmp_local_text_TimeLabel2.2 %tmp.49;
+            symbol [ rez_cmp_local_text_TimeLabel2 %rez_cmp_local_text_TimeLabel2.2 29 16 45 ];
+[ "e:\Garmin\Projects\Test\build\gen\006-B3600-00\source\Rez.mcgen" 31 12 ]
+            %tmp.89 = newa 2 Array<WatchUi.Drawable>;
+            %tmp.90 = lgetv %rez_cmp_local_text_TimeLabel.1;
+            symbol [ rez_cmp_local_text_TimeLabel %tmp.90 31 20 48 ];
+            %tmp.91 = dup %tmp.89;
+            %tmp.92 = aputv %tmp.91 0 %tmp.90;
+            %tmp.93 = lgetv %rez_cmp_local_text_TimeLabel2.2;
+            symbol [ rez_cmp_local_text_TimeLabel2 %tmp.93 31 50 79 ];
+            %tmp.94 = dup %tmp.92;
+            %tmp.95 = aputv %tmp.94 1 %tmp.93;
+            ret %tmp.95;
+e_Garmin_Projects_Test_build_gen_006_B3600_00_source_Rez_mcgen_26_73_32_8_stop:
+        }
+    }
+    [ @file = "e:\Garmin\Projects\Test\build\gen\006-B3600-00\source\Rez.mcgen"; @line = 35; @symbol_moduledef = [Strings,35,11,18]; ]
+    module Strings {
+        [ @file = "e:\Garmin\Projects\Test\build\gen\006-B3600-00\source\Rez.mcgen"; @line = 35; ]
+        <init> {
+        }
+        [ @file = "e:\Garmin\Projects\Test\build\gen\006-B3600-00\source\Rez.mcgen"; @line = 36; @position = 27; initialized = true; @symbol_vardef = [AppName,36,27,34]; @symbol_type<0> = [ResourceId,36,38,48]; ]
+        var AppName as ResourceId;
+    }
+}
+[ @file = "e:\Garmin\Projects\Test\build\gen\006-B3600-00\source\Rez.mcgen"; @line = 1; ]
+<init> {
+}

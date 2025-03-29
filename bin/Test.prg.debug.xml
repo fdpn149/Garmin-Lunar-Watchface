@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<manifest filename="E:\Garmin\Projects\Test\manifest.xml"/>
+<pcToLineNum>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestApp.mc" id="1" lineNum="5" parent="globals/TestApp" pc="268435460" symbol="&lt;init&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Lunar.mc" id="2" lineNum="2" parent="globals/Lunar" pc="268435479" symbol="&lt;init&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Lunar.mc" id="2" lineNum="3" parent="globals/Lunar" pc="268435649" symbol="&lt;init&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Lunar.mc" id="2" lineNum="4" parent="globals/Lunar" pc="268436664" symbol="&lt;init&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestApp.mc" id="3" lineNum="26" parent="globals" pc="268437667" symbol="getApp"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestApp.mc" id="3" lineNum="27" parent="globals" pc="268437677" symbol="getApp"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="4" lineNum="3" parent="globals/Holiday" pc="268437693" symbol="&lt;init&gt;"/>
+<entry filename="e:\\Garmin\\Projects\\Test\\bin\\gen\\006-B3600-00\\source\\Rez.mcgen" id="5" lineNum="7" parent="globals/Rez" pc="268438020" symbol="&lt;init&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="6" lineNum="7" parent="globals/TestView" pc="268438044" symbol="&lt;init&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="6" lineNum="10" parent="globals/TestView" pc="268438062" symbol="&lt;init&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="6" lineNum="15" parent="globals/TestView" pc="268438076" symbol="&lt;init&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="6" lineNum="16" parent="globals/TestView" pc="268438111" symbol="&lt;init&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\LunarDisplay.mc" id="7" lineNum="2" parent="globals/LunarDisplay" pc="268438147" symbol="&lt;init&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\LunarDisplay.mc" id="7" lineNum="3" parent="globals/LunarDisplay" pc="268438317" symbol="&lt;init&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestApp.mc" id="8" lineNum="12" parent="globals/TestApp" pc="268438462" symbol="onStart"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestApp.mc" id="9" lineNum="20" parent="globals/TestApp" pc="268438465" symbol="getInitialView"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestApp.mc" id="9" lineNum="21" parent="globals/TestApp" pc="268438467" symbol="getInitialView"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestApp.mc" id="10" lineNum="7" parent="globals/TestApp" pc="268438508" symbol="initialize"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestApp.mc" id="10" lineNum="8" parent="globals/TestApp" pc="268438510" symbol="initialize"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestApp.mc" id="11" lineNum="16" parent="globals/TestApp" pc="268438529" symbol="onStop"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Lunar.mc" id="12" lineNum="7" parent="globals/Lunar" pc="268438532" symbol="initialize"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Lunar.mc" id="12" lineNum="8" parent="globals/Lunar" pc="268438536" symbol="initialize"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Lunar.mc" id="12" lineNum="9" parent="globals/Lunar" pc="268438555" symbol="initialize"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Lunar.mc" id="12" lineNum="10" parent="globals/Lunar" pc="268438570" symbol="initialize"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Lunar.mc" id="12" lineNum="11" parent="globals/Lunar" pc="268438585" symbol="initialize"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Lunar.mc" id="12" lineNum="12" parent="globals/Lunar" pc="268438614" symbol="initialize"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Lunar.mc" id="13" lineNum="39" parent="globals/Lunar" pc="268438640" symbol="&lt;globals/Lunar/&lt;&gt;getLunarMonthsInfo&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Lunar.mc" id="13" lineNum="40" parent="globals/Lunar" pc="268438642" symbol="&lt;globals/Lunar/&lt;&gt;getLunarMonthsInfo&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Lunar.mc" id="14" lineNum="46" parent="globals/Lunar" pc="268438699" symbol="&lt;globals/Lunar/&lt;&gt;getLunarYearMonthsSizeAgg&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Lunar.mc" id="14" lineNum="47" parent="globals/Lunar" pc="268438703" symbol="&lt;globals/Lunar/&lt;&gt;getLunarYearMonthsSizeAgg&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Lunar.mc" id="14" lineNum="48" parent="globals/Lunar" pc="268438711" symbol="&lt;globals/Lunar/&lt;&gt;getLunarYearMonthsSizeAgg&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Lunar.mc" id="14" lineNum="50" parent="globals/Lunar" pc="268438719" symbol="&lt;globals/Lunar/&lt;&gt;getLunarYearMonthsSizeAgg&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Lunar.mc" id="14" lineNum="51" parent="globals/Lunar" pc="268438729" symbol="&lt;globals/Lunar/&lt;&gt;getLunarYearMonthsSizeAgg&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Lunar.mc" id="14" lineNum="53" parent="globals/Lunar" pc="268438736" symbol="&lt;globals/Lunar/&lt;&gt;getLunarYearMonthsSizeAgg&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Lunar.mc" id="14" lineNum="54" parent="globals/Lunar" pc="268438754" symbol="&lt;globals/Lunar/&lt;&gt;getLunarYearMonthsSizeAgg&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Lunar.mc" id="14" lineNum="55" parent="globals/Lunar" pc="268438764" symbol="&lt;globals/Lunar/&lt;&gt;getLunarYearMonthsSizeAgg&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Lunar.mc" id="14" lineNum="56" parent="globals/Lunar" pc="268438778" symbol="&lt;globals/Lunar/&lt;&gt;getLunarYearMonthsSizeAgg&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Lunar.mc" id="14" lineNum="58" parent="globals/Lunar" pc="268438792" symbol="&lt;globals/Lunar/&lt;&gt;getLunarYearMonthsSizeAgg&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Lunar.mc" id="14" lineNum="59" parent="globals/Lunar" pc="268438811" symbol="&lt;globals/Lunar/&lt;&gt;getLunarYearMonthsSizeAgg&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Lunar.mc" id="14" lineNum="61" parent="globals/Lunar" pc="268438840" symbol="&lt;globals/Lunar/&lt;&gt;getLunarYearMonthsSizeAgg&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Lunar.mc" id="14" lineNum="62" parent="globals/Lunar" pc="268438848" symbol="&lt;globals/Lunar/&lt;&gt;getLunarYearMonthsSizeAgg&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Lunar.mc" id="14" lineNum="63" parent="globals/Lunar" pc="268438868" symbol="&lt;globals/Lunar/&lt;&gt;getLunarYearMonthsSizeAgg&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Lunar.mc" id="14" lineNum="64" parent="globals/Lunar" pc="268438882" symbol="&lt;globals/Lunar/&lt;&gt;getLunarYearMonthsSizeAgg&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Lunar.mc" id="14" lineNum="65" parent="globals/Lunar" pc="268438892" symbol="&lt;globals/Lunar/&lt;&gt;getLunarYearMonthsSizeAgg&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Lunar.mc" id="14" lineNum="69" parent="globals/Lunar" pc="268438937" symbol="&lt;globals/Lunar/&lt;&gt;getLunarYearMonthsSizeAgg&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Lunar.mc" id="14" lineNum="71" parent="globals/Lunar" pc="268438951" symbol="&lt;globals/Lunar/&lt;&gt;getLunarYearMonthsSizeAgg&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Lunar.mc" id="15" lineNum="77" parent="globals/Lunar" pc="268438978" symbol="&lt;globals/Lunar/&lt;&gt;getLunarDate&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Lunar.mc" id="15" lineNum="78" parent="globals/Lunar" pc="268438982" symbol="&lt;globals/Lunar/&lt;&gt;getLunarDate&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Lunar.mc" id="15" lineNum="79" parent="globals/Lunar" pc="268438995" symbol="&lt;globals/Lunar/&lt;&gt;getLunarDate&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Lunar.mc" id="15" lineNum="80" parent="globals/Lunar" pc="268439005" symbol="&lt;globals/Lunar/&lt;&gt;getLunarDate&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Lunar.mc" id="15" lineNum="81" parent="globals/Lunar" pc="268439024" symbol="&lt;globals/Lunar/&lt;&gt;getLunarDate&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Lunar.mc" id="15" lineNum="82" parent="globals/Lunar" pc="268439038" symbol="&lt;globals/Lunar/&lt;&gt;getLunarDate&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Lunar.mc" id="15" lineNum="85" parent="globals/Lunar" pc="268439051" symbol="&lt;globals/Lunar/&lt;&gt;getLunarDate&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Lunar.mc" id="15" lineNum="86" parent="globals/Lunar" pc="268439064" symbol="&lt;globals/Lunar/&lt;&gt;getLunarDate&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Lunar.mc" id="15" lineNum="88" parent="globals/Lunar" pc="268439089" symbol="&lt;globals/Lunar/&lt;&gt;getLunarDate&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Lunar.mc" id="16" lineNum="15" parent="globals/Lunar" pc="268439162" symbol="&lt;globals/Lunar/&lt;&gt;calcAggDays&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Lunar.mc" id="16" lineNum="16" parent="globals/Lunar" pc="268439166" symbol="&lt;globals/Lunar/&lt;&gt;calcAggDays&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Lunar.mc" id="16" lineNum="17" parent="globals/Lunar" pc="268439176" symbol="&lt;globals/Lunar/&lt;&gt;calcAggDays&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Lunar.mc" id="16" lineNum="18" parent="globals/Lunar" pc="268439201" symbol="&lt;globals/Lunar/&lt;&gt;calcAggDays&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Lunar.mc" id="16" lineNum="19" parent="globals/Lunar" pc="268439205" symbol="&lt;globals/Lunar/&lt;&gt;calcAggDays&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Lunar.mc" id="16" lineNum="20" parent="globals/Lunar" pc="268439220" symbol="&lt;globals/Lunar/&lt;&gt;calcAggDays&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Lunar.mc" id="16" lineNum="21" parent="globals/Lunar" pc="268439265" symbol="&lt;globals/Lunar/&lt;&gt;calcAggDays&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Lunar.mc" id="16" lineNum="24" parent="globals/Lunar" pc="268439278" symbol="&lt;globals/Lunar/&lt;&gt;calcAggDays&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Lunar.mc" id="16" lineNum="27" parent="globals/Lunar" pc="268439313" symbol="&lt;globals/Lunar/&lt;&gt;calcAggDays&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Lunar.mc" id="16" lineNum="28" parent="globals/Lunar" pc="268439320" symbol="&lt;globals/Lunar/&lt;&gt;calcAggDays&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Lunar.mc" id="17" lineNum="31" parent="globals/Lunar" pc="268439323" symbol="&lt;globals/Lunar/&lt;&gt;getLunarYearIndex&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Lunar.mc" id="17" lineNum="32" parent="globals/Lunar" pc="268439327" symbol="&lt;globals/Lunar/&lt;&gt;getLunarYearIndex&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Lunar.mc" id="17" lineNum="33" parent="globals/Lunar" pc="268439334" symbol="&lt;globals/Lunar/&lt;&gt;getLunarYearIndex&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Lunar.mc" id="17" lineNum="34" parent="globals/Lunar" pc="268439351" symbol="&lt;globals/Lunar/&lt;&gt;getLunarYearIndex&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Lunar.mc" id="17" lineNum="36" parent="globals/Lunar" pc="268439364" symbol="&lt;globals/Lunar/&lt;&gt;getLunarYearIndex&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="18" lineNum="47" parent="globals/Holiday" pc="268439373" symbol="getHoliday"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="18" lineNum="48" parent="globals/Holiday" pc="268439377" symbol="getHoliday"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="18" lineNum="49" parent="globals/Holiday" pc="268439390" symbol="getHoliday"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="18" lineNum="50" parent="globals/Holiday" pc="268439410" symbol="getHoliday"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="18" lineNum="52" parent="globals/Holiday" pc="268439419" symbol="getHoliday"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="18" lineNum="53" parent="globals/Holiday" pc="268439429" symbol="getHoliday"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="18" lineNum="54" parent="globals/Holiday" pc="268439453" symbol="getHoliday"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="18" lineNum="55" parent="globals/Holiday" pc="268439463" symbol="getHoliday"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="18" lineNum="57" parent="globals/Holiday" pc="268439486" symbol="getHoliday"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="19" lineNum="23" parent="globals/Holiday" pc="268439489" symbol="&lt;globals/Holiday/&lt;&gt;getJie&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="19" lineNum="24" parent="globals/Holiday" pc="268439493" symbol="&lt;globals/Holiday/&lt;&gt;getJie&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="19" lineNum="25" parent="globals/Holiday" pc="268439503" symbol="&lt;globals/Holiday/&lt;&gt;getJie&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="19" lineNum="26" parent="globals/Holiday" pc="268439510" symbol="&lt;globals/Holiday/&lt;&gt;getJie&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="19" lineNum="27" parent="globals/Holiday" pc="268439532" symbol="&lt;globals/Holiday/&lt;&gt;getJie&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="19" lineNum="29" parent="globals/Holiday" pc="268439542" symbol="&lt;globals/Holiday/&lt;&gt;getJie&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="19" lineNum="30" parent="globals/Holiday" pc="268439606" symbol="&lt;globals/Holiday/&lt;&gt;getJie&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="19" lineNum="31" parent="globals/Holiday" pc="268439628" symbol="&lt;globals/Holiday/&lt;&gt;getJie&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="19" lineNum="33" parent="globals/Holiday" pc="268439641" symbol="&lt;globals/Holiday/&lt;&gt;getJie&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="19" lineNum="34" parent="globals/Holiday" pc="268439663" symbol="&lt;globals/Holiday/&lt;&gt;getJie&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="19" lineNum="36" parent="globals/Holiday" pc="268439676" symbol="&lt;globals/Holiday/&lt;&gt;getJie&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="19" lineNum="37" parent="globals/Holiday" pc="268439687" symbol="&lt;globals/Holiday/&lt;&gt;getJie&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="19" lineNum="38" parent="globals/Holiday" pc="268439709" symbol="&lt;globals/Holiday/&lt;&gt;getJie&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="19" lineNum="41" parent="globals/Holiday" pc="268439725" symbol="&lt;globals/Holiday/&lt;&gt;getJie&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="19" lineNum="42" parent="globals/Holiday" pc="268439747" symbol="&lt;globals/Holiday/&lt;&gt;getJie&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="19" lineNum="44" parent="globals/Holiday" pc="268439760" symbol="&lt;globals/Holiday/&lt;&gt;getJie&gt;"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="20" lineNum="13" parent="globals/Holiday" pc="268439763" symbol="initialize"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="20" lineNum="14" parent="globals/Holiday" pc="268439765" symbol="initialize"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="20" lineNum="15" parent="globals/Holiday" pc="268439775" symbol="initialize"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="20" lineNum="16" parent="globals/Holiday" pc="268439785" symbol="initialize"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="20" lineNum="17" parent="globals/Holiday" pc="268439795" symbol="initialize"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="20" lineNum="18" parent="globals/Holiday" pc="268439805" symbol="initialize"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="20" lineNum="19" parent="globals/Holiday" pc="268439815" symbol="initialize"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="20" lineNum="20" parent="globals/Holiday" pc="268439825" symbol="initialize"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="60" parent="globals/Holiday" pc="268439836" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="61" parent="globals/Holiday" pc="268439840" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="62" parent="globals/Holiday" pc="268439848" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="63" parent="globals/Holiday" pc="268439856" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="78" parent="globals/Holiday" pc="268439876" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="96" parent="globals/Holiday" pc="268439896" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="117" parent="globals/Holiday" pc="268439916" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="139" parent="globals/Holiday" pc="268439936" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="159" parent="globals/Holiday" pc="268439956" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="171" parent="globals/Holiday" pc="268439976" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="183" parent="globals/Holiday" pc="268439996" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="198" parent="globals/Holiday" pc="268440016" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="216" parent="globals/Holiday" pc="268440036" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="237" parent="globals/Holiday" pc="268440056" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="252" parent="globals/Holiday" pc="268440076" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="64" parent="globals/Holiday" pc="268440099" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="65" parent="globals/Holiday" pc="268440133" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="66" parent="globals/Holiday" pc="268440169" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="69" parent="globals/Holiday" pc="268440192" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="70" parent="globals/Holiday" pc="268440226" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="71" parent="globals/Holiday" pc="268440262" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="74" parent="globals/Holiday" pc="268440285" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="75" parent="globals/Holiday" pc="268440302" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="77" parent="globals/Holiday" pc="268440322" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="79" parent="globals/Holiday" pc="268440325" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="80" parent="globals/Holiday" pc="268440359" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="81" parent="globals/Holiday" pc="268440395" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="84" parent="globals/Holiday" pc="268440418" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="85" parent="globals/Holiday" pc="268440452" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="86" parent="globals/Holiday" pc="268440488" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="89" parent="globals/Holiday" pc="268440511" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="90" parent="globals/Holiday" pc="268440528" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="92" parent="globals/Holiday" pc="268440548" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="93" parent="globals/Holiday" pc="268440565" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="95" parent="globals/Holiday" pc="268440585" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="97" parent="globals/Holiday" pc="268440588" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="98" parent="globals/Holiday" pc="268440622" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="99" parent="globals/Holiday" pc="268440658" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="102" parent="globals/Holiday" pc="268440681" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="103" parent="globals/Holiday" pc="268440715" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="104" parent="globals/Holiday" pc="268440751" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="107" parent="globals/Holiday" pc="268440774" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="108" parent="globals/Holiday" pc="268440791" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="110" parent="globals/Holiday" pc="268440811" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="111" parent="globals/Holiday" pc="268440828" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="113" parent="globals/Holiday" pc="268440848" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="114" parent="globals/Holiday" pc="268440865" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="116" parent="globals/Holiday" pc="268440885" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="118" parent="globals/Holiday" pc="268440888" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="119" parent="globals/Holiday" pc="268440922" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="120" parent="globals/Holiday" pc="268440958" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="122" parent="globals/Holiday" pc="268440978" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="123" parent="globals/Holiday" pc="268440995" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="126" parent="globals/Holiday" pc="268441018" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="127" parent="globals/Holiday" pc="268441052" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="128" parent="globals/Holiday" pc="268441088" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="131" parent="globals/Holiday" pc="268441111" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="132" parent="globals/Holiday" pc="268441128" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="134" parent="globals/Holiday" pc="268441148" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="135" parent="globals/Holiday" pc="268441165" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="138" parent="globals/Holiday" pc="268441185" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="140" parent="globals/Holiday" pc="268441188" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="141" parent="globals/Holiday" pc="268441222" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="142" parent="globals/Holiday" pc="268441239" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="145" parent="globals/Holiday" pc="268441262" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="146" parent="globals/Holiday" pc="268441296" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="147" parent="globals/Holiday" pc="268441332" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="150" parent="globals/Holiday" pc="268441355" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="151" parent="globals/Holiday" pc="268441389" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="152" parent="globals/Holiday" pc="268441425" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="155" parent="globals/Holiday" pc="268441448" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="156" parent="globals/Holiday" pc="268441465" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="158" parent="globals/Holiday" pc="268441485" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="160" parent="globals/Holiday" pc="268441488" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="161" parent="globals/Holiday" pc="268441522" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="162" parent="globals/Holiday" pc="268441558" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="165" parent="globals/Holiday" pc="268441581" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="166" parent="globals/Holiday" pc="268441615" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="167" parent="globals/Holiday" pc="268441651" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="170" parent="globals/Holiday" pc="268441674" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="172" parent="globals/Holiday" pc="268441677" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="173" parent="globals/Holiday" pc="268441711" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="174" parent="globals/Holiday" pc="268441747" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="177" parent="globals/Holiday" pc="268441770" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="178" parent="globals/Holiday" pc="268441804" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="179" parent="globals/Holiday" pc="268441840" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="182" parent="globals/Holiday" pc="268441863" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="184" parent="globals/Holiday" pc="268441866" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="185" parent="globals/Holiday" pc="268441900" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="186" parent="globals/Holiday" pc="268441936" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="188" parent="globals/Holiday" pc="268441956" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="189" parent="globals/Holiday" pc="268441973" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="192" parent="globals/Holiday" pc="268441996" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="193" parent="globals/Holiday" pc="268442030" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="194" parent="globals/Holiday" pc="268442066" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="197" parent="globals/Holiday" pc="268442089" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="199" parent="globals/Holiday" pc="268442092" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="200" parent="globals/Holiday" pc="268442126" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="201" parent="globals/Holiday" pc="268442162" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="204" parent="globals/Holiday" pc="268442185" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="205" parent="globals/Holiday" pc="268442219" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="206" parent="globals/Holiday" pc="268442255" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="209" parent="globals/Holiday" pc="268442278" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="210" parent="globals/Holiday" pc="268442295" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="212" parent="globals/Holiday" pc="268442315" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="213" parent="globals/Holiday" pc="268442332" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="215" parent="globals/Holiday" pc="268442352" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="217" parent="globals/Holiday" pc="268442355" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="218" parent="globals/Holiday" pc="268442389" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="219" parent="globals/Holiday" pc="268442425" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="222" parent="globals/Holiday" pc="268442448" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="223" parent="globals/Holiday" pc="268442482" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="224" parent="globals/Holiday" pc="268442518" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="227" parent="globals/Holiday" pc="268442541" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="228" parent="globals/Holiday" pc="268442558" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="230" parent="globals/Holiday" pc="268442578" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="231" parent="globals/Holiday" pc="268442595" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="233" parent="globals/Holiday" pc="268442615" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="234" parent="globals/Holiday" pc="268442632" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="236" parent="globals/Holiday" pc="268442652" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="238" parent="globals/Holiday" pc="268442655" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="239" parent="globals/Holiday" pc="268442689" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="240" parent="globals/Holiday" pc="268442725" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="243" parent="globals/Holiday" pc="268442748" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="244" parent="globals/Holiday" pc="268442782" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="245" parent="globals/Holiday" pc="268442818" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="248" parent="globals/Holiday" pc="268442841" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="249" parent="globals/Holiday" pc="268442858" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="251" parent="globals/Holiday" pc="268442878" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="253" parent="globals/Holiday" pc="268442881" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="254" parent="globals/Holiday" pc="268442915" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="255" parent="globals/Holiday" pc="268442951" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="258" parent="globals/Holiday" pc="268442974" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="259" parent="globals/Holiday" pc="268443008" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="260" parent="globals/Holiday" pc="268443044" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="263" parent="globals/Holiday" pc="268443067" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="264" parent="globals/Holiday" pc="268443084" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="266" parent="globals/Holiday" pc="268443104" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="267" parent="globals/Holiday" pc="268443121" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="271" parent="globals/Holiday" pc="268443142" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="272" parent="globals/Holiday" pc="268443150" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="280" parent="globals/Holiday" pc="268443170" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="285" parent="globals/Holiday" pc="268443190" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="290" parent="globals/Holiday" pc="268443210" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="304" parent="globals/Holiday" pc="268443230" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="309" parent="globals/Holiday" pc="268443250" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="314" parent="globals/Holiday" pc="268443270" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="319" parent="globals/Holiday" pc="268443290" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="273" parent="globals/Holiday" pc="268443313" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="274" parent="globals/Holiday" pc="268443330" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="276" parent="globals/Holiday" pc="268443350" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="277" parent="globals/Holiday" pc="268443367" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="279" parent="globals/Holiday" pc="268443387" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="281" parent="globals/Holiday" pc="268443390" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="282" parent="globals/Holiday" pc="268443407" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="284" parent="globals/Holiday" pc="268443427" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="286" parent="globals/Holiday" pc="268443430" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="287" parent="globals/Holiday" pc="268443447" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="289" parent="globals/Holiday" pc="268443467" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="291" parent="globals/Holiday" pc="268443470" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="292" parent="globals/Holiday" pc="268443487" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="294" parent="globals/Holiday" pc="268443507" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="295" parent="globals/Holiday" pc="268443524" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="297" parent="globals/Holiday" pc="268443544" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="298" parent="globals/Holiday" pc="268443561" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="300" parent="globals/Holiday" pc="268443581" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="301" parent="globals/Holiday" pc="268443598" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="303" parent="globals/Holiday" pc="268443618" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="305" parent="globals/Holiday" pc="268443621" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="306" parent="globals/Holiday" pc="268443638" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="308" parent="globals/Holiday" pc="268443658" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="310" parent="globals/Holiday" pc="268443661" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="311" parent="globals/Holiday" pc="268443678" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="313" parent="globals/Holiday" pc="268443698" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="315" parent="globals/Holiday" pc="268443701" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="316" parent="globals/Holiday" pc="268443718" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="318" parent="globals/Holiday" pc="268443738" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="320" parent="globals/Holiday" pc="268443741" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="321" parent="globals/Holiday" pc="268443758" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="323" parent="globals/Holiday" pc="268443778" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="324" parent="globals/Holiday" pc="268443795" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="326" parent="globals/Holiday" pc="268443815" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="327" parent="globals/Holiday" pc="268443832" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\Holiday.mc" id="21" lineNum="330" parent="globals/Holiday" pc="268443853" symbol="getHolidayArray"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="23" lineNum="98" parent="globals/TestView" pc="268443856" symbol="updateDate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="23" lineNum="101" parent="globals/TestView" pc="268443860" symbol="updateDate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="23" lineNum="106" parent="globals/TestView" pc="268443949" symbol="updateDate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="23" lineNum="112" parent="globals/TestView" pc="268444011" symbol="updateDate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="23" lineNum="115" parent="globals/TestView" pc="268444053" symbol="updateDate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="23" lineNum="116" parent="globals/TestView" pc="268444123" symbol="updateDate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="23" lineNum="117" parent="globals/TestView" pc="268444139" symbol="updateDate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="23" lineNum="118" parent="globals/TestView" pc="268444175" symbol="updateDate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="23" lineNum="121" parent="globals/TestView" pc="268444194" symbol="updateDate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="25" lineNum="52" parent="globals/TestView" pc="268444333" symbol="onLayout"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="25" lineNum="54" parent="globals/TestView" pc="268444335" symbol="onLayout"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="26" lineNum="71" parent="globals/TestView" pc="268444377" symbol="getBodyBattery"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="26" lineNum="72" parent="globals/TestView" pc="268444381" symbol="getBodyBattery"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="26" lineNum="73" parent="globals/TestView" pc="268444394" symbol="getBodyBattery"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="26" lineNum="75" parent="globals/TestView" pc="268444407" symbol="getBodyBattery"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="26" lineNum="76" parent="globals/TestView" pc="268444414" symbol="getBodyBattery"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="26" lineNum="78" parent="globals/TestView" pc="268444426" symbol="getBodyBattery"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="27" lineNum="64" parent="globals/TestView" pc="268444432" symbol="getBodyBatteryIterator"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="27" lineNum="65" parent="globals/TestView" pc="268444434" symbol="getBodyBatteryIterator"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="29" lineNum="25" parent="globals/TestView" pc="268444482" symbol="initialize"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="29" lineNum="27" parent="globals/TestView" pc="268444484" symbol="initialize"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="29" lineNum="30" parent="globals/TestView" pc="268444502" symbol="initialize"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="29" lineNum="33" parent="globals/TestView" pc="268444549" symbol="initialize"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="29" lineNum="34" parent="globals/TestView" pc="268444606" symbol="initialize"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="29" lineNum="35" parent="globals/TestView" pc="268444663" symbol="initialize"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="29" lineNum="36" parent="globals/TestView" pc="268444720" symbol="initialize"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="29" lineNum="37" parent="globals/TestView" pc="268444777" symbol="initialize"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="29" lineNum="38" parent="globals/TestView" pc="268444834" symbol="initialize"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="29" lineNum="39" parent="globals/TestView" pc="268444891" symbol="initialize"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="29" lineNum="42" parent="globals/TestView" pc="268444948" symbol="initialize"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="29" lineNum="43" parent="globals/TestView" pc="268444995" symbol="initialize"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="29" lineNum="46" parent="globals/TestView" pc="268445042" symbol="initialize"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="29" lineNum="47" parent="globals/TestView" pc="268445085" symbol="initialize"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="29" lineNum="48" parent="globals/TestView" pc="268445107" symbol="initialize"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="31" lineNum="125" parent="globals/TestView" pc="268445120" symbol="onUpdate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="31" lineNum="127" parent="globals/TestView" pc="268445124" symbol="onUpdate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="31" lineNum="128" parent="globals/TestView" pc="268445167" symbol="onUpdate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="31" lineNum="129" parent="globals/TestView" pc="268445193" symbol="onUpdate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="31" lineNum="131" parent="globals/TestView" pc="268445208" symbol="onUpdate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="31" lineNum="134" parent="globals/TestView" pc="268445230" symbol="onUpdate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="31" lineNum="135" parent="globals/TestView" pc="268445254" symbol="onUpdate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="31" lineNum="137" parent="globals/TestView" pc="268445314" symbol="onUpdate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="31" lineNum="138" parent="globals/TestView" pc="268445338" symbol="onUpdate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="31" lineNum="141" parent="globals/TestView" pc="268445371" symbol="onUpdate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="31" lineNum="142" parent="globals/TestView" pc="268445401" symbol="onUpdate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="31" lineNum="146" parent="globals/TestView" pc="268445434" symbol="onUpdate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="31" lineNum="148" parent="globals/TestView" pc="268445456" symbol="onUpdate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="31" lineNum="151" parent="globals/TestView" pc="268445570" symbol="onUpdate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="31" lineNum="155" parent="globals/TestView" pc="268445684" symbol="onUpdate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="31" lineNum="156" parent="globals/TestView" pc="268445700" symbol="onUpdate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="31" lineNum="158" parent="globals/TestView" pc="268445726" symbol="onUpdate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="31" lineNum="163" parent="globals/TestView" pc="268445859" symbol="onUpdate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="31" lineNum="167" parent="globals/TestView" pc="268445954" symbol="onUpdate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="31" lineNum="169" parent="globals/TestView" pc="268445971" symbol="onUpdate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="31" lineNum="170" parent="globals/TestView" pc="268445994" symbol="onUpdate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="31" lineNum="171" parent="globals/TestView" pc="268446005" symbol="onUpdate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="31" lineNum="172" parent="globals/TestView" pc="268446048" symbol="onUpdate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="31" lineNum="175" parent="globals/TestView" pc="268446070" symbol="onUpdate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="31" lineNum="176" parent="globals/TestView" pc="268446107" symbol="onUpdate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="31" lineNum="178" parent="globals/TestView" pc="268446126" symbol="onUpdate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="31" lineNum="179" parent="globals/TestView" pc="268446189" symbol="onUpdate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="31" lineNum="184" parent="globals/TestView" pc="268446271" symbol="onUpdate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="31" lineNum="185" parent="globals/TestView" pc="268446293" symbol="onUpdate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="31" lineNum="186" parent="globals/TestView" pc="268446306" symbol="onUpdate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="31" lineNum="187" parent="globals/TestView" pc="268446317" symbol="onUpdate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="31" lineNum="189" parent="globals/TestView" pc="268446377" symbol="onUpdate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="31" lineNum="193" parent="globals/TestView" pc="268446459" symbol="onUpdate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="31" lineNum="194" parent="globals/TestView" pc="268446481" symbol="onUpdate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="31" lineNum="195" parent="globals/TestView" pc="268446504" symbol="onUpdate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="31" lineNum="197" parent="globals/TestView" pc="268446582" symbol="onUpdate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="31" lineNum="201" parent="globals/TestView" pc="268446670" symbol="onUpdate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="31" lineNum="202" parent="globals/TestView" pc="268446692" symbol="onUpdate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="31" lineNum="203" parent="globals/TestView" pc="268446715" symbol="onUpdate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="31" lineNum="204" parent="globals/TestView" pc="268446726" symbol="onUpdate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="31" lineNum="205" parent="globals/TestView" pc="268446737" symbol="onUpdate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="31" lineNum="208" parent="globals/TestView" pc="268446803" symbol="onUpdate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\TestView.mc" id="31" lineNum="211" parent="globals/TestView" pc="268446854" symbol="onUpdate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\LunarDisplay.mc" id="32" lineNum="13" parent="globals/LunarDisplay" pc="268446937" symbol="getDate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\LunarDisplay.mc" id="32" lineNum="14" parent="globals/LunarDisplay" pc="268446941" symbol="getDate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\LunarDisplay.mc" id="32" lineNum="15" parent="globals/LunarDisplay" pc="268446948" symbol="getDate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\LunarDisplay.mc" id="32" lineNum="17" parent="globals/LunarDisplay" pc="268446955" symbol="getDate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\LunarDisplay.mc" id="32" lineNum="18" parent="globals/LunarDisplay" pc="268446972" symbol="getDate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\LunarDisplay.mc" id="32" lineNum="20" parent="globals/LunarDisplay" pc="268446982" symbol="getDate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\LunarDisplay.mc" id="32" lineNum="22" parent="globals/LunarDisplay" pc="268447016" symbol="getDate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\LunarDisplay.mc" id="32" lineNum="23" parent="globals/LunarDisplay" pc="268447033" symbol="getDate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\LunarDisplay.mc" id="32" lineNum="24" parent="globals/LunarDisplay" pc="268447040" symbol="getDate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\LunarDisplay.mc" id="32" lineNum="26" parent="globals/LunarDisplay" pc="268447071" symbol="getDate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\LunarDisplay.mc" id="32" lineNum="27" parent="globals/LunarDisplay" pc="268447088" symbol="getDate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\LunarDisplay.mc" id="32" lineNum="28" parent="globals/LunarDisplay" pc="268447095" symbol="getDate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\LunarDisplay.mc" id="32" lineNum="30" parent="globals/LunarDisplay" pc="268447126" symbol="getDate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\LunarDisplay.mc" id="32" lineNum="31" parent="globals/LunarDisplay" pc="268447149" symbol="getDate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\LunarDisplay.mc" id="32" lineNum="32" parent="globals/LunarDisplay" pc="268447180" symbol="getDate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\LunarDisplay.mc" id="32" lineNum="35" parent="globals/LunarDisplay" pc="268447193" symbol="getDate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\LunarDisplay.mc" id="32" lineNum="36" parent="globals/LunarDisplay" pc="268447200" symbol="getDate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\LunarDisplay.mc" id="32" lineNum="39" parent="globals/LunarDisplay" pc="268447228" symbol="getDate"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\LunarDisplay.mc" id="33" lineNum="8" parent="globals/LunarDisplay" pc="268447255" symbol="initialize"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\LunarDisplay.mc" id="33" lineNum="9" parent="globals/LunarDisplay" pc="268447257" symbol="initialize"/>
+<entry filename="E:\\Garmin\\Projects\\Test\\source\\LunarDisplay.mc" id="33" lineNum="10" parent="globals/LunarDisplay" pc="268447273" symbol="initialize"/>
+<entry filename="e:\\Garmin\\Projects\\Test\\bin\\gen\\006-B3600-00\\source\\Rez.mcgen" id="34" lineNum="26" parent="globals/Rez/Layouts" pc="268447290" symbol="WatchFace"/>
+<entry filename="e:\\Garmin\\Projects\\Test\\bin\\gen\\006-B3600-00\\source\\Rez.mcgen" id="34" lineNum="27" parent="globals/Rez/Layouts" pc="268447302" symbol="WatchFace"/>
+<entry filename="e:\\Garmin\\Projects\\Test\\bin\\gen\\006-B3600-00\\source\\Rez.mcgen" id="34" lineNum="29" parent="globals/Rez/Layouts" pc="268447437" symbol="WatchFace"/>
+<entry filename="e:\\Garmin\\Projects\\Test\\bin\\gen\\006-B3600-00\\source\\Rez.mcgen" id="34" lineNum="31" parent="globals/Rez/Layouts" pc="268447549" symbol="WatchFace"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry field="true" id="38" symbol="holiday"/>
+<entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+<entry field="true" id="48" symbol="&lt;globals/LunarDisplay/&lt;&gt;days_digit&gt;"/>
+<entry id="10" object="true" symbol="TestApp"/>
+<entry field="true" id="15" symbol="&lt;globals/Lunar/&lt;&gt;days_in_month&gt;"/>
+<entry field="true" id="44" symbol="saved_day"/>
+<entry id="18" method="true" symbol="&lt;globals/Lunar/&lt;&gt;getLunarYearIndex&gt;"/>
+<entry field="true" id="8388938" symbol="month"/>
+<entry field="true" id="34" symbol="center_screenWidth"/>
+<entry id="22" method="true" symbol="getHolidayArray"/>
+<entry field="true" id="20" symbol="&lt;globals/Lunar/&lt;&gt;year_months&gt;"/>
+<entry field="true" id="47" symbol="&lt;globals/LunarDisplay/&lt;&gt;day&gt;"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry field="true" id="8388922" method="true" symbol="now"/>
+<entry field="true" id="14" symbol="&lt;globals/Lunar/&lt;&gt;day_agg&gt;"/>
+<entry id="8" object="true" symbol="Lunar"/>
+<entry field="true" id="62" symbol="AppName"/>
+<entry field="true" id="13" symbol="date"/>
+<entry field="true" id="42" symbol="lunar_date"/>
+<entry id="6" module="true" symbol="globals/Rez/Strings"/>
+<entry id="8388772" module="true" object="true" symbol="Fonts"/>
+<entry id="46" method="true" symbol="updateDate"/>
+<entry id="37" method="true" symbol="getBodyBatteryIterator"/>
+<entry field="true" id="45" symbol="since"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry id="2" module="true" symbol="globals/Rez"/>
+<entry field="true" id="26" symbol="&lt;globals/Holiday/&lt;&gt;lunar_lastday&gt;"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+<entry field="true" id="8389065" symbol="locY"/>
+<entry field="true" id="8389064" symbol="locX"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="8389348" symbol="font"/>
+<entry id="19" method="true" symbol="&lt;globals/Lunar/&lt;&gt;getLunarYearMonthsSizeAgg&gt;"/>
+<entry id="8389275" method="true" symbol="getApp"/>
+<entry id="5" module="true" symbol="globals/Rez/Layouts"/>
+<entry id="49" method="true" symbol="getDate"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry id="8389376" method="true" symbol="onEnterSleep"/>
+<entry field="true" id="8389063" symbol="identifier"/>
+<entry id="8389349" symbol="justification"/>
+<entry field="true" id="60" symbol="week_7"/>
+<entry field="true" id="59" symbol="week_6"/>
+<entry field="true" id="58" symbol="week_5"/>
+<entry field="true" id="57" symbol="week_4"/>
+<entry field="true" id="56" symbol="week_3"/>
+<entry field="true" id="55" symbol="week_2"/>
+<entry field="true" id="54" symbol="week_1"/>
+<entry id="11" object="true" symbol="TestView"/>
+<entry field="true" id="29" symbol="&lt;globals/Holiday/&lt;&gt;solar_month&gt;"/>
+<entry id="7" object="true" symbol="Holiday"/>
+<entry field="true" id="51" symbol="&lt;globals/LunarDisplay/&lt;&gt;months&gt;"/>
+<entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+<entry field="true" id="41" symbol="img_weeks"/>
+<entry id="8389809" symbol="order"/>
+<entry id="9" object="true" symbol="LunarDisplay"/>
+<entry id="36" method="true" symbol="getBodyBattery"/>
+<entry field="true" id="27" symbol="&lt;globals/Holiday/&lt;&gt;lunar_month&gt;"/>
+<entry field="true" id="25" symbol="&lt;globals/Holiday/&lt;&gt;lunar_day&gt;"/>
+<entry field="true" id="50" symbol="&lt;globals/LunarDisplay/&lt;&gt;month&gt;"/>
+<entry field="true" id="39" symbol="img_alarm"/>
+<entry id="8389377" method="true" symbol="onExitSleep"/>
+<entry id="8388644" module="true" symbol="System"/>
+<entry id="23" method="true" symbol="&lt;globals/Holiday/&lt;&gt;getJie&gt;"/>
+<entry id="8388645" module="true" symbol="Time"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry field="true" id="40" symbol="img_bluetooth"/>
+<entry id="12" method="true" symbol="&lt;globals/Lunar/&lt;&gt;calcAggDays&gt;"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry id="17" method="true" symbol="&lt;globals/Lunar/&lt;&gt;getLunarMonthsInfo&gt;"/>
+<entry field="true" id="31" symbol="&lt;globals/Holiday/&lt;&gt;year&gt;"/>
+<entry field="true" id="52" symbol="LauncherIcon"/>
+<entry id="8388610" symbol="statics"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry field="true" id="8390485" symbol="bluetooth"/>
+<entry id="8389350" module="true" symbol="globals"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry id="21" method="true" symbol="getHoliday"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry field="true" id="53" symbol="alarm"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry field="true" id="30" symbol="&lt;globals/Holiday/&lt;&gt;week&gt;"/>
+<entry id="8389808" symbol="period"/>
+<entry field="true" id="43" symbol="lunar_now"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry field="true" id="24" symbol="&lt;globals/Holiday/&lt;&gt;jieNum&gt;"/>
+<entry field="true" id="8389347" symbol="color"/>
+<entry field="true" id="8388939" symbol="day"/>
+<entry id="16" method="true" symbol="&lt;globals/Lunar/&lt;&gt;getLunarDate&gt;"/>
+<entry field="true" id="8388940" symbol="year"/>
+<entry id="32" module="true" symbol="Layouts"/>
+<entry field="true" id="33" symbol="center_screenHeight"/>
+<entry field="true" id="28" symbol="&lt;globals/Holiday/&lt;&gt;solar_day&gt;"/>
+<entry field="true" id="61" symbol="num_font"/>
+<entry id="4" module="true" symbol="globals/Rez/Fonts"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry id="8388635" module="true" symbol="Application"/>
+<entry field="true" id="35" symbol="font_num"/>
+</symbolTable>
+<localVars>
+<entry arg="true" endPc="268438639" name="year" stackId="1" startPc="268438532"/>
+<entry arg="true" endPc="268438639" name="month" stackId="2" startPc="268438532"/>
+<entry arg="true" endPc="268438639" name="day" stackId="3" startPc="268438532"/>
+<entry endPc="268438638" name="agg_days" stackId="4" startPc="268438536"/>
+<entry endPc="268438638" name="lunar_year_index" stackId="5" startPc="268438536"/>
+<entry endPc="268438638" name="lunar_months_info" stackId="6" startPc="268438536"/>
+<entry endPc="268438638" name="lunar_months_size_agg" stackId="7" startPc="268438536"/>
+<entry arg="true" endPc="268438698" name="lunar_year_index" stackId="1" startPc="268438640"/>
+<entry arg="true" endPc="268438977" name="leap" stackId="1" startPc="268438699"/>
+<entry arg="true" endPc="268438977" name="pattern" stackId="2" startPc="268438699"/>
+<entry endPc="268438977" name="months_size_agg" stackId="3" startPc="268438703"/>
+<entry endPc="268438977" name="months_name" stackId="4" startPc="268438703"/>
+<entry endPc="268438977" name="leap_month" stackId="5" startPc="268438703"/>
+<entry endPc="268438977" name="agg" stackId="6" startPc="268438703"/>
+<entry endPc="268438936" name="i" stackId="7" startPc="268438754"/>
+<entry endPc="268438923" name="month" stackId="8" startPc="268438754"/>
+<entry endPc="268438923" name="greater" stackId="9" startPc="268438754"/>
+<entry arg="true" endPc="268439161" name="agg_days" stackId="1" startPc="268438978"/>
+<entry arg="true" endPc="268439161" name="lunar_year_index" stackId="2" startPc="268438978"/>
+<entry arg="true" endPc="268439161" name="lunar_months_size_agg" stackId="3" startPc="268438978"/>
+<entry endPc="268439161" name="base_day" stackId="4" startPc="268438982"/>
+<entry endPc="268439161" name="size_agg" stackId="5" startPc="268438982"/>
+<entry endPc="268439161" name="index" stackId="6" startPc="268438982"/>
+<entry endPc="268439161" name="day" stackId="7" startPc="268438982"/>
+<entry endPc="268439161" name="last_day" stackId="8" startPc="268438982"/>
+<entry arg="true" endPc="268439322" name="year" stackId="1" startPc="268439162"/>
+<entry arg="true" endPc="268439322" name="month" stackId="2" startPc="268439162"/>
+<entry arg="true" endPc="268439322" name="day" stackId="3" startPc="268439162"/>
+<entry endPc="268439322" name="year_from_2024" stackId="4" startPc="268439166"/>
+<entry endPc="268439322" name="base_day" stackId="5" startPc="268439166"/>
+<entry endPc="268439322" name="agg_days" stackId="6" startPc="268439166"/>
+<entry endPc="268439312" name="i" stackId="7" startPc="268439220"/>
+<entry arg="true" endPc="268439372" name="agg_days" stackId="1" startPc="268439323"/>
+<entry endPc="268439372" name="index" stackId="2" startPc="268439327"/>
+<entry endPc="268439488" name="holiday_array" stackId="1" startPc="268439377"/>
+<entry endPc="268439488" name="holidays" stackId="2" startPc="268439377"/>
+<entry endPc="268439485" name="i" stackId="3" startPc="268439453"/>
+<entry arg="true" endPc="268439762" name="_year" stackId="1" startPc="268439489"/>
+<entry arg="true" endPc="268439762" name="index" stackId="2" startPc="268439489"/>
+<entry endPc="268439762" name="year" stackId="3" startPc="268439493"/>
+<entry endPc="268439762" name="extra" stackId="4" startPc="268439493"/>
+<entry endPc="268439762" name="val" stackId="5" startPc="268439493"/>
+<entry arg="true" endPc="268439835" name="year" stackId="1" startPc="268439763"/>
+<entry arg="true" endPc="268439835" name="solar_month" stackId="2" startPc="268439763"/>
+<entry arg="true" endPc="268439835" name="solar_day" stackId="3" startPc="268439763"/>
+<entry arg="true" endPc="268439835" name="lunar_month" stackId="4" startPc="268439763"/>
+<entry arg="true" endPc="268439835" name="lunar_day" stackId="5" startPc="268439763"/>
+<entry arg="true" endPc="268439835" name="lunar_lastday" stackId="6" startPc="268439763"/>
+<entry arg="true" endPc="268439835" name="week" stackId="7" startPc="268439763"/>
+<entry endPc="268443855" name="holiday" stackId="1" startPc="268439840"/>
+<entry endPc="268444331" name="now_moment" stackId="1" startPc="268443860"/>
+<entry endPc="268444331" name="birth" stackId="2" startPc="268443860"/>
+<entry endPc="268444331" name="lunar" stackId="3" startPc="268443860"/>
+<entry endPc="268444331" name="lunar_display" stackId="4" startPc="268443860"/>
+<entry arg="true" endPc="268444376" name="dc" stackId="1" startPc="268444333"/>
+<entry endPc="268444431" name="bodyBatteryIterator" stackId="1" startPc="268444381"/>
+<entry endPc="268444431" name="sample" stackId="2" startPc="268444381"/>
+<entry arg="true" endPc="268446936" name="dc" stackId="1" startPc="268445120"/>
+<entry endPc="268446935" name="hour" stackId="2" startPc="268445124"/>
+<entry endPc="268446935" name="battery" stackId="3" startPc="268445124"/>
+<entry endPc="268446066" name="color" stackId="4" startPc="268446005"/>
+<entry endPc="268446125" name="color" stackId="5" startPc="268446070"/>
+<entry endPc="268446935" name="bodyBattery" stackId="6" startPc="268445124"/>
+<entry endPc="268446935" name="step" stackId="7" startPc="268445124"/>
+<entry endPc="268447254" name="month_display" stackId="1" startPc="268446941"/>
+<entry endPc="268447254" name="day_display" stackId="2" startPc="268446941"/>
+<entry arg="true" endPc="268447289" name="lunar_date" stackId="1" startPc="268447255"/>
+<entry arg="true" endPc="268447575" name="dc" stackId="1" startPc="268447290"/>
+<entry endPc="268447575" name="rez_cmp_local_text_TimeLabel" stackId="2" startPc="268447302"/>
+<entry endPc="268447575" name="rez_cmp_local_text_TimeLabel2" stackId="3" startPc="268447302"/>
+</localVars>
+<deviceInfo deviceVersion="f5da1c52c4e027dc26ae7654e4f8c91c2cd6f797" partNumber="006-B3600-00"/>
+<annotations>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="alarm"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="week_7"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="bluetooth"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="week_6"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="week_5"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="week_4"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="week_3"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="week_2"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="week_1"/>
+<annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="num_font"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+</annotations>
+<dataEntryOffsetMappings>
+<dataEntry label="globals" offset="71" parentId="" symbolId="globals" type="module"/>
+<dataEntry label="globals/TestApp" offset="166" parentId="globals" symbolId="TestApp" type="class"/>
+<dataEntry label="globals/Lunar" offset="237" parentId="globals" symbolId="Lunar" type="class"/>
+<dataEntry label="globals/Holiday" offset="356" parentId="globals" symbolId="Holiday" type="class"/>
+<dataEntry label="globals/Rez" offset="491" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/TestView" offset="554" parentId="globals" symbolId="TestView" type="class"/>
+<dataEntry label="globals/LunarDisplay" offset="769" parentId="globals" symbolId="LunarDisplay" type="class"/>
+<dataEntry label="globals/Rez/Drawables" offset="856" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="967" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Fonts" offset="1006" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="1045" parentId="Rez" symbolId="Strings" type="module"/>
+</dataEntryOffsetMappings>
+<functions>
+<functionEntry accessMode="public" endPc="268435478" name="&lt;init&gt;" parent="TestApp" startPc="268435460">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437666" name="&lt;init&gt;" parent="Lunar" startPc="268435479">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437692" name="getApp" startPc="268437667">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438019" name="&lt;init&gt;" parent="Holiday" startPc="268437693">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438043" name="&lt;init&gt;" parent="Rez" startPc="268438020">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438146" name="&lt;init&gt;" parent="TestView" startPc="268438044">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438461" name="&lt;init&gt;" parent="LunarDisplay" startPc="268438147">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438464" name="onStart" parent="TestApp" startPc="268438462">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438507" name="getInitialView" parent="TestApp" startPc="268438465">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438528" name="initialize" parent="TestApp" startPc="268438508">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438531" name="onStop" parent="TestApp" startPc="268438529">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438639" name="initialize" parent="Lunar" startPc="268438532">
+<param id="year"/>
+<param id="month"/>
+<param id="day"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="private" endPc="268438698" name="&lt;globals/Lunar/&lt;&gt;getLunarMonthsInfo&gt;" parent="Lunar" startPc="268438640">
+<param id="lunar_year_index"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="private" endPc="268438977" name="&lt;globals/Lunar/&lt;&gt;getLunarYearMonthsSizeAgg&gt;" parent="Lunar" startPc="268438699">
+<param id="leap"/>
+<param id="pattern"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="private" endPc="268439161" name="&lt;globals/Lunar/&lt;&gt;getLunarDate&gt;" parent="Lunar" startPc="268438978">
+<param id="agg_days"/>
+<param id="lunar_year_index"/>
+<param id="lunar_months_size_agg"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="private" endPc="268439322" name="&lt;globals/Lunar/&lt;&gt;calcAggDays&gt;" parent="Lunar" startPc="268439162">
+<param id="year"/>
+<param id="month"/>
+<param id="day"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="private" endPc="268439372" name="&lt;globals/Lunar/&lt;&gt;getLunarYearIndex&gt;" parent="Lunar" startPc="268439323">
+<param id="agg_days"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439488" name="getHoliday" parent="Holiday" startPc="268439373">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="private" endPc="268439762" name="&lt;globals/Holiday/&lt;&gt;getJie&gt;" parent="Holiday" startPc="268439489">
+<param id="_year"/>
+<param id="index"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439835" name="initialize" parent="Holiday" startPc="268439763">
+<param id="year"/>
+<param id="solar_month"/>
+<param id="solar_day"/>
+<param id="lunar_month"/>
+<param id="lunar_day"/>
+<param id="lunar_lastday"/>
+<param id="week"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268443855" name="getHolidayArray" parent="Holiday" startPc="268439836">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Fonts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onExitSleep" parent="TestView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268444332" name="updateDate" parent="TestView" startPc="268443856">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="TestView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268444376" name="onLayout" parent="TestView" startPc="268444333">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268444431" name="getBodyBattery" parent="TestView" startPc="268444377">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268444481" name="getBodyBatteryIterator" parent="TestView" startPc="268444432">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onEnterSleep" parent="TestView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268445119" name="initialize" parent="TestView" startPc="268444482">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="TestView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268446936" name="onUpdate" parent="TestView" startPc="268445120">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268447254" name="getDate" parent="LunarDisplay" startPc="268446937">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268447289" name="initialize" parent="LunarDisplay" startPc="268447255">
+<param id="lunar_date"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268447575" name="WatchFace" parent="Layouts" startPc="268447290">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+</functions>
+</debugInfo>

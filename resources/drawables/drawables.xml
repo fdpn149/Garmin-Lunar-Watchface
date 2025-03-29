@@ -1,0 +1,12 @@
+<drawables xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <bitmap id="LauncherIcon" filename="launcher_icon.png" />
+    <bitmap id="week_1" filename="week/1.png" />
+    <bitmap id="week_2" filename="week/2.png" />
+    <bitmap id="week_3" filename="week/3.png" />
+    <bitmap id="week_4" filename="week/4.png" />
+    <bitmap id="week_5" filename="week/5.png" />
+    <bitmap id="week_6" filename="week/6.png" />
+    <bitmap id="week_7" filename="week/7.png" />
+    <bitmap id="bluetooth" filename="bluetooth.png" />
+    <bitmap id="alarm" filename="alarm.png" />
+</drawables>
