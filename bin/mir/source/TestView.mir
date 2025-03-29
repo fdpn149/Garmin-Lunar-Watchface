@@ -1,21 +1,21 @@
-[ @file = "E:\Garmin\Projects\Test\source\TestView.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Graphics,1,14,22]; ]
+[ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Graphics,1,14,22]; ]
 import Toybox.Graphics;
-[ @file = "E:\Garmin\Projects\Test\source\TestView.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Lang,2,14,18]; ]
+[ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Lang,2,14,18]; ]
 import Toybox.Lang;
-[ @file = "E:\Garmin\Projects\Test\source\TestView.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [System,3,14,20]; ]
+[ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [System,3,14,20]; ]
 import Toybox.System;
-[ @file = "E:\Garmin\Projects\Test\source\TestView.mc"; @line = 4; @symbol_importdef<0> = [Toybox,4,7,13]; @symbol_importdef<1> = [WatchUi,4,14,21]; ]
+[ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc"; @line = 4; @symbol_importdef<0> = [Toybox,4,7,13]; @symbol_importdef<1> = [WatchUi,4,14,21]; ]
 import Toybox.WatchUi;
-[ @file = "E:\Garmin\Projects\Test\source\TestView.mc"; @line = 5; @symbol_importdef<0> = [Toybox,5,7,13]; @symbol_importdef<1> = [Time,5,14,18]; ]
+[ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc"; @line = 5; @symbol_importdef<0> = [Toybox,5,7,13]; @symbol_importdef<1> = [Time,5,14,18]; ]
 import Toybox.Time;
-[ @file = "E:\Garmin\Projects\Test\source\TestView.mc"; @line = 7; @symbol_classdef = [TestView,7,6,14]; @symbol_extends<0> = [WatchUi,7,23,30]; @symbol_extends<1> = [WatchFace,7,31,40]; ]
+[ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc"; @line = 7; @symbol_classdef = [TestView,7,6,14]; @symbol_extends<0> = [WatchUi,7,23,30]; @symbol_extends<1> = [WatchFace,7,31,40]; ]
 class TestView extends WatchUi.WatchFace {
-    [ @file = "E:\Garmin\Projects\Test\source\TestView.mc"; @line = 7; ]
+    [ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc"; @line = 7; ]
     <init> {
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 10 5 ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 10 5 ]
         %tmp.1 = newa 0;
         putv self :img_weeks %tmp.1;
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 15 5 ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 15 5 ]
         symbol [ System %tmp.2 15 26 32 ];
         %tmp.2 = getm $.Toybox.System;
         symbol [ getDeviceSettings %tmp.3 15 33 50 ];
@@ -26,7 +26,7 @@ class TestView extends WatchUi.WatchFace {
         %tmp.6 = 2;
         %tmp.7 = div %tmp.5 %tmp.6;
         putv self :center_screenWidth %tmp.7;
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 16 5 ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 16 5 ]
         symbol [ System %tmp.8 16 27 33 ];
         %tmp.8 = getm $.Toybox.System;
         symbol [ getDeviceSettings %tmp.9 16 34 51 ];
@@ -38,44 +38,44 @@ class TestView extends WatchUi.WatchFace {
         %tmp.13 = div %tmp.11 %tmp.12;
         putv self :center_screenHeight %tmp.13;
     }
-    [ @file = "E:\Garmin\Projects\Test\source\TestView.mc"; @line = 7; ]
+    [ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc"; @line = 7; ]
     static
     <init> {
     }
-    [ @file = "E:\Garmin\Projects\Test\source\TestView.mc"; @line = 9; @position = 5; @symbol_vardef = [font_num,9,5,13]; ]
+    [ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc"; @line = 9; @position = 5; @symbol_vardef = [font_num,9,5,13]; ]
     var font_num = null;
-    [ @file = "E:\Garmin\Projects\Test\source\TestView.mc"; @line = 10; @position = 5; @symbol_vardef = [img_weeks,10,5,14]; ]
+    [ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc"; @line = 10; @position = 5; @symbol_vardef = [img_weeks,10,5,14]; ]
     var img_weeks;
-    [ @file = "E:\Garmin\Projects\Test\source\TestView.mc"; @line = 12; @position = 5; @symbol_vardef = [img_bluetooth,12,5,18]; ]
+    [ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc"; @line = 12; @position = 5; @symbol_vardef = [img_bluetooth,12,5,18]; ]
     var img_bluetooth = null;
-    [ @file = "E:\Garmin\Projects\Test\source\TestView.mc"; @line = 13; @position = 5; @symbol_vardef = [img_alarm,13,5,14]; ]
+    [ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc"; @line = 13; @position = 5; @symbol_vardef = [img_alarm,13,5,14]; ]
     var img_alarm = null;
-    [ @file = "E:\Garmin\Projects\Test\source\TestView.mc"; @line = 15; @position = 5; @symbol_vardef = [center_screenWidth,15,5,23]; ]
+    [ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc"; @line = 15; @position = 5; @symbol_vardef = [center_screenWidth,15,5,23]; ]
     var center_screenWidth;
-    [ @file = "E:\Garmin\Projects\Test\source\TestView.mc"; @line = 16; @position = 5; @symbol_vardef = [center_screenHeight,16,5,24]; ]
+    [ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc"; @line = 16; @position = 5; @symbol_vardef = [center_screenHeight,16,5,24]; ]
     var center_screenHeight;
-    [ @file = "E:\Garmin\Projects\Test\source\TestView.mc"; @line = 18; @position = 5; @symbol_vardef = [now,18,5,8]; ]
+    [ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc"; @line = 18; @position = 5; @symbol_vardef = [now,18,5,8]; ]
     var now = null;
-    [ @file = "E:\Garmin\Projects\Test\source\TestView.mc"; @line = 19; @position = 5; @symbol_vardef = [saved_day,19,5,14]; ]
+    [ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc"; @line = 19; @position = 5; @symbol_vardef = [saved_day,19,5,14]; ]
     var saved_day = null;
-    [ @file = "E:\Garmin\Projects\Test\source\TestView.mc"; @line = 20; @position = 5; @symbol_vardef = [since,20,5,10]; ]
+    [ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc"; @line = 20; @position = 5; @symbol_vardef = [since,20,5,10]; ]
     var since = null;
-    [ @file = "E:\Garmin\Projects\Test\source\TestView.mc"; @line = 21; @position = 5; @symbol_vardef = [lunar_now,21,5,14]; ]
+    [ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc"; @line = 21; @position = 5; @symbol_vardef = [lunar_now,21,5,14]; ]
     var lunar_now = null;
-    [ @file = "E:\Garmin\Projects\Test\source\TestView.mc"; @line = 22; @position = 5; @symbol_vardef = [lunar_date,22,5,15]; ]
+    [ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc"; @line = 22; @position = 5; @symbol_vardef = [lunar_date,22,5,15]; ]
     var lunar_date = null;
-    [ @file = "E:\Garmin\Projects\Test\source\TestView.mc"; @line = 23; @position = 5; @symbol_vardef = [holiday,23,5,12]; ]
+    [ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc"; @line = 23; @position = 5; @symbol_vardef = [holiday,23,5,12]; ]
     var holiday = null;
-    [ @file = "E:\Garmin\Projects\Test\source\TestView.mc"; @line = 25; @symbol_functiondef = [initialize,25,10,20]; ]
+    [ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc"; @line = 25; @symbol_functiondef = [initialize,25,10,20]; ]
     function initialize() as Void {
-E_Garmin_Projects_Test_source_TestView_mc_26_1_49_1_start:
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 27 2 ]
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_26_1_49_1_start:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 27 2 ]
         symbol [ WatchFace %tmp.2 27 2 11 ];
         %tmp.2 = getv ? :WatchFace;
         symbol [ initialize %tmp.3 27 12 22 ];
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 30 2 ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 30 2 ]
         symbol [ WatchUi %tmp.4 30 13 20 ];
         %tmp.4 = getm $.Toybox.WatchUi;
         symbol [ loadResource %tmp.5 30 21 33 ];
@@ -89,7 +89,7 @@ E_Garmin_Projects_Test_source_TestView_mc_26_1_49_1_start:
         %tmp.10 = invoke %tmp.4 %tmp.5(%tmp.9);
         symbol [ font_num ? 30 2 10 ];
         putv self :font_num %tmp.10;
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 33 2 ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 33 2 ]
         symbol [ img_weeks %tmp.12 33 2 11 ];
         %tmp.12 = getv ? :img_weeks;
         symbol [ add %tmp.13 33 12 15 ];
@@ -106,7 +106,7 @@ E_Garmin_Projects_Test_source_TestView_mc_26_1_49_1_start:
         %tmp.19 = getv %tmp.18 :week_7;
         %tmp.20 = invoke %tmp.14 %tmp.15(%tmp.19);
         invoke %tmp.12 %tmp.13(%tmp.20);
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 34 2 ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 34 2 ]
         symbol [ img_weeks %tmp.22 34 2 11 ];
         %tmp.22 = getv ? :img_weeks;
         symbol [ add %tmp.23 34 12 15 ];
@@ -123,7 +123,7 @@ E_Garmin_Projects_Test_source_TestView_mc_26_1_49_1_start:
         %tmp.29 = getv %tmp.28 :week_1;
         %tmp.30 = invoke %tmp.24 %tmp.25(%tmp.29);
         invoke %tmp.22 %tmp.23(%tmp.30);
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 35 2 ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 35 2 ]
         symbol [ img_weeks %tmp.32 35 2 11 ];
         %tmp.32 = getv ? :img_weeks;
         symbol [ add %tmp.33 35 12 15 ];
@@ -140,7 +140,7 @@ E_Garmin_Projects_Test_source_TestView_mc_26_1_49_1_start:
         %tmp.39 = getv %tmp.38 :week_2;
         %tmp.40 = invoke %tmp.34 %tmp.35(%tmp.39);
         invoke %tmp.32 %tmp.33(%tmp.40);
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 36 2 ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 36 2 ]
         symbol [ img_weeks %tmp.42 36 2 11 ];
         %tmp.42 = getv ? :img_weeks;
         symbol [ add %tmp.43 36 12 15 ];
@@ -157,7 +157,7 @@ E_Garmin_Projects_Test_source_TestView_mc_26_1_49_1_start:
         %tmp.49 = getv %tmp.48 :week_3;
         %tmp.50 = invoke %tmp.44 %tmp.45(%tmp.49);
         invoke %tmp.42 %tmp.43(%tmp.50);
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 37 2 ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 37 2 ]
         symbol [ img_weeks %tmp.52 37 2 11 ];
         %tmp.52 = getv ? :img_weeks;
         symbol [ add %tmp.53 37 12 15 ];
@@ -174,7 +174,7 @@ E_Garmin_Projects_Test_source_TestView_mc_26_1_49_1_start:
         %tmp.59 = getv %tmp.58 :week_4;
         %tmp.60 = invoke %tmp.54 %tmp.55(%tmp.59);
         invoke %tmp.52 %tmp.53(%tmp.60);
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 38 2 ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 38 2 ]
         symbol [ img_weeks %tmp.62 38 2 11 ];
         %tmp.62 = getv ? :img_weeks;
         symbol [ add %tmp.63 38 12 15 ];
@@ -191,7 +191,7 @@ E_Garmin_Projects_Test_source_TestView_mc_26_1_49_1_start:
         %tmp.69 = getv %tmp.68 :week_5;
         %tmp.70 = invoke %tmp.64 %tmp.65(%tmp.69);
         invoke %tmp.62 %tmp.63(%tmp.70);
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 39 2 ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 39 2 ]
         symbol [ img_weeks %tmp.72 39 2 11 ];
         %tmp.72 = getv ? :img_weeks;
         symbol [ add %tmp.73 39 12 15 ];
@@ -208,7 +208,7 @@ E_Garmin_Projects_Test_source_TestView_mc_26_1_49_1_start:
         %tmp.79 = getv %tmp.78 :week_6;
         %tmp.80 = invoke %tmp.74 %tmp.75(%tmp.79);
         invoke %tmp.72 %tmp.73(%tmp.80);
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 42 2 ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 42 2 ]
         symbol [ WatchUi %tmp.81 42 18 25 ];
         %tmp.81 = getm $.Toybox.WatchUi;
         symbol [ loadResource %tmp.82 42 26 38 ];
@@ -222,7 +222,7 @@ E_Garmin_Projects_Test_source_TestView_mc_26_1_49_1_start:
         %tmp.87 = invoke %tmp.81 %tmp.82(%tmp.86);
         symbol [ img_bluetooth ? 42 2 15 ];
         putv self :img_bluetooth %tmp.87;
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 43 2 ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 43 2 ]
         symbol [ WatchUi %tmp.88 43 14 21 ];
         %tmp.88 = getm $.Toybox.WatchUi;
         symbol [ loadResource %tmp.89 43 22 34 ];
@@ -236,7 +236,7 @@ E_Garmin_Projects_Test_source_TestView_mc_26_1_49_1_start:
         %tmp.94 = invoke %tmp.88 %tmp.89(%tmp.93);
         symbol [ img_alarm ? 43 2 11 ];
         putv self :img_alarm %tmp.94;
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 46 2 ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 46 2 ]
         symbol [ Gregorian %tmp.96 46 8 17 ];
         %tmp.96 = getv ? :Gregorian;
         symbol [ info %tmp.97 46 18 22 ];
@@ -253,24 +253,24 @@ E_Garmin_Projects_Test_source_TestView_mc_26_1_49_1_start:
         %tmp.103 = invoke %tmp.96 %tmp.97(%tmp.100, %tmp.102);
         symbol [ now ? 46 2 5 ];
         putv self :now %tmp.103;
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 47 2 ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 47 2 ]
         symbol [ now %tmp.105 47 14 17 ];
         %tmp.105 = getv ? :now;
         symbol [ day %tmp.106 47 18 21 ];
         %tmp.106 = getv %tmp.105 :day;
         symbol [ saved_day ? 47 2 11 ];
         putv self :saved_day %tmp.106;
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 48 2 ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 48 2 ]
         %tmp.107 = self;
         symbol [ updateDate %tmp.108 48 2 12 ];
         %tmp.108 = getv function %tmp.107 :updateDate;
         invoke %tmp.107 %tmp.108();
-E_Garmin_Projects_Test_source_TestView_mc_26_1_49_1_stop:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_26_1_49_1_stop:
     }
-    [ @file = "E:\Garmin\Projects\Test\source\TestView.mc"; @line = 52; @symbol_functiondef = [onLayout,52,10,18]; @symbol_param<0> = [dc,52,19,21]; @symbol_param<0>_type<0> = [Dc,52,25,27]; ]
+    [ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc"; @line = 52; @symbol_functiondef = [onLayout,52,10,18]; @symbol_param<0> = [dc,52,19,21]; @symbol_param<0>_type<0> = [Dc,52,25,27]; ]
     function onLayout(dc as Dc) as Void {
-E_Garmin_Projects_Test_source_TestView_mc_53_1_55_1_start:
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 54 2 ]
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_53_1_55_1_start:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 54 2 ]
         %tmp.1 = self;
         symbol [ setLayout %tmp.2 54 2 11 ];
         %tmp.2 = getv function %tmp.1 :setLayout;
@@ -284,15 +284,15 @@ E_Garmin_Projects_Test_source_TestView_mc_53_1_55_1_start:
         symbol [ dc %tmp.7 54 34 36 ];
         %tmp.8 = invoke %tmp.5 %tmp.6(%tmp.7);
         invoke %tmp.1 %tmp.2(%tmp.8);
-E_Garmin_Projects_Test_source_TestView_mc_53_1_55_1_stop:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_53_1_55_1_stop:
     }
-    [ @file = "E:\Garmin\Projects\Test\source\TestView.mc"; @line = 60; @symbol_functiondef = [onShow,60,10,16]; ]
+    [ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc"; @line = 60; @symbol_functiondef = [onShow,60,10,16]; ]
     function onShow() as Void {
     }
-    [ @file = "E:\Garmin\Projects\Test\source\TestView.mc"; @line = 64; @symbol_functiondef = [getBodyBatteryIterator,64,10,32]; ]
+    [ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc"; @line = 64; @symbol_functiondef = [getBodyBatteryIterator,64,10,32]; ]
     function getBodyBatteryIterator() {
-E_Garmin_Projects_Test_source_TestView_mc_64_35_69_1_start:
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 65 2 ]
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_64_35_69_1_start:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 65 2 ]
         symbol [ Toybox %tmp.2 65 9 15 ];
         %tmp.2 = getv ? :Toybox;
         symbol [ SensorHistory %tmp.3 65 16 29 ];
@@ -317,13 +317,13 @@ E_Garmin_Projects_Test_source_TestView_mc_64_35_69_1_start:
         %tmp.18 = aputv %tmp.17 %tmp.12 %tmp.16;
         %tmp.19 = invoke %tmp.3 %tmp.4(%tmp.18);
         ret %tmp.19;
-E_Garmin_Projects_Test_source_TestView_mc_64_35_69_1_stop:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_64_35_69_1_stop:
     }
-    [ @file = "E:\Garmin\Projects\Test\source\TestView.mc"; @line = 71; @symbol_functiondef = [getBodyBattery,71,10,24]; @symbol_return<0> = [Number,71,30,36]; ]
+    [ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc"; @line = 71; @symbol_functiondef = [getBodyBattery,71,10,24]; @symbol_return<0> = [Number,71,30,36]; ]
     function getBodyBattery() as Number {
-E_Garmin_Projects_Test_source_TestView_mc_71_37_79_1_start:
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 72 2 ]
-        [ "E_Garmin_Projects_Test_source_TestView_mc_71_37_79_1_start" "E_Garmin_Projects_Test_source_TestView_mc_71_37_79_1_stop" ]
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_71_37_79_1_start:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 72 2 ]
+        [ "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_71_37_79_1_start" "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_71_37_79_1_stop" ]
         %bodyBatteryIterator.1 = local;
         symbol [ bodyBatteryIterator %bodyBatteryIterator.1 72 6 25 ];
         %tmp.1 = self;
@@ -332,8 +332,8 @@ E_Garmin_Projects_Test_source_TestView_mc_71_37_79_1_start:
         %tmp.3 = invoke %tmp.1 %tmp.2();
         lputv %bodyBatteryIterator.1 %tmp.3;
         symbol [ bodyBatteryIterator %bodyBatteryIterator.1 72 6 25 ];
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 73 2 ]
-        [ "E_Garmin_Projects_Test_source_TestView_mc_71_37_79_1_start" "E_Garmin_Projects_Test_source_TestView_mc_71_37_79_1_stop" ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 73 2 ]
+        [ "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_71_37_79_1_start" "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_71_37_79_1_stop" ]
         %sample.2 = local;
         symbol [ sample %sample.2 73 6 12 ];
         %tmp.4 = lgetv %bodyBatteryIterator.1;
@@ -343,35 +343,35 @@ E_Garmin_Projects_Test_source_TestView_mc_71_37_79_1_start:
         %tmp.6 = invoke %tmp.4 %tmp.5();
         lputv %sample.2 %tmp.6;
         symbol [ sample %sample.2 73 6 12 ];
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 75 2 ]
-E_Garmin_Projects_Test_source_TestView_mc_75_2_77_2_if_stmt:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 75 2 ]
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_75_2_77_2_if_stmt:
         %tmp.7 = lgetv %sample.2;
         symbol [ sample %tmp.7 75 6 12 ];
         %tmp.8 = null;
         %tmp.9 = ne %tmp.7 %tmp.8;
-        bf %tmp.9 @E_Garmin_Projects_Test_source_TestView_mc_75_2_77_2_if_end;
-E_Garmin_Projects_Test_source_TestView_mc_75_2_77_2_if_true:
-E_Garmin_Projects_Test_source_TestView_mc_75_22_77_2_start:
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 76 3 ]
+        bf %tmp.9 @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_75_2_77_2_if_end;
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_75_2_77_2_if_true:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_75_22_77_2_start:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 76 3 ]
         %tmp.10 = lgetv %sample.2;
         symbol [ sample %tmp.10 76 10 16 ];
         %tmp.11 = as %tmp.10 { (!Null) };
         symbol [ data %tmp.12 76 17 21 ];
         %tmp.12 = getv %tmp.11 :data;
         ret %tmp.12;
-E_Garmin_Projects_Test_source_TestView_mc_75_22_77_2_stop:
-        goto @E_Garmin_Projects_Test_source_TestView_mc_75_2_77_2_if_end;
-E_Garmin_Projects_Test_source_TestView_mc_75_2_77_2_if_end:
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 78 2 ]
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_75_22_77_2_stop:
+        goto @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_75_2_77_2_if_end;
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_75_2_77_2_if_end:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 78 2 ]
         %tmp.13 = 0;
         ret %tmp.13;
-E_Garmin_Projects_Test_source_TestView_mc_71_37_79_1_stop:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_71_37_79_1_stop:
     }
-    [ @file = "E:\Garmin\Projects\Test\source\TestView.mc"; @line = 98; @symbol_functiondef = [updateDate,98,10,20]; ]
+    [ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc"; @line = 98; @symbol_functiondef = [updateDate,98,10,20]; ]
     function updateDate() {
-E_Garmin_Projects_Test_source_TestView_mc_99_1_122_1_start:
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 101 2 ]
-        [ "E_Garmin_Projects_Test_source_TestView_mc_99_1_122_1_start" "E_Garmin_Projects_Test_source_TestView_mc_99_1_122_1_stop" ]
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_99_1_122_1_start:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 101 2 ]
+        [ "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_99_1_122_1_start" "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_99_1_122_1_stop" ]
         %now_moment.1 = local;
         symbol [ now_moment %now_moment.1 101 6 16 ];
         symbol [ Gregorian %tmp.2 101 19 28 ];
@@ -406,8 +406,8 @@ E_Garmin_Projects_Test_source_TestView_mc_99_1_122_1_start:
         %tmp.26 = invoke %tmp.2 %tmp.3(%tmp.25);
         lputv %now_moment.1 %tmp.26;
         symbol [ now_moment %now_moment.1 101 6 16 ];
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 106 2 ]
-        [ "E_Garmin_Projects_Test_source_TestView_mc_99_1_122_1_start" "E_Garmin_Projects_Test_source_TestView_mc_99_1_122_1_stop" ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 106 2 ]
+        [ "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_99_1_122_1_start" "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_99_1_122_1_stop" ]
         %birth.2 = local;
         symbol [ birth %birth.2 106 6 11 ];
         symbol [ Gregorian %tmp.28 106 14 23 ];
@@ -433,7 +433,7 @@ E_Garmin_Projects_Test_source_TestView_mc_99_1_122_1_start:
         %tmp.46 = invoke %tmp.28 %tmp.29(%tmp.45);
         lputv %birth.2 %tmp.46;
         symbol [ birth %birth.2 106 6 11 ];
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 112 2 ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 112 2 ]
         %tmp.47 = lgetv %now_moment.1;
         symbol [ now_moment %tmp.47 112 10 20 ];
         symbol [ subtract %tmp.48 112 21 29 ];
@@ -450,8 +450,8 @@ E_Garmin_Projects_Test_source_TestView_mc_99_1_122_1_start:
         %tmp.56 = add %tmp.54 %tmp.55;
         symbol [ since ? 112 2 7 ];
         putv self :since %tmp.56;
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 115 2 ]
-        [ "E_Garmin_Projects_Test_source_TestView_mc_99_1_122_1_start" "E_Garmin_Projects_Test_source_TestView_mc_99_1_122_1_stop" ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 115 2 ]
+        [ "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_99_1_122_1_start" "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_99_1_122_1_stop" ]
         %lunar.3 = local;
         symbol [ lunar %lunar.3 115 6 11 ];
         symbol [ Lunar %tmp.60 115 18 23 ];
@@ -471,15 +471,15 @@ E_Garmin_Projects_Test_source_TestView_mc_99_1_122_1_start:
         %tmp.57 = newc %tmp.60 (%tmp.63, %tmp.66, %tmp.69);
         lputv %lunar.3 %tmp.57;
         symbol [ lunar %lunar.3 115 6 11 ];
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 116 2 ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 116 2 ]
         %tmp.70 = lgetv %lunar.3;
         symbol [ lunar %tmp.70 116 14 19 ];
         symbol [ date %tmp.71 116 20 24 ];
         %tmp.71 = getv %tmp.70 :date;
         symbol [ lunar_now ? 116 2 11 ];
         putv self :lunar_now %tmp.71;
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 117 2 ]
-        [ "E_Garmin_Projects_Test_source_TestView_mc_99_1_122_1_start" "E_Garmin_Projects_Test_source_TestView_mc_99_1_122_1_stop" ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 117 2 ]
+        [ "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_99_1_122_1_start" "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_99_1_122_1_stop" ]
         %lunar_display.4 = local;
         symbol [ lunar_display %lunar_display.4 117 6 19 ];
         symbol [ LunarDisplay %tmp.75 117 26 38 ];
@@ -489,7 +489,7 @@ E_Garmin_Projects_Test_source_TestView_mc_99_1_122_1_start:
         %tmp.72 = newc %tmp.75 (%tmp.77);
         lputv %lunar_display.4 %tmp.72;
         symbol [ lunar_display %lunar_display.4 117 6 19 ];
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 118 2 ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 118 2 ]
         %tmp.78 = lgetv %lunar_display.4;
         symbol [ lunar_display %tmp.78 118 15 28 ];
         symbol [ getDate %tmp.79 118 29 36 ];
@@ -497,7 +497,7 @@ E_Garmin_Projects_Test_source_TestView_mc_99_1_122_1_start:
         %tmp.80 = invoke %tmp.78 %tmp.79();
         symbol [ lunar_date ? 118 2 12 ];
         putv self :lunar_date %tmp.80;
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 121 2 ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 121 2 ]
         symbol [ Holiday %tmp.84 121 16 23 ];
         %tmp.84 = getv ? :Holiday;
         symbol [ now %tmp.86 121 24 27 ];
@@ -533,12 +533,12 @@ E_Garmin_Projects_Test_source_TestView_mc_99_1_122_1_start:
         %tmp.81 = newc %tmp.84 (%tmp.87, %tmp.90, %tmp.93, %tmp.97, %tmp.101, %tmp.105, %tmp.110);
         symbol [ holiday ? 121 2 9 ];
         putv self :holiday %tmp.81;
-E_Garmin_Projects_Test_source_TestView_mc_99_1_122_1_stop:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_99_1_122_1_stop:
     }
-    [ @file = "E:\Garmin\Projects\Test\source\TestView.mc"; @line = 125; @symbol_functiondef = [onUpdate,125,10,18]; @symbol_param<0> = [dc,125,19,21]; @symbol_param<0>_type<0> = [Dc,125,25,27]; ]
+    [ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc"; @line = 125; @symbol_functiondef = [onUpdate,125,10,18]; @symbol_param<0> = [dc,125,19,21]; @symbol_param<0>_type<0> = [Dc,125,25,27]; ]
     function onUpdate(dc as Dc) as Void {
-E_Garmin_Projects_Test_source_TestView_mc_126_1_214_1_start:
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 127 2 ]
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_126_1_216_1_start:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 127 2 ]
         symbol [ Gregorian %tmp.2 127 8 17 ];
         %tmp.2 = getv ? :Gregorian;
         symbol [ info %tmp.3 127 18 22 ];
@@ -555,8 +555,8 @@ E_Garmin_Projects_Test_source_TestView_mc_126_1_214_1_start:
         %tmp.9 = invoke %tmp.2 %tmp.3(%tmp.6, %tmp.8);
         symbol [ now ? 127 2 5 ];
         putv self :now %tmp.9;
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 128 2 ]
-E_Garmin_Projects_Test_source_TestView_mc_128_2_130_2_if_stmt:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 128 2 ]
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_128_2_130_2_if_stmt:
         symbol [ saved_day %tmp.11 128 5 14 ];
         %tmp.11 = getv ? :saved_day;
         symbol [ now %tmp.13 128 18 21 ];
@@ -564,25 +564,25 @@ E_Garmin_Projects_Test_source_TestView_mc_128_2_130_2_if_stmt:
         symbol [ day %tmp.14 128 22 25 ];
         %tmp.14 = getv %tmp.13 :day;
         %tmp.15 = ne %tmp.11 %tmp.14;
-        bf %tmp.15 @E_Garmin_Projects_Test_source_TestView_mc_128_2_130_2_if_end;
-E_Garmin_Projects_Test_source_TestView_mc_128_2_130_2_if_true:
-E_Garmin_Projects_Test_source_TestView_mc_128_27_130_2_start:
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 129 3 ]
+        bf %tmp.15 @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_128_2_130_2_if_end;
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_128_2_130_2_if_true:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_128_27_130_2_start:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 129 3 ]
         %tmp.16 = self;
         symbol [ updateDate %tmp.17 129 3 13 ];
         %tmp.17 = getv function %tmp.16 :updateDate;
         invoke %tmp.16 %tmp.17();
-E_Garmin_Projects_Test_source_TestView_mc_128_27_130_2_stop:
-        goto @E_Garmin_Projects_Test_source_TestView_mc_128_2_130_2_if_end;
-E_Garmin_Projects_Test_source_TestView_mc_128_2_130_2_if_end:
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 131 2 ]
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_128_27_130_2_stop:
+        goto @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_128_2_130_2_if_end;
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_128_2_130_2_if_end:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 131 2 ]
         symbol [ now %tmp.19 131 14 17 ];
         %tmp.19 = getv ? :now;
         symbol [ day %tmp.20 131 18 21 ];
         %tmp.20 = getv %tmp.19 :day;
         symbol [ saved_day ? 131 2 11 ];
         putv self :saved_day %tmp.20;
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 134 2 ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 134 2 ]
         symbol [ View %tmp.22 134 2 6 ];
         %tmp.22 = getv ? :View;
         symbol [ onUpdate %tmp.23 134 7 15 ];
@@ -590,7 +590,7 @@ E_Garmin_Projects_Test_source_TestView_mc_128_2_130_2_if_end:
         %tmp.24 = lgetv %dc;
         symbol [ dc %tmp.24 134 16 18 ];
         invoke %tmp.22 %tmp.23(%tmp.24);
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 135 2 ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 135 2 ]
         %tmp.25 = lgetv %dc;
         symbol [ dc %tmp.25 135 2 4 ];
         symbol [ drawBitmap %tmp.26 135 5 15 ];
@@ -610,8 +610,8 @@ E_Garmin_Projects_Test_source_TestView_mc_128_2_130_2_if_end:
         %tmp.38 = sub %tmp.36 %tmp.37;
         %tmp.39 = agetv %tmp.33 %tmp.38;
         invoke %tmp.25 %tmp.26(%tmp.30, %tmp.31, %tmp.39);
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 137 2 ]
-E_Garmin_Projects_Test_source_TestView_mc_137_2_139_2_if_stmt:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 137 2 ]
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_137_2_139_2_if_stmt:
         symbol [ System %tmp.40 137 5 11 ];
         %tmp.40 = getm $.Toybox.System;
         symbol [ getDeviceSettings %tmp.41 137 12 29 ];
@@ -619,10 +619,10 @@ E_Garmin_Projects_Test_source_TestView_mc_137_2_139_2_if_stmt:
         %tmp.42 = invoke %tmp.40 %tmp.41();
         symbol [ phoneConnected %tmp.43 137 32 46 ];
         %tmp.43 = getv %tmp.42 :phoneConnected;
-        bf %tmp.43 @E_Garmin_Projects_Test_source_TestView_mc_137_2_139_2_if_end;
-E_Garmin_Projects_Test_source_TestView_mc_137_2_139_2_if_true:
-E_Garmin_Projects_Test_source_TestView_mc_137_48_139_2_start:
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 138 3 ]
+        bf %tmp.43 @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_137_2_139_2_if_end;
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_137_2_139_2_if_true:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_137_48_139_2_start:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 138 3 ]
         %tmp.44 = lgetv %dc;
         symbol [ dc %tmp.44 138 3 5 ];
         symbol [ drawBitmap %tmp.45 138 6 16 ];
@@ -632,11 +632,11 @@ E_Garmin_Projects_Test_source_TestView_mc_137_48_139_2_start:
         symbol [ img_bluetooth %tmp.49 138 26 39 ];
         %tmp.49 = getv ? :img_bluetooth;
         invoke %tmp.44 %tmp.45(%tmp.46, %tmp.47, %tmp.49);
-E_Garmin_Projects_Test_source_TestView_mc_137_48_139_2_stop:
-        goto @E_Garmin_Projects_Test_source_TestView_mc_137_2_139_2_if_end;
-E_Garmin_Projects_Test_source_TestView_mc_137_2_139_2_if_end:
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 141 2 ]
-E_Garmin_Projects_Test_source_TestView_mc_141_2_143_2_if_stmt:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_137_48_139_2_stop:
+        goto @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_137_2_139_2_if_end;
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_137_2_139_2_if_end:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 141 2 ]
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_141_2_143_2_if_stmt:
         symbol [ Toybox %tmp.51 141 5 11 ];
         %tmp.51 = getv ? :Toybox;
         symbol [ System %tmp.52 141 12 18 ];
@@ -648,10 +648,10 @@ E_Garmin_Projects_Test_source_TestView_mc_141_2_143_2_if_stmt:
         %tmp.55 = getv %tmp.54 :alarmCount;
         %tmp.56 = 0;
         %tmp.57 = gt %tmp.55 %tmp.56;
-        bf %tmp.57 @E_Garmin_Projects_Test_source_TestView_mc_141_2_143_2_if_end;
-E_Garmin_Projects_Test_source_TestView_mc_141_2_143_2_if_true:
-E_Garmin_Projects_Test_source_TestView_mc_141_55_143_2_start:
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 142 3 ]
+        bf %tmp.57 @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_141_2_143_2_if_end;
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_141_2_143_2_if_true:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_141_55_143_2_start:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 142 3 ]
         %tmp.58 = lgetv %dc;
         symbol [ dc %tmp.58 142 3 5 ];
         symbol [ drawBitmap %tmp.59 142 6 16 ];
@@ -661,10 +661,10 @@ E_Garmin_Projects_Test_source_TestView_mc_141_55_143_2_start:
         symbol [ img_alarm %tmp.63 142 27 36 ];
         %tmp.63 = getv ? :img_alarm;
         invoke %tmp.58 %tmp.59(%tmp.60, %tmp.61, %tmp.63);
-E_Garmin_Projects_Test_source_TestView_mc_141_55_143_2_stop:
-        goto @E_Garmin_Projects_Test_source_TestView_mc_141_2_143_2_if_end;
-E_Garmin_Projects_Test_source_TestView_mc_141_2_143_2_if_end:
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 146 2 ]
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_141_55_143_2_stop:
+        goto @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_141_2_143_2_if_end;
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_141_2_143_2_if_end:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 146 2 ]
         %tmp.64 = lgetv %dc;
         symbol [ dc %tmp.64 146 2 4 ];
         symbol [ setColor %tmp.65 146 5 13 ];
@@ -678,7 +678,7 @@ E_Garmin_Projects_Test_source_TestView_mc_141_2_143_2_if_end:
         symbol [ COLOR_TRANSPARENT %tmp.69 146 45 62 ];
         %tmp.69 = getv %tmp.68 :COLOR_TRANSPARENT;
         invoke %tmp.64 %tmp.65(%tmp.67, %tmp.69);
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 148 2 ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 148 2 ]
         %tmp.70 = lgetv %dc;
         symbol [ dc %tmp.70 148 2 4 ];
         symbol [ drawText %tmp.71 148 5 13 ];
@@ -699,7 +699,7 @@ E_Garmin_Projects_Test_source_TestView_mc_141_2_143_2_if_end:
         %tmp.80 = getm $.Toybox.Lang;
         symbol [ format %tmp.81 149 10 16 ];
         %tmp.81 = getv function %tmp.80 :format;
-        %tmp.82 = "$1$¤ë$2$¤é";
+        %tmp.82 = "$1$æœˆ$2$æ—¥";
         %tmp.83 = newa 2;
         symbol [ now %tmp.85 149 31 34 ];
         %tmp.85 = getv ? :now;
@@ -719,7 +719,7 @@ E_Garmin_Projects_Test_source_TestView_mc_141_2_143_2_if_end:
         symbol [ TEXT_JUSTIFY_CENTER %tmp.96 150 14 33 ];
         %tmp.96 = getv %tmp.95 :TEXT_JUSTIFY_CENTER;
         invoke %tmp.70 %tmp.71(%tmp.76, %tmp.77, %tmp.79, %tmp.94, %tmp.96);
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 151 2 ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 151 2 ]
         %tmp.97 = lgetv %dc;
         symbol [ dc %tmp.97 151 2 4 ];
         symbol [ drawText %tmp.98 151 5 13 ];
@@ -740,7 +740,7 @@ E_Garmin_Projects_Test_source_TestView_mc_141_2_143_2_if_end:
         %tmp.107 = getm $.Toybox.Lang;
         symbol [ format %tmp.108 152 10 16 ];
         %tmp.108 = getv function %tmp.107 :format;
-        %tmp.109 = "$1$¤ë$2$";
+        %tmp.109 = "$1$æœˆ$2$";
         %tmp.110 = newa 2;
         symbol [ lunar_date %tmp.112 152 30 40 ];
         %tmp.112 = getv ? :lunar_date;
@@ -760,8 +760,8 @@ E_Garmin_Projects_Test_source_TestView_mc_141_2_143_2_if_end:
         symbol [ TEXT_JUSTIFY_CENTER %tmp.125 153 14 33 ];
         %tmp.125 = getv %tmp.124 :TEXT_JUSTIFY_CENTER;
         invoke %tmp.97 %tmp.98(%tmp.103, %tmp.104, %tmp.106, %tmp.123, %tmp.125);
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 155 2 ]
-        [ "E_Garmin_Projects_Test_source_TestView_mc_126_1_214_1_start" "E_Garmin_Projects_Test_source_TestView_mc_126_1_214_1_stop" ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 155 2 ]
+        [ "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_126_1_216_1_start" "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_126_1_216_1_stop" ]
         %hour.1 = local;
         symbol [ hour %hour.1 155 6 10 ];
         symbol [ now %tmp.127 155 13 16 ];
@@ -770,29 +770,29 @@ E_Garmin_Projects_Test_source_TestView_mc_141_2_143_2_if_end:
         %tmp.128 = getv %tmp.127 :hour;
         lputv %hour.1 %tmp.128;
         symbol [ hour %hour.1 155 6 10 ];
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 156 2 ]
-E_Garmin_Projects_Test_source_TestView_mc_156_9_156_32_begin:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 156 2 ]
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_156_9_156_32_begin:
         %tmp.129 = lgetv %hour.1;
         symbol [ hour %tmp.129 156 9 13 ];
         %tmp.130 = 6;
         %tmp.131 = lt %tmp.129 %tmp.130;
-        bf %tmp.131 @E_Garmin_Projects_Test_source_TestView_mc_156_9_156_32_false;
-E_Garmin_Projects_Test_source_TestView_mc_156_9_156_32_true:
+        bf %tmp.131 @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_156_9_156_32_false;
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_156_9_156_32_true:
         %tmp.132 = 24;
         %tmp.133 = lgetv %hour.1;
         symbol [ hour %tmp.133 156 25 29 ];
         %tmp.134 = add %tmp.132 %tmp.133;
         push %tmp.134;
-        goto @E_Garmin_Projects_Test_source_TestView_mc_156_9_156_32_end;
-E_Garmin_Projects_Test_source_TestView_mc_156_9_156_32_false:
+        goto @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_156_9_156_32_end;
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_156_9_156_32_false:
         %tmp.135 = lgetv %hour.1;
         symbol [ hour %tmp.135 156 32 36 ];
         push %tmp.135;
-E_Garmin_Projects_Test_source_TestView_mc_156_9_156_32_end:
-        %tmp.136 = phi [%tmp.131 @E_Garmin_Projects_Test_source_TestView_mc_156_9_156_32_begin] [%tmp.134 @E_Garmin_Projects_Test_source_TestView_mc_156_9_156_32_true] [%tmp.135 @E_Garmin_Projects_Test_source_TestView_mc_156_9_156_32_false] [%tmp.136 @E_Garmin_Projects_Test_source_TestView_mc_156_9_156_32_end];
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_156_9_156_32_end:
+        %tmp.136 = phi [%tmp.131 @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_156_9_156_32_begin] [%tmp.134 @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_156_9_156_32_true] [%tmp.135 @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_156_9_156_32_false] [%tmp.136 @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_156_9_156_32_end];
         lputv %hour.1 %tmp.136;
         symbol [ hour %hour.1 156 2 6 ];
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 158 2 ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 158 2 ]
         %tmp.137 = lgetv %dc;
         symbol [ dc %tmp.137 158 2 4 ];
         symbol [ drawText %tmp.138 158 5 13 ];
@@ -837,7 +837,7 @@ E_Garmin_Projects_Test_source_TestView_mc_156_9_156_32_end:
         symbol [ TEXT_JUSTIFY_CENTER %tmp.167 161 14 33 ];
         %tmp.167 = getv %tmp.166 :TEXT_JUSTIFY_CENTER;
         invoke %tmp.137 %tmp.138(%tmp.143, %tmp.144, %tmp.146, %tmp.165, %tmp.167);
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 163 3 ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 163 3 ]
         %tmp.168 = lgetv %dc;
         symbol [ dc %tmp.168 163 3 5 ];
         symbol [ drawText %tmp.169 163 6 14 ];
@@ -873,15 +873,15 @@ E_Garmin_Projects_Test_source_TestView_mc_156_9_156_32_end:
         symbol [ TEXT_JUSTIFY_CENTER %tmp.190 165 14 33 ];
         %tmp.190 = getv %tmp.189 :TEXT_JUSTIFY_CENTER;
         invoke %tmp.168 %tmp.169(%tmp.174, %tmp.175, %tmp.177, %tmp.188, %tmp.190);
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 167 2 ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 167 2 ]
         %tmp.191 = lgetv %dc;
         symbol [ dc %tmp.191 167 2 4 ];
         symbol [ setPenWidth %tmp.192 167 5 16 ];
         %tmp.192 = getv function %tmp.191 :setPenWidth;
         %tmp.193 = 10;
         invoke %tmp.191 %tmp.192(%tmp.193);
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 169 2 ]
-        [ "E_Garmin_Projects_Test_source_TestView_mc_126_1_214_1_start" "E_Garmin_Projects_Test_source_TestView_mc_126_1_214_1_stop" ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 169 2 ]
+        [ "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_126_1_216_1_start" "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_126_1_216_1_stop" ]
         %battery.2 = local;
         symbol [ battery %battery.2 169 6 13 ];
         symbol [ Toybox %tmp.195 169 16 22 ];
@@ -895,17 +895,17 @@ E_Garmin_Projects_Test_source_TestView_mc_156_9_156_32_end:
         %tmp.199 = getv %tmp.198 :battery;
         lputv %battery.2 %tmp.199;
         symbol [ battery %battery.2 169 6 13 ];
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 170 2 ]
-E_Garmin_Projects_Test_source_TestView_mc_170_2_177_2_if_stmt:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 170 2 ]
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_170_2_177_2_if_stmt:
         %tmp.200 = lgetv %battery.2;
         symbol [ battery %tmp.200 170 5 12 ];
         %tmp.201 = 50;
         %tmp.202 = gt %tmp.200 %tmp.201;
-        bf %tmp.202 @E_Garmin_Projects_Test_source_TestView_mc_170_2_177_2_if_else_false;
-E_Garmin_Projects_Test_source_TestView_mc_170_2_177_2_if_true:
-E_Garmin_Projects_Test_source_TestView_mc_170_19_173_2_start:
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 171 3 ]
-        [ "E_Garmin_Projects_Test_source_TestView_mc_170_19_173_2_start" "E_Garmin_Projects_Test_source_TestView_mc_170_19_173_2_stop" ]
+        bf %tmp.202 @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_170_2_177_2_if_else_false;
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_170_2_177_2_if_true:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_170_19_173_2_start:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 171 3 ]
+        [ "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_170_19_173_2_start" "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_170_19_173_2_stop" ]
         %color.3 = local;
         symbol [ color %color.3 171 7 12 ];
         symbol [ Math %tmp.204 171 15 19 ];
@@ -925,7 +925,7 @@ E_Garmin_Projects_Test_source_TestView_mc_170_19_173_2_start:
         %tmp.215 = add %tmp.213 %tmp.214;
         lputv %color.3 %tmp.215;
         symbol [ color %color.3 171 7 12 ];
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 172 3 ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 172 3 ]
         %tmp.216 = lgetv %dc;
         symbol [ dc %tmp.216 172 3 5 ];
         symbol [ setColor %tmp.217 172 6 14 ];
@@ -937,12 +937,12 @@ E_Garmin_Projects_Test_source_TestView_mc_170_19_173_2_start:
         symbol [ COLOR_TRANSPARENT %tmp.220 172 31 48 ];
         %tmp.220 = getv %tmp.219 :COLOR_TRANSPARENT;
         invoke %tmp.216 %tmp.217(%tmp.218, %tmp.220);
-E_Garmin_Projects_Test_source_TestView_mc_170_19_173_2_stop:
-        goto @E_Garmin_Projects_Test_source_TestView_mc_170_2_177_2_if_end;
-E_Garmin_Projects_Test_source_TestView_mc_170_2_177_2_if_else_false:
-E_Garmin_Projects_Test_source_TestView_mc_174_7_177_2_start:
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 175 3 ]
-        [ "E_Garmin_Projects_Test_source_TestView_mc_174_7_177_2_start" "E_Garmin_Projects_Test_source_TestView_mc_174_7_177_2_stop" ]
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_170_19_173_2_stop:
+        goto @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_170_2_177_2_if_end;
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_170_2_177_2_if_else_false:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_174_7_177_2_start:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 175 3 ]
+        [ "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_174_7_177_2_start" "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_174_7_177_2_stop" ]
         %color.4 = local;
         symbol [ color %color.4 175 7 12 ];
         symbol [ Math %tmp.222 175 15 19 ];
@@ -960,7 +960,7 @@ E_Garmin_Projects_Test_source_TestView_mc_174_7_177_2_start:
         %tmp.231 = add %tmp.229 %tmp.230;
         lputv %color.4 %tmp.231;
         symbol [ color %color.4 175 7 12 ];
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 176 3 ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 176 3 ]
         %tmp.232 = lgetv %dc;
         symbol [ dc %tmp.232 176 3 5 ];
         symbol [ setColor %tmp.233 176 6 14 ];
@@ -972,368 +972,396 @@ E_Garmin_Projects_Test_source_TestView_mc_174_7_177_2_start:
         symbol [ COLOR_TRANSPARENT %tmp.236 176 31 48 ];
         %tmp.236 = getv %tmp.235 :COLOR_TRANSPARENT;
         invoke %tmp.232 %tmp.233(%tmp.234, %tmp.236);
-E_Garmin_Projects_Test_source_TestView_mc_174_7_177_2_stop:
-E_Garmin_Projects_Test_source_TestView_mc_170_2_177_2_if_end:
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 178 2 ]
-        %tmp.237 = lgetv %dc;
-        symbol [ dc %tmp.237 178 2 4 ];
-        symbol [ drawArc %tmp.238 178 5 12 ];
-        %tmp.238 = getv function %tmp.237 :drawArc;
-        symbol [ center_screenWidth %tmp.240 178 13 31 ];
-        %tmp.240 = getv ? :center_screenWidth;
-        symbol [ center_screenHeight %tmp.242 178 33 52 ];
-        %tmp.242 = getv ? :center_screenHeight;
-        %tmp.243 = 115;
-        symbol [ Graphics %tmp.244 178 59 67 ];
-        %tmp.244 = getm $.Toybox.Graphics;
-        symbol [ ARC_CLOCKWISE %tmp.245 178 68 81 ];
-        %tmp.245 = getv %tmp.244 :ARC_CLOCKWISE;
-        %tmp.246 = 180;
-        %tmp.247 = 180;
-        %tmp.248 = lgetv %battery.2;
-        symbol [ battery %tmp.248 178 94 101 ];
-        %tmp.249 = 90.0;
-        %tmp.250 = mul %tmp.248 %tmp.249;
-        %tmp.251 = 100;
-        %tmp.252 = div %tmp.250 %tmp.251;
-        %tmp.253 = sub %tmp.247 %tmp.252;
-        invoke %tmp.237 %tmp.238(%tmp.240, %tmp.242, %tmp.243, %tmp.245, %tmp.246, %tmp.253);
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 179 2 ]
-        %tmp.254 = lgetv %dc;
-        symbol [ dc %tmp.254 179 2 4 ];
-        symbol [ drawText %tmp.255 179 5 13 ];
-        %tmp.255 = getv function %tmp.254 :drawText;
-        %tmp.256 = 0;
-        %tmp.257 = 0;
-        symbol [ Graphics %tmp.258 179 20 28 ];
-        %tmp.258 = getm $.Toybox.Graphics;
-        symbol [ FONT_MEDIUM %tmp.259 179 29 40 ];
-        %tmp.259 = getv %tmp.258 :FONT_MEDIUM;
-        symbol [ Lang %tmp.260 180 5 9 ];
-        %tmp.260 = getm $.Toybox.Lang;
-        symbol [ format %tmp.261 180 10 16 ];
-        %tmp.261 = getv function %tmp.260 :format;
-        %tmp.262 = "$1$";
-        %tmp.263 = newa 1;
-        %tmp.264 = lgetv %battery.2;
-        symbol [ battery %tmp.264 180 26 33 ];
-        symbol [ format %tmp.265 180 34 40 ];
-        %tmp.265 = getv function %tmp.264 :format;
-        %tmp.266 = "%d";
-        %tmp.267 = invoke %tmp.264 %tmp.265(%tmp.266);
-        %tmp.268 = dup %tmp.263;
-        %tmp.269 = aputv %tmp.268 0 %tmp.267;
-        %tmp.270 = invoke %tmp.260 %tmp.261(%tmp.262, %tmp.269);
-        symbol [ Graphics %tmp.271 181 5 13 ];
-        %tmp.271 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_LEFT %tmp.272 181 14 31 ];
-        %tmp.272 = getv %tmp.271 :TEXT_JUSTIFY_LEFT;
-        invoke %tmp.254 %tmp.255(%tmp.256, %tmp.257, %tmp.259, %tmp.270, %tmp.272);
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 184 2 ]
-        %tmp.273 = lgetv %dc;
-        symbol [ dc %tmp.273 184 2 4 ];
-        symbol [ setColor %tmp.274 184 5 13 ];
-        %tmp.274 = getv function %tmp.273 :setColor;
-        %tmp.275 = 0xccff00;
-        symbol [ Graphics %tmp.276 184 24 32 ];
-        %tmp.276 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.277 184 33 50 ];
-        %tmp.277 = getv %tmp.276 :COLOR_TRANSPARENT;
-        invoke %tmp.273 %tmp.274(%tmp.275, %tmp.277);
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 185 2 ]
-        [ "E_Garmin_Projects_Test_source_TestView_mc_126_1_214_1_start" "E_Garmin_Projects_Test_source_TestView_mc_126_1_214_1_stop" ]
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_174_7_177_2_stop:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_170_2_177_2_if_end:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 178 2 ]
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_178_2_180_2_if_stmt:
+        %tmp.237 = lgetv %battery.2;
+        symbol [ battery %tmp.237 178 5 12 ];
+        %tmp.238 = 90.0;
+        %tmp.239 = mul %tmp.237 %tmp.238;
+        %tmp.240 = 100;
+        %tmp.241 = div %tmp.239 %tmp.240;
+        %tmp.242 = 1;
+        %tmp.243 = gte %tmp.241 %tmp.242;
+        bf %tmp.243 @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_178_2_180_2_if_end;
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_178_2_180_2_if_true:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_178_32_180_2_start:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 179 3 ]
+        %tmp.244 = lgetv %dc;
+        symbol [ dc %tmp.244 179 3 5 ];
+        symbol [ drawArc %tmp.245 179 6 13 ];
+        %tmp.245 = getv function %tmp.244 :drawArc;
+        symbol [ center_screenWidth %tmp.247 179 14 32 ];
+        %tmp.247 = getv ? :center_screenWidth;
+        symbol [ center_screenHeight %tmp.249 179 34 53 ];
+        %tmp.249 = getv ? :center_screenHeight;
+        %tmp.250 = 115;
+        symbol [ Graphics %tmp.251 179 60 68 ];
+        %tmp.251 = getm $.Toybox.Graphics;
+        symbol [ ARC_CLOCKWISE %tmp.252 179 69 82 ];
+        %tmp.252 = getv %tmp.251 :ARC_CLOCKWISE;
+        %tmp.253 = 180;
+        %tmp.254 = 180;
+        %tmp.255 = lgetv %battery.2;
+        symbol [ battery %tmp.255 179 95 102 ];
+        %tmp.256 = 90.0;
+        %tmp.257 = mul %tmp.255 %tmp.256;
+        %tmp.258 = 100;
+        %tmp.259 = div %tmp.257 %tmp.258;
+        %tmp.260 = sub %tmp.254 %tmp.259;
+        invoke %tmp.244 %tmp.245(%tmp.247, %tmp.249, %tmp.250, %tmp.252, %tmp.253, %tmp.260);
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_178_32_180_2_stop:
+        goto @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_178_2_180_2_if_end;
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_178_2_180_2_if_end:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 181 2 ]
+        %tmp.261 = lgetv %dc;
+        symbol [ dc %tmp.261 181 2 4 ];
+        symbol [ drawText %tmp.262 181 5 13 ];
+        %tmp.262 = getv function %tmp.261 :drawText;
+        %tmp.263 = 0;
+        %tmp.264 = 0;
+        symbol [ Graphics %tmp.265 181 20 28 ];
+        %tmp.265 = getm $.Toybox.Graphics;
+        symbol [ FONT_MEDIUM %tmp.266 181 29 40 ];
+        %tmp.266 = getv %tmp.265 :FONT_MEDIUM;
+        symbol [ Lang %tmp.267 182 5 9 ];
+        %tmp.267 = getm $.Toybox.Lang;
+        symbol [ format %tmp.268 182 10 16 ];
+        %tmp.268 = getv function %tmp.267 :format;
+        %tmp.269 = "$1$";
+        %tmp.270 = newa 1;
+        %tmp.271 = lgetv %battery.2;
+        symbol [ battery %tmp.271 182 26 33 ];
+        symbol [ format %tmp.272 182 34 40 ];
+        %tmp.272 = getv function %tmp.271 :format;
+        %tmp.273 = "%d";
+        %tmp.274 = invoke %tmp.271 %tmp.272(%tmp.273);
+        %tmp.275 = dup %tmp.270;
+        %tmp.276 = aputv %tmp.275 0 %tmp.274;
+        %tmp.277 = invoke %tmp.267 %tmp.268(%tmp.269, %tmp.276);
+        symbol [ Graphics %tmp.278 183 5 13 ];
+        %tmp.278 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_LEFT %tmp.279 183 14 31 ];
+        %tmp.279 = getv %tmp.278 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.261 %tmp.262(%tmp.263, %tmp.264, %tmp.266, %tmp.277, %tmp.279);
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 186 2 ]
+        %tmp.280 = lgetv %dc;
+        symbol [ dc %tmp.280 186 2 4 ];
+        symbol [ setColor %tmp.281 186 5 13 ];
+        %tmp.281 = getv function %tmp.280 :setColor;
+        %tmp.282 = 0xccff00;
+        symbol [ Graphics %tmp.283 186 24 32 ];
+        %tmp.283 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.284 186 33 50 ];
+        %tmp.284 = getv %tmp.283 :COLOR_TRANSPARENT;
+        invoke %tmp.280 %tmp.281(%tmp.282, %tmp.284);
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 187 2 ]
+        [ "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_126_1_216_1_start" "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_126_1_216_1_stop" ]
         %bodyBattery.5 = local;
-        symbol [ bodyBattery %bodyBattery.5 185 6 17 ];
-        %tmp.278 = self;
-        symbol [ getBodyBattery %tmp.279 185 20 34 ];
-        %tmp.279 = getv function %tmp.278 :getBodyBattery;
-        %tmp.280 = invoke %tmp.278 %tmp.279();
-        lputv %bodyBattery.5 %tmp.280;
-        symbol [ bodyBattery %bodyBattery.5 185 6 17 ];
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 186 2 ]
-E_Garmin_Projects_Test_source_TestView_mc_186_2_188_2_if_stmt:
-        %tmp.281 = lgetv %bodyBattery.5;
-        symbol [ bodyBattery %tmp.281 186 5 16 ];
-        %tmp.282 = 0;
-        %tmp.283 = gt %tmp.281 %tmp.282;
-        bf %tmp.283 @E_Garmin_Projects_Test_source_TestView_mc_186_2_188_2_if_end;
-E_Garmin_Projects_Test_source_TestView_mc_186_2_188_2_if_true:
-E_Garmin_Projects_Test_source_TestView_mc_186_22_188_2_start:
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 187 3 ]
-        %tmp.284 = lgetv %dc;
-        symbol [ dc %tmp.284 187 3 5 ];
-        symbol [ drawArc %tmp.285 187 6 13 ];
-        %tmp.285 = getv function %tmp.284 :drawArc;
-        symbol [ center_screenWidth %tmp.287 187 14 32 ];
-        %tmp.287 = getv ? :center_screenWidth;
-        symbol [ center_screenHeight %tmp.289 187 34 53 ];
-        %tmp.289 = getv ? :center_screenHeight;
-        %tmp.290 = 115;
-        symbol [ Graphics %tmp.291 187 60 68 ];
-        %tmp.291 = getm $.Toybox.Graphics;
-        symbol [ ARC_COUNTER_CLOCKWISE %tmp.292 187 69 90 ];
-        %tmp.292 = getv %tmp.291 :ARC_COUNTER_CLOCKWISE;
-        %tmp.293 = 0;
-        %tmp.294 = lgetv %bodyBattery.5;
-        symbol [ bodyBattery %tmp.294 187 95 106 ];
-        %tmp.295 = 90.0;
-        %tmp.296 = mul %tmp.294 %tmp.295;
-        %tmp.297 = 100;
-        %tmp.298 = div %tmp.296 %tmp.297;
-        invoke %tmp.284 %tmp.285(%tmp.287, %tmp.289, %tmp.290, %tmp.292, %tmp.293, %tmp.298);
-E_Garmin_Projects_Test_source_TestView_mc_186_22_188_2_stop:
-        goto @E_Garmin_Projects_Test_source_TestView_mc_186_2_188_2_if_end;
-E_Garmin_Projects_Test_source_TestView_mc_186_2_188_2_if_end:
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 189 2 ]
-        %tmp.299 = lgetv %dc;
-        symbol [ dc %tmp.299 189 2 4 ];
-        symbol [ drawText %tmp.300 189 5 13 ];
-        %tmp.300 = getv function %tmp.299 :drawText;
-        %tmp.301 = 240;
-        %tmp.302 = 0;
-        symbol [ Graphics %tmp.303 189 22 30 ];
-        %tmp.303 = getm $.Toybox.Graphics;
-        symbol [ FONT_MEDIUM %tmp.304 189 31 42 ];
-        %tmp.304 = getv %tmp.303 :FONT_MEDIUM;
-        symbol [ Lang %tmp.305 190 5 9 ];
-        %tmp.305 = getm $.Toybox.Lang;
-        symbol [ format %tmp.306 190 10 16 ];
-        %tmp.306 = getv function %tmp.305 :format;
-        %tmp.307 = "$1$";
-        %tmp.308 = newa 1;
-        %tmp.309 = lgetv %bodyBattery.5;
-        symbol [ bodyBattery %tmp.309 190 26 37 ];
-        symbol [ format %tmp.310 190 38 44 ];
-        %tmp.310 = getv function %tmp.309 :format;
-        %tmp.311 = "%d";
-        %tmp.312 = invoke %tmp.309 %tmp.310(%tmp.311);
-        %tmp.313 = dup %tmp.308;
-        %tmp.314 = aputv %tmp.313 0 %tmp.312;
-        %tmp.315 = invoke %tmp.305 %tmp.306(%tmp.307, %tmp.314);
-        symbol [ Graphics %tmp.316 191 5 13 ];
-        %tmp.316 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_RIGHT %tmp.317 191 14 32 ];
-        %tmp.317 = getv %tmp.316 :TEXT_JUSTIFY_RIGHT;
-        invoke %tmp.299 %tmp.300(%tmp.301, %tmp.302, %tmp.304, %tmp.315, %tmp.317);
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 193 2 ]
-        %tmp.318 = lgetv %dc;
-        symbol [ dc %tmp.318 193 2 4 ];
-        symbol [ setColor %tmp.319 193 5 13 ];
-        %tmp.319 = getv function %tmp.318 :setColor;
-        %tmp.320 = 0x18ffdc;
-        symbol [ Graphics %tmp.321 193 24 32 ];
-        %tmp.321 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.322 193 33 50 ];
-        %tmp.322 = getv %tmp.321 :COLOR_TRANSPARENT;
-        invoke %tmp.318 %tmp.319(%tmp.320, %tmp.322);
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 194 2 ]
-E_Garmin_Projects_Test_source_TestView_mc_194_2_196_2_if_stmt:
-        symbol [ since %tmp.324 194 5 10 ];
-        %tmp.324 = getv ? :since;
-        %tmp.325 = 100;
-        %tmp.326 = mod %tmp.324 %tmp.325;
-        %tmp.327 = 0;
-        %tmp.328 = gt %tmp.326 %tmp.327;
-        bf %tmp.328 @E_Garmin_Projects_Test_source_TestView_mc_194_2_196_2_if_end;
-E_Garmin_Projects_Test_source_TestView_mc_194_2_196_2_if_true:
-E_Garmin_Projects_Test_source_TestView_mc_194_22_196_2_start:
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 195 3 ]
+        symbol [ bodyBattery %bodyBattery.5 187 6 17 ];
+        %tmp.285 = self;
+        symbol [ getBodyBattery %tmp.286 187 20 34 ];
+        %tmp.286 = getv function %tmp.285 :getBodyBattery;
+        %tmp.287 = invoke %tmp.285 %tmp.286();
+        lputv %bodyBattery.5 %tmp.287;
+        symbol [ bodyBattery %bodyBattery.5 187 6 17 ];
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 188 2 ]
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_188_2_190_2_if_stmt:
+        %tmp.288 = lgetv %bodyBattery.5;
+        symbol [ bodyBattery %tmp.288 188 5 16 ];
+        %tmp.289 = 90.0;
+        %tmp.290 = mul %tmp.288 %tmp.289;
+        %tmp.291 = 100;
+        %tmp.292 = div %tmp.290 %tmp.291;
+        %tmp.293 = 1;
+        %tmp.294 = gte %tmp.292 %tmp.293;
+        bf %tmp.294 @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_188_2_190_2_if_end;
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_188_2_190_2_if_true:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_188_36_190_2_start:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 189 3 ]
+        %tmp.295 = lgetv %dc;
+        symbol [ dc %tmp.295 189 3 5 ];
+        symbol [ drawArc %tmp.296 189 6 13 ];
+        %tmp.296 = getv function %tmp.295 :drawArc;
+        symbol [ center_screenWidth %tmp.298 189 14 32 ];
+        %tmp.298 = getv ? :center_screenWidth;
+        symbol [ center_screenHeight %tmp.300 189 34 53 ];
+        %tmp.300 = getv ? :center_screenHeight;
+        %tmp.301 = 115;
+        symbol [ Graphics %tmp.302 189 60 68 ];
+        %tmp.302 = getm $.Toybox.Graphics;
+        symbol [ ARC_COUNTER_CLOCKWISE %tmp.303 189 69 90 ];
+        %tmp.303 = getv %tmp.302 :ARC_COUNTER_CLOCKWISE;
+        %tmp.304 = 0;
+        %tmp.305 = lgetv %bodyBattery.5;
+        symbol [ bodyBattery %tmp.305 189 95 106 ];
+        %tmp.306 = 90.0;
+        %tmp.307 = mul %tmp.305 %tmp.306;
+        %tmp.308 = 100;
+        %tmp.309 = div %tmp.307 %tmp.308;
+        invoke %tmp.295 %tmp.296(%tmp.298, %tmp.300, %tmp.301, %tmp.303, %tmp.304, %tmp.309);
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_188_36_190_2_stop:
+        goto @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_188_2_190_2_if_end;
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_188_2_190_2_if_end:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 191 2 ]
+        %tmp.310 = lgetv %dc;
+        symbol [ dc %tmp.310 191 2 4 ];
+        symbol [ drawText %tmp.311 191 5 13 ];
+        %tmp.311 = getv function %tmp.310 :drawText;
+        %tmp.312 = 240;
+        %tmp.313 = 0;
+        symbol [ Graphics %tmp.314 191 22 30 ];
+        %tmp.314 = getm $.Toybox.Graphics;
+        symbol [ FONT_MEDIUM %tmp.315 191 31 42 ];
+        %tmp.315 = getv %tmp.314 :FONT_MEDIUM;
+        symbol [ Lang %tmp.316 192 5 9 ];
+        %tmp.316 = getm $.Toybox.Lang;
+        symbol [ format %tmp.317 192 10 16 ];
+        %tmp.317 = getv function %tmp.316 :format;
+        %tmp.318 = "$1$";
+        %tmp.319 = newa 1;
+        %tmp.320 = lgetv %bodyBattery.5;
+        symbol [ bodyBattery %tmp.320 192 26 37 ];
+        symbol [ format %tmp.321 192 38 44 ];
+        %tmp.321 = getv function %tmp.320 :format;
+        %tmp.322 = "%d";
+        %tmp.323 = invoke %tmp.320 %tmp.321(%tmp.322);
+        %tmp.324 = dup %tmp.319;
+        %tmp.325 = aputv %tmp.324 0 %tmp.323;
+        %tmp.326 = invoke %tmp.316 %tmp.317(%tmp.318, %tmp.325);
+        symbol [ Graphics %tmp.327 193 5 13 ];
+        %tmp.327 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_RIGHT %tmp.328 193 14 32 ];
+        %tmp.328 = getv %tmp.327 :TEXT_JUSTIFY_RIGHT;
+        invoke %tmp.310 %tmp.311(%tmp.312, %tmp.313, %tmp.315, %tmp.326, %tmp.328);
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 195 2 ]
         %tmp.329 = lgetv %dc;
-        symbol [ dc %tmp.329 195 3 5 ];
-        symbol [ drawArc %tmp.330 195 6 13 ];
-        %tmp.330 = getv function %tmp.329 :drawArc;
-        symbol [ center_screenWidth %tmp.332 195 14 32 ];
-        %tmp.332 = getv ? :center_screenWidth;
-        symbol [ center_screenHeight %tmp.334 195 34 53 ];
-        %tmp.334 = getv ? :center_screenHeight;
-        %tmp.335 = 115;
-        symbol [ Graphics %tmp.336 195 60 68 ];
-        %tmp.336 = getm $.Toybox.Graphics;
-        symbol [ ARC_COUNTER_CLOCKWISE %tmp.337 195 69 90 ];
-        %tmp.337 = getv %tmp.336 :ARC_COUNTER_CLOCKWISE;
-        %tmp.338 = 180;
-        %tmp.339 = 180;
-        symbol [ since %tmp.341 195 104 109 ];
-        %tmp.341 = getv ? :since;
-        %tmp.342 = 100;
-        %tmp.343 = mod %tmp.341 %tmp.342;
-        %tmp.344 = 90.0;
-        %tmp.345 = mul %tmp.343 %tmp.344;
-        %tmp.346 = 100;
-        %tmp.347 = div %tmp.345 %tmp.346;
-        %tmp.348 = add %tmp.339 %tmp.347;
-        invoke %tmp.329 %tmp.330(%tmp.332, %tmp.334, %tmp.335, %tmp.337, %tmp.338, %tmp.348);
-E_Garmin_Projects_Test_source_TestView_mc_194_22_196_2_stop:
-        goto @E_Garmin_Projects_Test_source_TestView_mc_194_2_196_2_if_end;
-E_Garmin_Projects_Test_source_TestView_mc_194_2_196_2_if_end:
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 197 2 ]
-        %tmp.349 = lgetv %dc;
-        symbol [ dc %tmp.349 197 2 4 ];
-        symbol [ drawText %tmp.350 197 5 13 ];
-        %tmp.350 = getv function %tmp.349 :drawText;
-        %tmp.351 = 0;
-        %tmp.352 = 216;
-        symbol [ Graphics %tmp.353 197 22 30 ];
-        %tmp.353 = getm $.Toybox.Graphics;
-        symbol [ FONT_MEDIUM %tmp.354 197 31 42 ];
-        %tmp.354 = getv %tmp.353 :FONT_MEDIUM;
-        symbol [ Lang %tmp.355 198 5 9 ];
-        %tmp.355 = getm $.Toybox.Lang;
-        symbol [ format %tmp.356 198 10 16 ];
-        %tmp.356 = getv function %tmp.355 :format;
-        %tmp.357 = "$1$";
-        %tmp.358 = newa 1;
-        symbol [ since %tmp.360 198 26 31 ];
-        %tmp.360 = getv ? :since;
-        symbol [ format %tmp.361 198 32 38 ];
-        %tmp.361 = getv function %tmp.360 :format;
-        %tmp.362 = "%d";
-        %tmp.363 = invoke %tmp.360 %tmp.361(%tmp.362);
-        %tmp.364 = dup %tmp.358;
-        %tmp.365 = aputv %tmp.364 0 %tmp.363;
-        %tmp.366 = invoke %tmp.355 %tmp.356(%tmp.357, %tmp.365);
-        symbol [ Graphics %tmp.367 199 5 13 ];
-        %tmp.367 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_LEFT %tmp.368 199 14 31 ];
-        %tmp.368 = getv %tmp.367 :TEXT_JUSTIFY_LEFT;
-        invoke %tmp.349 %tmp.350(%tmp.351, %tmp.352, %tmp.354, %tmp.366, %tmp.368);
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 201 2 ]
-        %tmp.369 = lgetv %dc;
-        symbol [ dc %tmp.369 201 2 4 ];
-        symbol [ setColor %tmp.370 201 5 13 ];
-        %tmp.370 = getv function %tmp.369 :setColor;
-        %tmp.371 = 0xfeabfe;
-        symbol [ Graphics %tmp.372 201 24 32 ];
-        %tmp.372 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.373 201 33 50 ];
-        %tmp.373 = getv %tmp.372 :COLOR_TRANSPARENT;
-        invoke %tmp.369 %tmp.370(%tmp.371, %tmp.373);
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 202 2 ]
-        [ "E_Garmin_Projects_Test_source_TestView_mc_126_1_214_1_start" "E_Garmin_Projects_Test_source_TestView_mc_126_1_214_1_stop" ]
+        symbol [ dc %tmp.329 195 2 4 ];
+        symbol [ setColor %tmp.330 195 5 13 ];
+        %tmp.330 = getv function %tmp.329 :setColor;
+        %tmp.331 = 0x18ffdc;
+        symbol [ Graphics %tmp.332 195 24 32 ];
+        %tmp.332 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.333 195 33 50 ];
+        %tmp.333 = getv %tmp.332 :COLOR_TRANSPARENT;
+        invoke %tmp.329 %tmp.330(%tmp.331, %tmp.333);
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 196 2 ]
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_196_2_198_2_if_stmt:
+        symbol [ since %tmp.335 196 6 11 ];
+        %tmp.335 = getv ? :since;
+        %tmp.336 = 100;
+        %tmp.337 = mod %tmp.335 %tmp.336;
+        %tmp.338 = 90.0;
+        %tmp.339 = mul %tmp.337 %tmp.338;
+        %tmp.340 = 100;
+        %tmp.341 = div %tmp.339 %tmp.340;
+        %tmp.342 = 1;
+        %tmp.343 = gte %tmp.341 %tmp.342;
+        bf %tmp.343 @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_196_2_198_2_if_end;
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_196_2_198_2_if_true:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_196_38_198_2_start:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 197 3 ]
+        %tmp.344 = lgetv %dc;
+        symbol [ dc %tmp.344 197 3 5 ];
+        symbol [ drawArc %tmp.345 197 6 13 ];
+        %tmp.345 = getv function %tmp.344 :drawArc;
+        symbol [ center_screenWidth %tmp.347 197 14 32 ];
+        %tmp.347 = getv ? :center_screenWidth;
+        symbol [ center_screenHeight %tmp.349 197 34 53 ];
+        %tmp.349 = getv ? :center_screenHeight;
+        %tmp.350 = 115;
+        symbol [ Graphics %tmp.351 197 60 68 ];
+        %tmp.351 = getm $.Toybox.Graphics;
+        symbol [ ARC_COUNTER_CLOCKWISE %tmp.352 197 69 90 ];
+        %tmp.352 = getv %tmp.351 :ARC_COUNTER_CLOCKWISE;
+        %tmp.353 = 180;
+        %tmp.354 = 180;
+        symbol [ since %tmp.356 197 104 109 ];
+        %tmp.356 = getv ? :since;
+        %tmp.357 = 100;
+        %tmp.358 = mod %tmp.356 %tmp.357;
+        %tmp.359 = 90.0;
+        %tmp.360 = mul %tmp.358 %tmp.359;
+        %tmp.361 = 100;
+        %tmp.362 = div %tmp.360 %tmp.361;
+        %tmp.363 = add %tmp.354 %tmp.362;
+        invoke %tmp.344 %tmp.345(%tmp.347, %tmp.349, %tmp.350, %tmp.352, %tmp.353, %tmp.363);
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_196_38_198_2_stop:
+        goto @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_196_2_198_2_if_end;
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_196_2_198_2_if_end:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 199 2 ]
+        %tmp.364 = lgetv %dc;
+        symbol [ dc %tmp.364 199 2 4 ];
+        symbol [ drawText %tmp.365 199 5 13 ];
+        %tmp.365 = getv function %tmp.364 :drawText;
+        %tmp.366 = 0;
+        %tmp.367 = 216;
+        symbol [ Graphics %tmp.368 199 22 30 ];
+        %tmp.368 = getm $.Toybox.Graphics;
+        symbol [ FONT_MEDIUM %tmp.369 199 31 42 ];
+        %tmp.369 = getv %tmp.368 :FONT_MEDIUM;
+        symbol [ Lang %tmp.370 200 5 9 ];
+        %tmp.370 = getm $.Toybox.Lang;
+        symbol [ format %tmp.371 200 10 16 ];
+        %tmp.371 = getv function %tmp.370 :format;
+        %tmp.372 = "$1$";
+        %tmp.373 = newa 1;
+        symbol [ since %tmp.375 200 26 31 ];
+        %tmp.375 = getv ? :since;
+        symbol [ format %tmp.376 200 32 38 ];
+        %tmp.376 = getv function %tmp.375 :format;
+        %tmp.377 = "%d";
+        %tmp.378 = invoke %tmp.375 %tmp.376(%tmp.377);
+        %tmp.379 = dup %tmp.373;
+        %tmp.380 = aputv %tmp.379 0 %tmp.378;
+        %tmp.381 = invoke %tmp.370 %tmp.371(%tmp.372, %tmp.380);
+        symbol [ Graphics %tmp.382 201 5 13 ];
+        %tmp.382 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_LEFT %tmp.383 201 14 31 ];
+        %tmp.383 = getv %tmp.382 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.364 %tmp.365(%tmp.366, %tmp.367, %tmp.369, %tmp.381, %tmp.383);
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 203 2 ]
+        %tmp.384 = lgetv %dc;
+        symbol [ dc %tmp.384 203 2 4 ];
+        symbol [ setColor %tmp.385 203 5 13 ];
+        %tmp.385 = getv function %tmp.384 :setColor;
+        %tmp.386 = 0xfeabfe;
+        symbol [ Graphics %tmp.387 203 24 32 ];
+        %tmp.387 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.388 203 33 50 ];
+        %tmp.388 = getv %tmp.387 :COLOR_TRANSPARENT;
+        invoke %tmp.384 %tmp.385(%tmp.386, %tmp.388);
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 204 2 ]
+        [ "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_126_1_216_1_start" "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_126_1_216_1_stop" ]
         %step.6 = local;
-        symbol [ step %step.6 202 6 10 ];
-        symbol [ Toybox %tmp.375 202 13 19 ];
-        %tmp.375 = getv ? :Toybox;
-        symbol [ ActivityMonitor %tmp.376 202 20 35 ];
-        %tmp.376 = getv %tmp.375 :ActivityMonitor;
-        symbol [ getInfo %tmp.377 202 36 43 ];
-        %tmp.377 = getv function %tmp.376 :getInfo;
-        %tmp.378 = invoke %tmp.376 %tmp.377();
-        symbol [ steps %tmp.379 202 46 51 ];
-        %tmp.379 = getv %tmp.378 :steps;
-        lputv %step.6 %tmp.379;
-        symbol [ step %step.6 202 6 10 ];
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 203 2 ]
-E_Garmin_Projects_Test_source_TestView_mc_203_2_210_2_if_stmt:
-        %tmp.380 = lgetv %step.6;
-        symbol [ step %tmp.380 203 5 9 ];
-        %tmp.381 = 0;
-        %tmp.382 = gt %tmp.380 %tmp.381;
-        bf %tmp.382 @E_Garmin_Projects_Test_source_TestView_mc_203_2_210_2_if_end;
-E_Garmin_Projects_Test_source_TestView_mc_203_2_210_2_if_true:
-E_Garmin_Projects_Test_source_TestView_mc_203_15_210_2_start:
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 204 3 ]
-E_Garmin_Projects_Test_source_TestView_mc_204_3_209_3_if_stmt:
-        %tmp.383 = lgetv %step.6;
-        symbol [ step %tmp.383 204 6 10 ];
-        %tmp.384 = 10000;
-        %tmp.385 = lt %tmp.383 %tmp.384;
-        bf %tmp.385 @E_Garmin_Projects_Test_source_TestView_mc_204_3_209_3_if_else_false;
-E_Garmin_Projects_Test_source_TestView_mc_204_3_209_3_if_true:
-E_Garmin_Projects_Test_source_TestView_mc_204_20_206_3_start:
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 205 4 ]
-        %tmp.386 = lgetv %dc;
-        symbol [ dc %tmp.386 205 4 6 ];
-        symbol [ drawArc %tmp.387 205 7 14 ];
-        %tmp.387 = getv function %tmp.386 :drawArc;
-        symbol [ center_screenWidth %tmp.389 205 15 33 ];
-        %tmp.389 = getv ? :center_screenWidth;
-        symbol [ center_screenHeight %tmp.391 205 35 54 ];
-        %tmp.391 = getv ? :center_screenHeight;
-        %tmp.392 = 115;
-        symbol [ Graphics %tmp.393 205 61 69 ];
-        %tmp.393 = getm $.Toybox.Graphics;
-        symbol [ ARC_CLOCKWISE %tmp.394 205 70 83 ];
-        %tmp.394 = getv %tmp.393 :ARC_CLOCKWISE;
-        %tmp.395 = 0;
-        %tmp.396 = 360;
-        %tmp.397 = lgetv %step.6;
-        symbol [ step %tmp.397 205 94 98 ];
-        %tmp.398 = 90.0;
-        %tmp.399 = mul %tmp.397 %tmp.398;
-        %tmp.400 = 10000;
-        %tmp.401 = div %tmp.399 %tmp.400;
-        %tmp.402 = sub %tmp.396 %tmp.401;
-        invoke %tmp.386 %tmp.387(%tmp.389, %tmp.391, %tmp.392, %tmp.394, %tmp.395, %tmp.402);
-E_Garmin_Projects_Test_source_TestView_mc_204_20_206_3_stop:
-        goto @E_Garmin_Projects_Test_source_TestView_mc_204_3_209_3_if_end;
-E_Garmin_Projects_Test_source_TestView_mc_204_3_209_3_if_else_false:
-E_Garmin_Projects_Test_source_TestView_mc_207_8_209_3_start:
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 208 4 ]
-        %tmp.403 = lgetv %dc;
-        symbol [ dc %tmp.403 208 4 6 ];
-        symbol [ drawArc %tmp.404 208 7 14 ];
-        %tmp.404 = getv function %tmp.403 :drawArc;
-        symbol [ center_screenWidth %tmp.406 208 15 33 ];
-        %tmp.406 = getv ? :center_screenWidth;
-        symbol [ center_screenHeight %tmp.408 208 35 54 ];
-        %tmp.408 = getv ? :center_screenHeight;
-        %tmp.409 = 115;
-        symbol [ Graphics %tmp.410 208 61 69 ];
-        %tmp.410 = getm $.Toybox.Graphics;
-        symbol [ ARC_CLOCKWISE %tmp.411 208 70 83 ];
-        %tmp.411 = getv %tmp.410 :ARC_CLOCKWISE;
-        %tmp.412 = 0;
-        %tmp.413 = 270;
-        invoke %tmp.403 %tmp.404(%tmp.406, %tmp.408, %tmp.409, %tmp.411, %tmp.412, %tmp.413);
-E_Garmin_Projects_Test_source_TestView_mc_207_8_209_3_stop:
-E_Garmin_Projects_Test_source_TestView_mc_204_3_209_3_if_end:
-E_Garmin_Projects_Test_source_TestView_mc_203_15_210_2_stop:
-        goto @E_Garmin_Projects_Test_source_TestView_mc_203_2_210_2_if_end;
-E_Garmin_Projects_Test_source_TestView_mc_203_2_210_2_if_end:
-[ "E:\Garmin\Projects\Test\source\TestView.mc" 211 2 ]
-        %tmp.414 = lgetv %dc;
-        symbol [ dc %tmp.414 211 2 4 ];
-        symbol [ drawText %tmp.415 211 5 13 ];
-        %tmp.415 = getv function %tmp.414 :drawText;
-        %tmp.416 = 240;
-        %tmp.417 = 216;
-        symbol [ Graphics %tmp.418 211 24 32 ];
-        %tmp.418 = getm $.Toybox.Graphics;
-        symbol [ FONT_MEDIUM %tmp.419 211 33 44 ];
-        %tmp.419 = getv %tmp.418 :FONT_MEDIUM;
-        symbol [ Lang %tmp.420 212 5 9 ];
-        %tmp.420 = getm $.Toybox.Lang;
-        symbol [ format %tmp.421 212 10 16 ];
-        %tmp.421 = getv function %tmp.420 :format;
-        %tmp.422 = "$1$";
-        %tmp.423 = newa 1;
-        %tmp.424 = lgetv %step.6;
-        symbol [ step %tmp.424 212 26 30 ];
-        symbol [ format %tmp.425 212 31 37 ];
-        %tmp.425 = getv function %tmp.424 :format;
-        %tmp.426 = "%d";
-        %tmp.427 = invoke %tmp.424 %tmp.425(%tmp.426);
-        %tmp.428 = dup %tmp.423;
-        %tmp.429 = aputv %tmp.428 0 %tmp.427;
-        %tmp.430 = invoke %tmp.420 %tmp.421(%tmp.422, %tmp.429);
-        symbol [ Graphics %tmp.431 213 5 13 ];
-        %tmp.431 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_RIGHT %tmp.432 213 14 32 ];
-        %tmp.432 = getv %tmp.431 :TEXT_JUSTIFY_RIGHT;
-        invoke %tmp.414 %tmp.415(%tmp.416, %tmp.417, %tmp.419, %tmp.430, %tmp.432);
-E_Garmin_Projects_Test_source_TestView_mc_126_1_214_1_stop:
+        symbol [ step %step.6 204 6 10 ];
+        symbol [ Toybox %tmp.390 204 13 19 ];
+        %tmp.390 = getv ? :Toybox;
+        symbol [ ActivityMonitor %tmp.391 204 20 35 ];
+        %tmp.391 = getv %tmp.390 :ActivityMonitor;
+        symbol [ getInfo %tmp.392 204 36 43 ];
+        %tmp.392 = getv function %tmp.391 :getInfo;
+        %tmp.393 = invoke %tmp.391 %tmp.392();
+        symbol [ steps %tmp.394 204 46 51 ];
+        %tmp.394 = getv %tmp.393 :steps;
+        lputv %step.6 %tmp.394;
+        symbol [ step %step.6 204 6 10 ];
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 205 2 ]
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_205_2_212_2_if_stmt:
+        %tmp.395 = lgetv %step.6;
+        symbol [ step %tmp.395 205 5 9 ];
+        %tmp.396 = 90.0;
+        %tmp.397 = mul %tmp.395 %tmp.396;
+        %tmp.398 = 10000;
+        %tmp.399 = div %tmp.397 %tmp.398;
+        %tmp.400 = 1;
+        %tmp.401 = gte %tmp.399 %tmp.400;
+        bf %tmp.401 @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_205_2_212_2_if_end;
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_205_2_212_2_if_true:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_205_31_212_2_start:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 206 3 ]
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_206_3_211_3_if_stmt:
+        %tmp.402 = lgetv %step.6;
+        symbol [ step %tmp.402 206 6 10 ];
+        %tmp.403 = 10000;
+        %tmp.404 = lt %tmp.402 %tmp.403;
+        bf %tmp.404 @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_206_3_211_3_if_else_false;
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_206_3_211_3_if_true:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_206_20_208_3_start:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 207 4 ]
+        %tmp.405 = lgetv %dc;
+        symbol [ dc %tmp.405 207 4 6 ];
+        symbol [ drawArc %tmp.406 207 7 14 ];
+        %tmp.406 = getv function %tmp.405 :drawArc;
+        symbol [ center_screenWidth %tmp.408 207 15 33 ];
+        %tmp.408 = getv ? :center_screenWidth;
+        symbol [ center_screenHeight %tmp.410 207 35 54 ];
+        %tmp.410 = getv ? :center_screenHeight;
+        %tmp.411 = 115;
+        symbol [ Graphics %tmp.412 207 61 69 ];
+        %tmp.412 = getm $.Toybox.Graphics;
+        symbol [ ARC_CLOCKWISE %tmp.413 207 70 83 ];
+        %tmp.413 = getv %tmp.412 :ARC_CLOCKWISE;
+        %tmp.414 = 0;
+        %tmp.415 = 360;
+        %tmp.416 = lgetv %step.6;
+        symbol [ step %tmp.416 207 94 98 ];
+        %tmp.417 = 90.0;
+        %tmp.418 = mul %tmp.416 %tmp.417;
+        %tmp.419 = 10000;
+        %tmp.420 = div %tmp.418 %tmp.419;
+        %tmp.421 = sub %tmp.415 %tmp.420;
+        invoke %tmp.405 %tmp.406(%tmp.408, %tmp.410, %tmp.411, %tmp.413, %tmp.414, %tmp.421);
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_206_20_208_3_stop:
+        goto @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_206_3_211_3_if_end;
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_206_3_211_3_if_else_false:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_209_8_211_3_start:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 210 4 ]
+        %tmp.422 = lgetv %dc;
+        symbol [ dc %tmp.422 210 4 6 ];
+        symbol [ drawArc %tmp.423 210 7 14 ];
+        %tmp.423 = getv function %tmp.422 :drawArc;
+        symbol [ center_screenWidth %tmp.425 210 15 33 ];
+        %tmp.425 = getv ? :center_screenWidth;
+        symbol [ center_screenHeight %tmp.427 210 35 54 ];
+        %tmp.427 = getv ? :center_screenHeight;
+        %tmp.428 = 115;
+        symbol [ Graphics %tmp.429 210 61 69 ];
+        %tmp.429 = getm $.Toybox.Graphics;
+        symbol [ ARC_CLOCKWISE %tmp.430 210 70 83 ];
+        %tmp.430 = getv %tmp.429 :ARC_CLOCKWISE;
+        %tmp.431 = 0;
+        %tmp.432 = 270;
+        invoke %tmp.422 %tmp.423(%tmp.425, %tmp.427, %tmp.428, %tmp.430, %tmp.431, %tmp.432);
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_209_8_211_3_stop:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_206_3_211_3_if_end:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_205_31_212_2_stop:
+        goto @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_205_2_212_2_if_end;
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_205_2_212_2_if_end:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc" 213 2 ]
+        %tmp.433 = lgetv %dc;
+        symbol [ dc %tmp.433 213 2 4 ];
+        symbol [ drawText %tmp.434 213 5 13 ];
+        %tmp.434 = getv function %tmp.433 :drawText;
+        %tmp.435 = 240;
+        %tmp.436 = 216;
+        symbol [ Graphics %tmp.437 213 24 32 ];
+        %tmp.437 = getm $.Toybox.Graphics;
+        symbol [ FONT_MEDIUM %tmp.438 213 33 44 ];
+        %tmp.438 = getv %tmp.437 :FONT_MEDIUM;
+        symbol [ Lang %tmp.439 214 5 9 ];
+        %tmp.439 = getm $.Toybox.Lang;
+        symbol [ format %tmp.440 214 10 16 ];
+        %tmp.440 = getv function %tmp.439 :format;
+        %tmp.441 = "$1$";
+        %tmp.442 = newa 1;
+        %tmp.443 = lgetv %step.6;
+        symbol [ step %tmp.443 214 26 30 ];
+        symbol [ format %tmp.444 214 31 37 ];
+        %tmp.444 = getv function %tmp.443 :format;
+        %tmp.445 = "%d";
+        %tmp.446 = invoke %tmp.443 %tmp.444(%tmp.445);
+        %tmp.447 = dup %tmp.442;
+        %tmp.448 = aputv %tmp.447 0 %tmp.446;
+        %tmp.449 = invoke %tmp.439 %tmp.440(%tmp.441, %tmp.448);
+        symbol [ Graphics %tmp.450 215 5 13 ];
+        %tmp.450 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_RIGHT %tmp.451 215 14 32 ];
+        %tmp.451 = getv %tmp.450 :TEXT_JUSTIFY_RIGHT;
+        invoke %tmp.433 %tmp.434(%tmp.435, %tmp.436, %tmp.438, %tmp.449, %tmp.451);
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_TestView_mc_126_1_216_1_stop:
     }
-    [ @file = "E:\Garmin\Projects\Test\source\TestView.mc"; @line = 219; @symbol_functiondef = [onHide,219,10,16]; ]
+    [ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc"; @line = 221; @symbol_functiondef = [onHide,221,10,16]; ]
     function onHide() as Void {
     }
-    [ @file = "E:\Garmin\Projects\Test\source\TestView.mc"; @line = 224; @symbol_functiondef = [onExitSleep,224,10,21]; ]
+    [ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc"; @line = 226; @symbol_functiondef = [onExitSleep,226,10,21]; ]
     function onExitSleep() as Void {
     }
-    [ @file = "E:\Garmin\Projects\Test\source\TestView.mc"; @line = 229; @symbol_functiondef = [onEnterSleep,229,10,22]; ]
+    [ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc"; @line = 231; @symbol_functiondef = [onEnterSleep,231,10,22]; ]
     function onEnterSleep() as Void {
     }
 }
-[ @file = "E:\Garmin\Projects\Test\source\TestView.mc"; @line = 1; ]
+[ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\TestView.mc"; @line = 1; ]
 <init> {
 }

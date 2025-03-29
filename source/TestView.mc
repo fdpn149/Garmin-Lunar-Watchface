@@ -175,7 +175,9 @@ class TestView extends WatchUi.WatchFace
 			var color = Math.round(battery * 5.1) * 256 + 0xff0000;
 			dc.setColor(color, Graphics.COLOR_TRANSPARENT);
 		}
-		dc.drawArc(center_screenWidth, center_screenHeight, 115, Graphics.ARC_CLOCKWISE, 180, 180 - battery * 90.0 / 100);
+		if(battery * 90.0 / 100 >= 1) {
+			dc.drawArc(center_screenWidth, center_screenHeight, 115, Graphics.ARC_CLOCKWISE, 180, 180 - battery * 90.0 / 100);
+		}
 		dc.drawText(0, 0, Graphics.FONT_MEDIUM,
 					Lang.format("$1$", [ battery.format("%d") ]),
 					Graphics.TEXT_JUSTIFY_LEFT);
@@ -183,7 +185,7 @@ class TestView extends WatchUi.WatchFace
 
 		dc.setColor(0xccff00, Graphics.COLOR_TRANSPARENT);
 		var bodyBattery = getBodyBattery();
-		if(bodyBattery > 0) {
+		if(bodyBattery * 90.0 / 100 >= 1) {
 			dc.drawArc(center_screenWidth, center_screenHeight, 115, Graphics.ARC_COUNTER_CLOCKWISE, 0, bodyBattery * 90.0 / 100);
 		}
 		dc.drawText(240, 0, Graphics.FONT_MEDIUM,
@@ -191,7 +193,7 @@ class TestView extends WatchUi.WatchFace
 					Graphics.TEXT_JUSTIFY_RIGHT);
 
 		dc.setColor(0x18ffdc, Graphics.COLOR_TRANSPARENT);
-		if(since % 100 > 0) {
+		if((since % 100) * 90.0 / 100 >= 1) {
 			dc.drawArc(center_screenWidth, center_screenHeight, 115, Graphics.ARC_COUNTER_CLOCKWISE, 180, 180 + (since % 100) * 90.0 / 100);
 		}
 		dc.drawText(0, 216, Graphics.FONT_MEDIUM,
@@ -200,7 +202,7 @@ class TestView extends WatchUi.WatchFace
 
 		dc.setColor(0xfeabfe, Graphics.COLOR_TRANSPARENT);
 		var step = Toybox.ActivityMonitor.getInfo().steps;
-		if(step > 0) {
+		if(step * 90.0 / 10000 >= 1) {
 			if(step < 10000) {
 				dc.drawArc(center_screenWidth, center_screenHeight, 115, Graphics.ARC_CLOCKWISE, 0, 360 - step * 90.0 / 10000);
 			}

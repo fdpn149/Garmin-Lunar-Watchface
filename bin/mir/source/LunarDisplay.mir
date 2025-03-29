@@ -1,149 +1,149 @@
-[ @file = "E:\Garmin\Projects\Test\source\LunarDisplay.mc"; @line = 1; @symbol_classdef = [LunarDisplay,1,6,18]; ]
+[ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\LunarDisplay.mc"; @line = 1; @symbol_classdef = [LunarDisplay,1,6,18]; ]
 class LunarDisplay {
-    [ @file = "E:\Garmin\Projects\Test\source\LunarDisplay.mc"; @line = 1; ]
+    [ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\LunarDisplay.mc"; @line = 1; ]
     <init> {
-[ "E:\Garmin\Projects\Test\source\LunarDisplay.mc" 2 18 ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\LunarDisplay.mc" 2 18 ]
         %tmp.1 = newa 12;
-        %tmp.2 = '•ø';
+        %tmp.2 = 'Ê≠£';
         %tmp.3 = dup %tmp.1;
         %tmp.4 = aputv %tmp.3 0 %tmp.2;
-        %tmp.5 = '§G';
+        %tmp.5 = '‰∫å';
         %tmp.6 = dup %tmp.4;
         %tmp.7 = aputv %tmp.6 1 %tmp.5;
-        %tmp.8 = '§T';
+        %tmp.8 = '‰∏â';
         %tmp.9 = dup %tmp.7;
         %tmp.10 = aputv %tmp.9 2 %tmp.8;
-        %tmp.11 = '•|';
+        %tmp.11 = 'Âõõ';
         %tmp.12 = dup %tmp.10;
         %tmp.13 = aputv %tmp.12 3 %tmp.11;
-        %tmp.14 = '§≠';
+        %tmp.14 = '‰∫î';
         %tmp.15 = dup %tmp.13;
         %tmp.16 = aputv %tmp.15 4 %tmp.14;
-        %tmp.17 = '§ª';
+        %tmp.17 = 'ÂÖ≠';
         %tmp.18 = dup %tmp.16;
         %tmp.19 = aputv %tmp.18 5 %tmp.17;
-        %tmp.20 = '§C';
+        %tmp.20 = '‰∏É';
         %tmp.21 = dup %tmp.19;
         %tmp.22 = aputv %tmp.21 6 %tmp.20;
-        %tmp.23 = '§K';
+        %tmp.23 = 'ÂÖ´';
         %tmp.24 = dup %tmp.22;
         %tmp.25 = aputv %tmp.24 7 %tmp.23;
-        %tmp.26 = '§E';
+        %tmp.26 = '‰πù';
         %tmp.27 = dup %tmp.25;
         %tmp.28 = aputv %tmp.27 8 %tmp.26;
-        %tmp.29 = '§Q';
+        %tmp.29 = 'ÂçÅ';
         %tmp.30 = dup %tmp.28;
         %tmp.31 = aputv %tmp.30 9 %tmp.29;
-        %tmp.32 = '•V';
+        %tmp.32 = 'ÂÜ¨';
         %tmp.33 = dup %tmp.31;
         %tmp.34 = aputv %tmp.33 10 %tmp.32;
-        %tmp.35 = '√æ';
+        %tmp.35 = 'Ëáò';
         %tmp.36 = dup %tmp.34;
         %tmp.37 = aputv %tmp.36 11 %tmp.35;
         putv self :months %tmp.37;
-[ "E:\Garmin\Projects\Test\source\LunarDisplay.mc" 3 18 ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\LunarDisplay.mc" 3 18 ]
         %tmp.38 = newa 10;
-        %tmp.39 = '§@';
+        %tmp.39 = '‰∏Ä';
         %tmp.40 = dup %tmp.38;
         %tmp.41 = aputv %tmp.40 0 %tmp.39;
-        %tmp.42 = '§G';
+        %tmp.42 = '‰∫å';
         %tmp.43 = dup %tmp.41;
         %tmp.44 = aputv %tmp.43 1 %tmp.42;
-        %tmp.45 = '§T';
+        %tmp.45 = '‰∏â';
         %tmp.46 = dup %tmp.44;
         %tmp.47 = aputv %tmp.46 2 %tmp.45;
-        %tmp.48 = '•|';
+        %tmp.48 = 'Âõõ';
         %tmp.49 = dup %tmp.47;
         %tmp.50 = aputv %tmp.49 3 %tmp.48;
-        %tmp.51 = '§≠';
+        %tmp.51 = '‰∫î';
         %tmp.52 = dup %tmp.50;
         %tmp.53 = aputv %tmp.52 4 %tmp.51;
-        %tmp.54 = '§ª';
+        %tmp.54 = 'ÂÖ≠';
         %tmp.55 = dup %tmp.53;
         %tmp.56 = aputv %tmp.55 5 %tmp.54;
-        %tmp.57 = '§C';
+        %tmp.57 = '‰∏É';
         %tmp.58 = dup %tmp.56;
         %tmp.59 = aputv %tmp.58 6 %tmp.57;
-        %tmp.60 = '§K';
+        %tmp.60 = 'ÂÖ´';
         %tmp.61 = dup %tmp.59;
         %tmp.62 = aputv %tmp.61 7 %tmp.60;
-        %tmp.63 = '§E';
+        %tmp.63 = '‰πù';
         %tmp.64 = dup %tmp.62;
         %tmp.65 = aputv %tmp.64 8 %tmp.63;
-        %tmp.66 = '§Q';
+        %tmp.66 = 'ÂçÅ';
         %tmp.67 = dup %tmp.65;
         %tmp.68 = aputv %tmp.67 9 %tmp.66;
         putv self :days_digit %tmp.68;
     }
-    [ @file = "E:\Garmin\Projects\Test\source\LunarDisplay.mc"; @line = 1; ]
+    [ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\LunarDisplay.mc"; @line = 1; ]
     static
     <init> {
     }
-    [ @file = "E:\Garmin\Projects\Test\source\LunarDisplay.mc"; @line = 2; @position = 18; @symbol_constdef = [months,2,18,24]; ]
+    [ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\LunarDisplay.mc"; @line = 2; @position = 18; @symbol_constdef = [months,2,18,24]; ]
     private
     const months;
-    [ @file = "E:\Garmin\Projects\Test\source\LunarDisplay.mc"; @line = 3; @position = 18; @symbol_constdef = [days_digit,3,18,28]; ]
+    [ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\LunarDisplay.mc"; @line = 3; @position = 18; @symbol_constdef = [days_digit,3,18,28]; ]
     private
     const days_digit;
-    [ @file = "E:\Garmin\Projects\Test\source\LunarDisplay.mc"; @line = 5; @position = 16; @symbol_vardef = [month,5,16,21]; ]
+    [ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\LunarDisplay.mc"; @line = 5; @position = 16; @symbol_vardef = [month,5,16,21]; ]
     private
     var month = null;
-    [ @file = "E:\Garmin\Projects\Test\source\LunarDisplay.mc"; @line = 6; @position = 16; @symbol_vardef = [day,6,16,19]; ]
+    [ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\LunarDisplay.mc"; @line = 6; @position = 16; @symbol_vardef = [day,6,16,19]; ]
     private
     var day = null;
-    [ @file = "E:\Garmin\Projects\Test\source\LunarDisplay.mc"; @line = 8; @symbol_functiondef = [initialize,8,13,23]; @symbol_param<0> = [lunar_date,8,24,34]; ]
+    [ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\LunarDisplay.mc"; @line = 8; @symbol_functiondef = [initialize,8,13,23]; @symbol_param<0> = [lunar_date,8,24,34]; ]
     function initialize(lunar_date) as Void {
-E_Garmin_Projects_Test_source_LunarDisplay_mc_8_36_11_4_start:
-[ "E:\Garmin\Projects\Test\source\LunarDisplay.mc" 9 8 ]
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_LunarDisplay_mc_8_36_11_4_start:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\LunarDisplay.mc" 9 8 ]
         %tmp.1 = lgetv %lunar_date;
         symbol [ lunar_date %tmp.1 9 16 26 ];
         %tmp.2 = "month";
         %tmp.3 = agetv %tmp.1 %tmp.2;
         symbol [ month ? 9 8 13 ];
         putv self :month %tmp.3;
-[ "E:\Garmin\Projects\Test\source\LunarDisplay.mc" 10 8 ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\LunarDisplay.mc" 10 8 ]
         %tmp.4 = lgetv %lunar_date;
         symbol [ lunar_date %tmp.4 10 14 24 ];
         %tmp.5 = "day";
         %tmp.6 = agetv %tmp.4 %tmp.5;
         symbol [ day ? 10 8 11 ];
         putv self :day %tmp.6;
-E_Garmin_Projects_Test_source_LunarDisplay_mc_8_36_11_4_stop:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_LunarDisplay_mc_8_36_11_4_stop:
     }
-    [ @file = "E:\Garmin\Projects\Test\source\LunarDisplay.mc"; @line = 13; @symbol_functiondef = [getDate,13,13,20]; ]
+    [ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\LunarDisplay.mc"; @line = 13; @symbol_functiondef = [getDate,13,13,20]; ]
     function getDate() {
-E_Garmin_Projects_Test_source_LunarDisplay_mc_13_23_43_4_start:
-[ "E:\Garmin\Projects\Test\source\LunarDisplay.mc" 14 8 ]
-        [ "E_Garmin_Projects_Test_source_LunarDisplay_mc_13_23_43_4_start" "E_Garmin_Projects_Test_source_LunarDisplay_mc_13_23_43_4_stop" ]
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_LunarDisplay_mc_13_23_43_4_start:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\LunarDisplay.mc" 14 8 ]
+        [ "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_LunarDisplay_mc_13_23_43_4_start" "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_LunarDisplay_mc_13_23_43_4_stop" ]
         %month_display.1 = local;
         symbol [ month_display %month_display.1 14 12 25 ];
         %tmp.1 = "";
         lputv %month_display.1 %tmp.1;
         symbol [ month_display %month_display.1 14 12 25 ];
-[ "E:\Garmin\Projects\Test\source\LunarDisplay.mc" 15 8 ]
-        [ "E_Garmin_Projects_Test_source_LunarDisplay_mc_13_23_43_4_start" "E_Garmin_Projects_Test_source_LunarDisplay_mc_13_23_43_4_stop" ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\LunarDisplay.mc" 15 8 ]
+        [ "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_LunarDisplay_mc_13_23_43_4_start" "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_LunarDisplay_mc_13_23_43_4_stop" ]
         %day_display.2 = local;
         symbol [ day_display %day_display.2 15 12 23 ];
         %tmp.2 = "";
         lputv %day_display.2 %tmp.2;
         symbol [ day_display %day_display.2 15 12 23 ];
-[ "E:\Garmin\Projects\Test\source\LunarDisplay.mc" 17 8 ]
-E_Garmin_Projects_Test_source_LunarDisplay_mc_17_8_19_8_if_stmt:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\LunarDisplay.mc" 17 8 ]
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_LunarDisplay_mc_17_8_19_8_if_stmt:
         symbol [ month %tmp.4 17 11 16 ];
         %tmp.4 = getv ? :month;
         %tmp.5 = 100;
         %tmp.6 = gt %tmp.4 %tmp.5;
-        bf %tmp.6 @E_Garmin_Projects_Test_source_LunarDisplay_mc_17_8_19_8_if_end;
-E_Garmin_Projects_Test_source_LunarDisplay_mc_17_8_19_8_if_true:
-E_Garmin_Projects_Test_source_LunarDisplay_mc_17_24_19_8_start:
-[ "E:\Garmin\Projects\Test\source\LunarDisplay.mc" 18 12 ]
-        %tmp.7 = "∂|";
+        bf %tmp.6 @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_LunarDisplay_mc_17_8_19_8_if_end;
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_LunarDisplay_mc_17_8_19_8_if_true:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_LunarDisplay_mc_17_24_19_8_start:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\LunarDisplay.mc" 18 12 ]
+        %tmp.7 = "Èñè";
         lputv %month_display.1 %tmp.7;
         symbol [ month_display %month_display.1 18 12 25 ];
-E_Garmin_Projects_Test_source_LunarDisplay_mc_17_24_19_8_stop:
-        goto @E_Garmin_Projects_Test_source_LunarDisplay_mc_17_8_19_8_if_end;
-E_Garmin_Projects_Test_source_LunarDisplay_mc_17_8_19_8_if_end:
-[ "E:\Garmin\Projects\Test\source\LunarDisplay.mc" 20 8 ]
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_LunarDisplay_mc_17_24_19_8_stop:
+        goto @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_LunarDisplay_mc_17_8_19_8_if_end;
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_LunarDisplay_mc_17_8_19_8_if_end:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\LunarDisplay.mc" 20 8 ]
         %tmp.8 = lgetv %month_display.1;
         symbol [ month_display %tmp.8 20 8 21 ];
         symbol [ months %tmp.10 20 25 31 ];
@@ -158,20 +158,20 @@ E_Garmin_Projects_Test_source_LunarDisplay_mc_17_8_19_8_if_end:
         %tmp.18 = add %tmp.8 %tmp.17;
         lputv %month_display.1 %tmp.18;
         symbol [ month_display %month_display.1 20 8 21 ];
-[ "E:\Garmin\Projects\Test\source\LunarDisplay.mc" 22 8 ]
-E_Garmin_Projects_Test_source_LunarDisplay_mc_22_8_37_8_if_stmt:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\LunarDisplay.mc" 22 8 ]
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_LunarDisplay_mc_22_8_37_8_if_stmt:
         symbol [ day %tmp.20 22 11 14 ];
         %tmp.20 = getv ? :day;
         %tmp.21 = 10;
         %tmp.22 = lte %tmp.20 %tmp.21;
-        bf %tmp.22 @E_Garmin_Projects_Test_source_LunarDisplay_mc_22_8_37_8_if_false;
-E_Garmin_Projects_Test_source_LunarDisplay_mc_22_8_37_8_if_true:
-E_Garmin_Projects_Test_source_LunarDisplay_mc_22_22_25_8_start:
-[ "E:\Garmin\Projects\Test\source\LunarDisplay.mc" 23 12 ]
-        %tmp.23 = "™Ï";
+        bf %tmp.22 @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_LunarDisplay_mc_22_8_37_8_if_false;
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_LunarDisplay_mc_22_8_37_8_if_true:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_LunarDisplay_mc_22_22_25_8_start:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\LunarDisplay.mc" 23 12 ]
+        %tmp.23 = "Âàù";
         lputv %day_display.2 %tmp.23;
         symbol [ day_display %day_display.2 23 12 23 ];
-[ "E:\Garmin\Projects\Test\source\LunarDisplay.mc" 24 12 ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\LunarDisplay.mc" 24 12 ]
         %tmp.24 = lgetv %day_display.2;
         symbol [ day_display %tmp.24 24 12 23 ];
         symbol [ days_digit %tmp.26 24 27 37 ];
@@ -184,23 +184,23 @@ E_Garmin_Projects_Test_source_LunarDisplay_mc_22_22_25_8_start:
         %tmp.32 = add %tmp.24 %tmp.31;
         lputv %day_display.2 %tmp.32;
         symbol [ day_display %day_display.2 24 12 23 ];
-E_Garmin_Projects_Test_source_LunarDisplay_mc_22_22_25_8_stop:
-        goto @E_Garmin_Projects_Test_source_LunarDisplay_mc_22_8_37_8_if_end;
-E_Garmin_Projects_Test_source_LunarDisplay_mc_22_8_37_8_if_false:
-[ "E:\Garmin\Projects\Test\source\LunarDisplay.mc" 26 13 ]
-E_Garmin_Projects_Test_source_LunarDisplay_mc_26_13_37_8_if_stmt:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_LunarDisplay_mc_22_22_25_8_stop:
+        goto @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_LunarDisplay_mc_22_8_37_8_if_end;
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_LunarDisplay_mc_22_8_37_8_if_false:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\LunarDisplay.mc" 26 13 ]
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_LunarDisplay_mc_26_13_37_8_if_stmt:
         symbol [ day %tmp.34 26 16 19 ];
         %tmp.34 = getv ? :day;
         %tmp.35 = 19;
         %tmp.36 = lte %tmp.34 %tmp.35;
-        bf %tmp.36 @E_Garmin_Projects_Test_source_LunarDisplay_mc_26_13_37_8_if_false;
-E_Garmin_Projects_Test_source_LunarDisplay_mc_26_13_37_8_if_true:
-E_Garmin_Projects_Test_source_LunarDisplay_mc_26_27_29_8_start:
-[ "E:\Garmin\Projects\Test\source\LunarDisplay.mc" 27 12 ]
-        %tmp.37 = "§Q";
+        bf %tmp.36 @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_LunarDisplay_mc_26_13_37_8_if_false;
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_LunarDisplay_mc_26_13_37_8_if_true:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_LunarDisplay_mc_26_27_29_8_start:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\LunarDisplay.mc" 27 12 ]
+        %tmp.37 = "ÂçÅ";
         lputv %day_display.2 %tmp.37;
         symbol [ day_display %day_display.2 27 12 23 ];
-[ "E:\Garmin\Projects\Test\source\LunarDisplay.mc" 28 12 ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\LunarDisplay.mc" 28 12 ]
         %tmp.38 = lgetv %day_display.2;
         symbol [ day_display %tmp.38 28 12 23 ];
         symbol [ days_digit %tmp.40 28 27 37 ];
@@ -213,21 +213,21 @@ E_Garmin_Projects_Test_source_LunarDisplay_mc_26_27_29_8_start:
         %tmp.46 = add %tmp.38 %tmp.45;
         lputv %day_display.2 %tmp.46;
         symbol [ day_display %day_display.2 28 12 23 ];
-E_Garmin_Projects_Test_source_LunarDisplay_mc_26_27_29_8_stop:
-        goto @E_Garmin_Projects_Test_source_LunarDisplay_mc_26_13_37_8_if_end;
-E_Garmin_Projects_Test_source_LunarDisplay_mc_26_13_37_8_if_false:
-[ "E:\Garmin\Projects\Test\source\LunarDisplay.mc" 30 13 ]
-E_Garmin_Projects_Test_source_LunarDisplay_mc_30_13_37_8_if_stmt:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_LunarDisplay_mc_26_27_29_8_stop:
+        goto @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_LunarDisplay_mc_26_13_37_8_if_end;
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_LunarDisplay_mc_26_13_37_8_if_false:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\LunarDisplay.mc" 30 13 ]
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_LunarDisplay_mc_30_13_37_8_if_stmt:
         symbol [ day %tmp.48 30 16 19 ];
         %tmp.48 = getv ? :day;
         %tmp.49 = 10;
         %tmp.50 = mod %tmp.48 %tmp.49;
         %tmp.51 = 0;
         %tmp.52 = eq %tmp.50 %tmp.51;
-        bf %tmp.52 @E_Garmin_Projects_Test_source_LunarDisplay_mc_30_13_37_8_if_else_false;
-E_Garmin_Projects_Test_source_LunarDisplay_mc_30_13_37_8_if_true:
-E_Garmin_Projects_Test_source_LunarDisplay_mc_30_31_33_8_start:
-[ "E:\Garmin\Projects\Test\source\LunarDisplay.mc" 31 12 ]
+        bf %tmp.52 @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_LunarDisplay_mc_30_13_37_8_if_else_false;
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_LunarDisplay_mc_30_13_37_8_if_true:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_LunarDisplay_mc_30_31_33_8_start:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\LunarDisplay.mc" 31 12 ]
         symbol [ days_digit %tmp.54 31 26 36 ];
         %tmp.54 = getv ? :days_digit;
         symbol [ day %tmp.56 31 37 40 ];
@@ -239,22 +239,22 @@ E_Garmin_Projects_Test_source_LunarDisplay_mc_30_31_33_8_start:
         %tmp.61 = agetv %tmp.54 %tmp.60;
         lputv %day_display.2 %tmp.61;
         symbol [ day_display %day_display.2 31 12 23 ];
-[ "E:\Garmin\Projects\Test\source\LunarDisplay.mc" 32 12 ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\LunarDisplay.mc" 32 12 ]
         %tmp.62 = lgetv %day_display.2;
         symbol [ day_display %tmp.62 32 12 23 ];
-        %tmp.63 = "§Q";
+        %tmp.63 = "ÂçÅ";
         %tmp.64 = add %tmp.62 %tmp.63;
         lputv %day_display.2 %tmp.64;
         symbol [ day_display %day_display.2 32 12 23 ];
-E_Garmin_Projects_Test_source_LunarDisplay_mc_30_31_33_8_stop:
-        goto @E_Garmin_Projects_Test_source_LunarDisplay_mc_30_13_37_8_if_end;
-E_Garmin_Projects_Test_source_LunarDisplay_mc_30_13_37_8_if_else_false:
-E_Garmin_Projects_Test_source_LunarDisplay_mc_34_13_37_8_start:
-[ "E:\Garmin\Projects\Test\source\LunarDisplay.mc" 35 12 ]
-        %tmp.65 = "§‹";
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_LunarDisplay_mc_30_31_33_8_stop:
+        goto @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_LunarDisplay_mc_30_13_37_8_if_end;
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_LunarDisplay_mc_30_13_37_8_if_else_false:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_LunarDisplay_mc_34_13_37_8_start:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\LunarDisplay.mc" 35 12 ]
+        %tmp.65 = "Âªø";
         lputv %day_display.2 %tmp.65;
         symbol [ day_display %day_display.2 35 12 23 ];
-[ "E:\Garmin\Projects\Test\source\LunarDisplay.mc" 36 12 ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\LunarDisplay.mc" 36 12 ]
         %tmp.66 = lgetv %day_display.2;
         symbol [ day_display %tmp.66 36 12 23 ];
         symbol [ days_digit %tmp.68 36 27 37 ];
@@ -267,11 +267,11 @@ E_Garmin_Projects_Test_source_LunarDisplay_mc_34_13_37_8_start:
         %tmp.74 = add %tmp.66 %tmp.73;
         lputv %day_display.2 %tmp.74;
         symbol [ day_display %day_display.2 36 12 23 ];
-E_Garmin_Projects_Test_source_LunarDisplay_mc_34_13_37_8_stop:
-E_Garmin_Projects_Test_source_LunarDisplay_mc_30_13_37_8_if_end:
-E_Garmin_Projects_Test_source_LunarDisplay_mc_26_13_37_8_if_end:
-E_Garmin_Projects_Test_source_LunarDisplay_mc_22_8_37_8_if_end:
-[ "E:\Garmin\Projects\Test\source\LunarDisplay.mc" 39 8 ]
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_LunarDisplay_mc_34_13_37_8_stop:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_LunarDisplay_mc_30_13_37_8_if_end:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_LunarDisplay_mc_26_13_37_8_if_end:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_LunarDisplay_mc_22_8_37_8_if_end:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\LunarDisplay.mc" 39 8 ]
         %tmp.75 = newd 2;
         %tmp.76 = "month";
         %tmp.77 = lgetv %month_display.1;
@@ -284,9 +284,9 @@ E_Garmin_Projects_Test_source_LunarDisplay_mc_22_8_37_8_if_end:
         %tmp.82 = dup %tmp.79;
         %tmp.83 = aputv %tmp.82 %tmp.80 %tmp.81;
         ret %tmp.83;
-E_Garmin_Projects_Test_source_LunarDisplay_mc_13_23_43_4_stop:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_LunarDisplay_mc_13_23_43_4_stop:
     }
 }
-[ @file = "E:\Garmin\Projects\Test\source\LunarDisplay.mc"; @line = 1; ]
+[ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\LunarDisplay.mc"; @line = 1; ]
 <init> {
 }

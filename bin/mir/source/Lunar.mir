@@ -1,8 +1,8 @@
-[ @file = "E:\Garmin\Projects\Test\source\Lunar.mc"; @line = 1; @symbol_classdef = [Lunar,1,6,11]; ]
+[ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc"; @line = 1; @symbol_classdef = [Lunar,1,6,11]; ]
 class Lunar {
-    [ @file = "E:\Garmin\Projects\Test\source\Lunar.mc"; @line = 1; ]
+    [ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc"; @line = 1; ]
     <init> {
-[ "E:\Garmin\Projects\Test\source\Lunar.mc" 2 15 ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc" 2 15 ]
         %tmp.1 = newa 12;
         %tmp.2 = 31;
         %tmp.3 = dup %tmp.1;
@@ -41,7 +41,7 @@ class Lunar {
         %tmp.36 = dup %tmp.34;
         %tmp.37 = aputv %tmp.36 11 %tmp.35;
         putv self :days_in_month %tmp.37;
-[ "E:\Garmin\Projects\Test\source\Lunar.mc" 3 15 ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc" 3 15 ]
         %tmp.38 = newa 77;
         %tmp.39 = 40;
         %tmp.40 = dup %tmp.38;
@@ -275,7 +275,7 @@ class Lunar {
         %tmp.268 = dup %tmp.266;
         %tmp.269 = aputv %tmp.268 76 %tmp.267;
         putv self :day_agg %tmp.269;
-[ "E:\Garmin\Projects\Test\source\Lunar.mc" 4 15 ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc" 4 15 ]
         %tmp.270 = newa 76;
         %tmp.271 = 0x004b6;
         %tmp.272 = dup %tmp.270;
@@ -507,27 +507,27 @@ class Lunar {
         %tmp.498 = aputv %tmp.497 75 %tmp.496;
         putv self :year_months %tmp.498;
     }
-    [ @file = "E:\Garmin\Projects\Test\source\Lunar.mc"; @line = 1; ]
+    [ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc"; @line = 1; ]
     static
     <init> {
     }
-    [ @file = "E:\Garmin\Projects\Test\source\Lunar.mc"; @line = 2; @position = 15; @symbol_constdef = [days_in_month,2,15,28]; ]
+    [ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc"; @line = 2; @position = 15; @symbol_constdef = [days_in_month,2,15,28]; ]
     private
     const days_in_month;
-    [ @file = "E:\Garmin\Projects\Test\source\Lunar.mc"; @line = 3; @position = 15; @symbol_constdef = [day_agg,3,15,22]; ]
+    [ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc"; @line = 3; @position = 15; @symbol_constdef = [day_agg,3,15,22]; ]
     private
     const day_agg;
-    [ @file = "E:\Garmin\Projects\Test\source\Lunar.mc"; @line = 4; @position = 15; @symbol_constdef = [year_months,4,15,26]; ]
+    [ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc"; @line = 4; @position = 15; @symbol_constdef = [year_months,4,15,26]; ]
     private
     const year_months;
-    [ @file = "E:\Garmin\Projects\Test\source\Lunar.mc"; @line = 5; @position = 12; @symbol_vardef = [date,5,12,16]; ]
+    [ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc"; @line = 5; @position = 12; @symbol_vardef = [date,5,12,16]; ]
     public
     var date = null;
-    [ @file = "E:\Garmin\Projects\Test\source\Lunar.mc"; @line = 7; @symbol_functiondef = [initialize,7,10,20]; @symbol_param<0> = [year,7,21,25]; @symbol_param<1> = [month,7,27,32]; @symbol_param<2> = [day,7,34,37]; ]
+    [ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc"; @line = 7; @symbol_functiondef = [initialize,7,10,20]; @symbol_param<0> = [year,7,21,25]; @symbol_param<1> = [month,7,27,32]; @symbol_param<2> = [day,7,34,37]; ]
     function initialize(year, month, day) as Void {
-E_Garmin_Projects_Test_source_Lunar_mc_7_39_13_1_start:
-[ "E:\Garmin\Projects\Test\source\Lunar.mc" 8 2 ]
-        [ "E_Garmin_Projects_Test_source_Lunar_mc_7_39_13_1_start" "E_Garmin_Projects_Test_source_Lunar_mc_7_39_13_1_stop" ]
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_7_39_13_1_start:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc" 8 2 ]
+        [ "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_7_39_13_1_start" "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_7_39_13_1_stop" ]
         %agg_days.1 = local;
         symbol [ agg_days %agg_days.1 8 6 14 ];
         %tmp.1 = self;
@@ -542,8 +542,8 @@ E_Garmin_Projects_Test_source_Lunar_mc_7_39_13_1_start:
         %tmp.6 = invoke %tmp.1 %tmp.2(%tmp.3, %tmp.4, %tmp.5);
         lputv %agg_days.1 %tmp.6;
         symbol [ agg_days %agg_days.1 8 6 14 ];
-[ "E:\Garmin\Projects\Test\source\Lunar.mc" 9 2 ]
-        [ "E_Garmin_Projects_Test_source_Lunar_mc_7_39_13_1_start" "E_Garmin_Projects_Test_source_Lunar_mc_7_39_13_1_stop" ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc" 9 2 ]
+        [ "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_7_39_13_1_start" "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_7_39_13_1_stop" ]
         %lunar_year_index.2 = local;
         symbol [ lunar_year_index %lunar_year_index.2 9 6 22 ];
         %tmp.7 = self;
@@ -554,8 +554,8 @@ E_Garmin_Projects_Test_source_Lunar_mc_7_39_13_1_start:
         %tmp.10 = invoke %tmp.7 %tmp.8(%tmp.9);
         lputv %lunar_year_index.2 %tmp.10;
         symbol [ lunar_year_index %lunar_year_index.2 9 6 22 ];
-[ "E:\Garmin\Projects\Test\source\Lunar.mc" 10 2 ]
-        [ "E_Garmin_Projects_Test_source_Lunar_mc_7_39_13_1_start" "E_Garmin_Projects_Test_source_Lunar_mc_7_39_13_1_stop" ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc" 10 2 ]
+        [ "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_7_39_13_1_start" "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_7_39_13_1_stop" ]
         %lunar_months_info.3 = local;
         symbol [ lunar_months_info %lunar_months_info.3 10 6 23 ];
         %tmp.11 = self;
@@ -566,8 +566,8 @@ E_Garmin_Projects_Test_source_Lunar_mc_7_39_13_1_start:
         %tmp.14 = invoke %tmp.11 %tmp.12(%tmp.13);
         lputv %lunar_months_info.3 %tmp.14;
         symbol [ lunar_months_info %lunar_months_info.3 10 6 23 ];
-[ "E:\Garmin\Projects\Test\source\Lunar.mc" 11 2 ]
-        [ "E_Garmin_Projects_Test_source_Lunar_mc_7_39_13_1_start" "E_Garmin_Projects_Test_source_Lunar_mc_7_39_13_1_stop" ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc" 11 2 ]
+        [ "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_7_39_13_1_start" "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_7_39_13_1_stop" ]
         %lunar_months_size_agg.4 = local;
         symbol [ lunar_months_size_agg %lunar_months_size_agg.4 11 6 27 ];
         %tmp.15 = self;
@@ -584,7 +584,7 @@ E_Garmin_Projects_Test_source_Lunar_mc_7_39_13_1_start:
         %tmp.23 = invoke %tmp.15 %tmp.16(%tmp.19, %tmp.22);
         lputv %lunar_months_size_agg.4 %tmp.23;
         symbol [ lunar_months_size_agg %lunar_months_size_agg.4 11 6 27 ];
-[ "E:\Garmin\Projects\Test\source\Lunar.mc" 12 2 ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc" 12 2 ]
         symbol [ self %self 12 2 6 ];
         %tmp.24 = self;
         symbol [ getLunarDate %tmp.25 12 14 26 ];
@@ -598,14 +598,14 @@ E_Garmin_Projects_Test_source_Lunar_mc_7_39_13_1_start:
         %tmp.29 = invoke %tmp.24 %tmp.25(%tmp.26, %tmp.27, %tmp.28);
         symbol [ date ? 12 7 11 ];
         putv self :date %tmp.29;
-E_Garmin_Projects_Test_source_Lunar_mc_7_39_13_1_stop:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_7_39_13_1_stop:
     }
-    [ @file = "E:\Garmin\Projects\Test\source\Lunar.mc"; @line = 15; @symbol_functiondef = [calcAggDays,15,18,29]; @symbol_param<0> = [year,15,30,34]; @symbol_param<1> = [month,15,36,41]; @symbol_param<2> = [day,15,43,46]; ]
+    [ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc"; @line = 15; @symbol_functiondef = [calcAggDays,15,18,29]; @symbol_param<0> = [year,15,30,34]; @symbol_param<1> = [month,15,36,41]; @symbol_param<2> = [day,15,43,46]; ]
     private
     function calcAggDays(year, month, day) {
-E_Garmin_Projects_Test_source_Lunar_mc_15_48_29_1_start:
-[ "E:\Garmin\Projects\Test\source\Lunar.mc" 16 2 ]
-        [ "E_Garmin_Projects_Test_source_Lunar_mc_15_48_29_1_start" "E_Garmin_Projects_Test_source_Lunar_mc_15_48_29_1_stop" ]
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_15_48_29_1_start:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc" 16 2 ]
+        [ "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_15_48_29_1_start" "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_15_48_29_1_stop" ]
         %year_from_2024.1 = local;
         symbol [ year_from_2024 %year_from_2024.1 16 6 20 ];
         %tmp.1 = lgetv %year;
@@ -614,8 +614,8 @@ E_Garmin_Projects_Test_source_Lunar_mc_15_48_29_1_start:
         %tmp.3 = sub %tmp.1 %tmp.2;
         lputv %year_from_2024.1 %tmp.3;
         symbol [ year_from_2024 %year_from_2024.1 16 6 20 ];
-[ "E:\Garmin\Projects\Test\source\Lunar.mc" 17 2 ]
-        [ "E_Garmin_Projects_Test_source_Lunar_mc_15_48_29_1_start" "E_Garmin_Projects_Test_source_Lunar_mc_15_48_29_1_stop" ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc" 17 2 ]
+        [ "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_15_48_29_1_start" "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_15_48_29_1_stop" ]
         %base_day.2 = local;
         symbol [ base_day %base_day.2 17 6 14 ];
         symbol [ Math %tmp.5 17 17 21 ];
@@ -629,42 +629,42 @@ E_Garmin_Projects_Test_source_Lunar_mc_15_48_29_1_start:
         %tmp.10 = invoke %tmp.5 %tmp.6(%tmp.9);
         lputv %base_day.2 %tmp.10;
         symbol [ base_day %base_day.2 17 6 14 ];
-[ "E:\Garmin\Projects\Test\source\Lunar.mc" 18 2 ]
-        [ "E_Garmin_Projects_Test_source_Lunar_mc_15_48_29_1_start" "E_Garmin_Projects_Test_source_Lunar_mc_15_48_29_1_stop" ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc" 18 2 ]
+        [ "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_15_48_29_1_start" "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_15_48_29_1_stop" ]
         %agg_days.3 = local;
         symbol [ agg_days %agg_days.3 18 6 14 ];
         %tmp.11 = lgetv %base_day.2;
         symbol [ base_day %tmp.11 18 17 25 ];
         lputv %agg_days.3 %tmp.11;
         symbol [ agg_days %agg_days.3 18 6 14 ];
-[ "E:\Garmin\Projects\Test\source\Lunar.mc" 19 2 ]
-        for @E_Garmin_Projects_Test_source_Lunar_mc_19_2_26_2_for_test @E_Garmin_Projects_Test_source_Lunar_mc_19_2_26_2_for_incr @E_Garmin_Projects_Test_source_Lunar_mc_19_2_26_2_for_end;
-E_Garmin_Projects_Test_source_Lunar_mc_19_2_26_2_for_init:
-        [ "E_Garmin_Projects_Test_source_Lunar_mc_19_2_26_2_for_begin" "E_Garmin_Projects_Test_source_Lunar_mc_19_2_26_2_for_end" ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc" 19 2 ]
+        for @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_19_2_26_2_for_test @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_19_2_26_2_for_incr @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_19_2_26_2_for_end;
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_19_2_26_2_for_init:
+        [ "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_19_2_26_2_for_begin" "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_19_2_26_2_for_end" ]
         %i.4 = local;
         symbol [ i %i.4 19 10 11 ];
         %tmp.12 = 1;
         lputv %i.4 %tmp.12;
         symbol [ i %i.4 19 10 11 ];
-E_Garmin_Projects_Test_source_Lunar_mc_19_2_26_2_for_test:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_19_2_26_2_for_test:
         %tmp.13 = lgetv %i.4;
         symbol [ i %tmp.13 19 17 18 ];
         %tmp.14 = lgetv %month;
         symbol [ month %tmp.14 19 21 26 ];
         %tmp.15 = lt %tmp.13 %tmp.14;
-        bf %tmp.15 @E_Garmin_Projects_Test_source_Lunar_mc_19_2_26_2_for_end;
-E_Garmin_Projects_Test_source_Lunar_mc_19_2_26_2_for_begin:
-E_Garmin_Projects_Test_source_Lunar_mc_19_33_26_2_start:
-[ "E:\Garmin\Projects\Test\source\Lunar.mc" 20 3 ]
-E_Garmin_Projects_Test_source_Lunar_mc_20_3_25_3_if_stmt:
-E_Garmin_Projects_Test_source_Lunar_mc_20_6_20_47_begin:
-E_Garmin_Projects_Test_source_Lunar_mc_20_6_20_28_begin:
+        bf %tmp.15 @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_19_2_26_2_for_end;
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_19_2_26_2_for_begin:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_19_33_26_2_start:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc" 20 3 ]
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_20_3_25_3_if_stmt:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_20_6_20_47_begin:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_20_6_20_28_begin:
         %tmp.16 = lgetv %i.4;
         symbol [ i %tmp.16 20 6 7 ];
         %tmp.17 = 2;
         %tmp.18 = eq %tmp.16 %tmp.17;
-        bf %tmp.18 @E_Garmin_Projects_Test_source_Lunar_mc_20_3_25_3_if_else_false;
-E_Garmin_Projects_Test_source_Lunar_mc_20_16_20_28_true:
+        bf %tmp.18 @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_20_3_25_3_if_else_false;
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_20_16_20_28_true:
         %tmp.19 = lgetv %year;
         symbol [ year %tmp.19 20 16 20 ];
         %tmp.20 = 4;
@@ -672,10 +672,10 @@ E_Garmin_Projects_Test_source_Lunar_mc_20_16_20_28_true:
         %tmp.22 = 0;
         %tmp.23 = eq %tmp.21 %tmp.22;
         push %tmp.23;
-E_Garmin_Projects_Test_source_Lunar_mc_20_16_20_28_end:
-        %tmp.24 = phi [%tmp.18 @E_Garmin_Projects_Test_source_Lunar_mc_20_6_20_28_begin] [%tmp.23 @E_Garmin_Projects_Test_source_Lunar_mc_20_16_20_28_true] [%tmp.24 @E_Garmin_Projects_Test_source_Lunar_mc_20_16_20_28_end];
-        bf %tmp.24 @E_Garmin_Projects_Test_source_Lunar_mc_20_3_25_3_if_else_false;
-E_Garmin_Projects_Test_source_Lunar_mc_20_33_20_47_true:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_20_16_20_28_end:
+        %tmp.24 = phi [%tmp.18 @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_20_6_20_28_begin] [%tmp.23 @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_20_16_20_28_true] [%tmp.24 @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_20_16_20_28_end];
+        bf %tmp.24 @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_20_3_25_3_if_else_false;
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_20_33_20_47_true:
         %tmp.25 = lgetv %year;
         symbol [ year %tmp.25 20 33 37 ];
         %tmp.26 = 100;
@@ -683,23 +683,23 @@ E_Garmin_Projects_Test_source_Lunar_mc_20_33_20_47_true:
         %tmp.28 = 0;
         %tmp.29 = ne %tmp.27 %tmp.28;
         push %tmp.29;
-E_Garmin_Projects_Test_source_Lunar_mc_20_33_20_47_end:
-        %tmp.30 = phi [%tmp.24 @E_Garmin_Projects_Test_source_Lunar_mc_20_6_20_47_begin] [%tmp.29 @E_Garmin_Projects_Test_source_Lunar_mc_20_33_20_47_true] [%tmp.30 @E_Garmin_Projects_Test_source_Lunar_mc_20_33_20_47_end];
-        bf %tmp.30 @E_Garmin_Projects_Test_source_Lunar_mc_20_3_25_3_if_else_false;
-E_Garmin_Projects_Test_source_Lunar_mc_20_3_25_3_if_true:
-E_Garmin_Projects_Test_source_Lunar_mc_20_50_22_3_start:
-[ "E:\Garmin\Projects\Test\source\Lunar.mc" 21 4 ]
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_20_33_20_47_end:
+        %tmp.30 = phi [%tmp.24 @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_20_6_20_47_begin] [%tmp.29 @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_20_33_20_47_true] [%tmp.30 @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_20_33_20_47_end];
+        bf %tmp.30 @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_20_3_25_3_if_else_false;
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_20_3_25_3_if_true:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_20_50_22_3_start:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc" 21 4 ]
         %tmp.31 = lgetv %agg_days.3;
         symbol [ agg_days %tmp.31 21 4 12 ];
         %tmp.32 = 29;
         %tmp.33 = add %tmp.31 %tmp.32;
         lputv %agg_days.3 %tmp.33;
         symbol [ agg_days %agg_days.3 21 4 12 ];
-E_Garmin_Projects_Test_source_Lunar_mc_20_50_22_3_stop:
-        goto @E_Garmin_Projects_Test_source_Lunar_mc_20_3_25_3_if_end;
-E_Garmin_Projects_Test_source_Lunar_mc_20_3_25_3_if_else_false:
-E_Garmin_Projects_Test_source_Lunar_mc_23_8_25_3_start:
-[ "E:\Garmin\Projects\Test\source\Lunar.mc" 24 4 ]
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_20_50_22_3_stop:
+        goto @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_20_3_25_3_if_end;
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_20_3_25_3_if_else_false:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_23_8_25_3_start:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc" 24 4 ]
         %tmp.34 = lgetv %agg_days.3;
         symbol [ agg_days %tmp.34 24 4 12 ];
         symbol [ days_in_month %tmp.36 24 16 29 ];
@@ -712,19 +712,19 @@ E_Garmin_Projects_Test_source_Lunar_mc_23_8_25_3_start:
         %tmp.41 = add %tmp.34 %tmp.40;
         lputv %agg_days.3 %tmp.41;
         symbol [ agg_days %agg_days.3 24 4 12 ];
-E_Garmin_Projects_Test_source_Lunar_mc_23_8_25_3_stop:
-E_Garmin_Projects_Test_source_Lunar_mc_20_3_25_3_if_end:
-E_Garmin_Projects_Test_source_Lunar_mc_19_33_26_2_stop:
-E_Garmin_Projects_Test_source_Lunar_mc_19_2_26_2_for_incr:
-[ "E:\Garmin\Projects\Test\source\Lunar.mc" 19 ]
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_23_8_25_3_stop:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_20_3_25_3_if_end:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_19_33_26_2_stop:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_19_2_26_2_for_incr:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc" 19 ]
         %tmp.44 = lgetv %i.4;
         symbol [ i %tmp.44 19 28 29 ];
         %tmp.45 = add %tmp.44 1;
         lputv %i.4 %tmp.45;
         symbol [ i %i.4 19 28 29 ];
-        goto @E_Garmin_Projects_Test_source_Lunar_mc_19_2_26_2_for_test;
-E_Garmin_Projects_Test_source_Lunar_mc_19_2_26_2_for_end:
-[ "E:\Garmin\Projects\Test\source\Lunar.mc" 27 2 ]
+        goto @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_19_2_26_2_for_test;
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_19_2_26_2_for_end:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc" 27 2 ]
         %tmp.46 = lgetv %agg_days.3;
         symbol [ agg_days %tmp.46 27 2 10 ];
         %tmp.47 = lgetv %day;
@@ -732,26 +732,26 @@ E_Garmin_Projects_Test_source_Lunar_mc_19_2_26_2_for_end:
         %tmp.48 = add %tmp.46 %tmp.47;
         lputv %agg_days.3 %tmp.48;
         symbol [ agg_days %agg_days.3 27 2 10 ];
-[ "E:\Garmin\Projects\Test\source\Lunar.mc" 28 2 ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc" 28 2 ]
         %tmp.49 = lgetv %agg_days.3;
         symbol [ agg_days %tmp.49 28 9 17 ];
         ret %tmp.49;
-E_Garmin_Projects_Test_source_Lunar_mc_15_48_29_1_stop:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_15_48_29_1_stop:
     }
-    [ @file = "E:\Garmin\Projects\Test\source\Lunar.mc"; @line = 31; @symbol_functiondef = [getLunarYearIndex,31,18,35]; @symbol_param<0> = [agg_days,31,36,44]; ]
+    [ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc"; @line = 31; @symbol_functiondef = [getLunarYearIndex,31,18,35]; @symbol_param<0> = [agg_days,31,36,44]; ]
     private
     function getLunarYearIndex(agg_days) {
-E_Garmin_Projects_Test_source_Lunar_mc_31_46_37_1_start:
-[ "E:\Garmin\Projects\Test\source\Lunar.mc" 32 2 ]
-        [ "E_Garmin_Projects_Test_source_Lunar_mc_31_46_37_1_start" "E_Garmin_Projects_Test_source_Lunar_mc_31_46_37_1_stop" ]
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_31_46_37_1_start:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc" 32 2 ]
+        [ "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_31_46_37_1_start" "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_31_46_37_1_stop" ]
         %index.1 = local;
         symbol [ index %index.1 32 6 11 ];
         %tmp.1 = 0;
         lputv %index.1 %tmp.1;
         symbol [ index %index.1 32 6 11 ];
-[ "E:\Garmin\Projects\Test\source\Lunar.mc" 33 2 ]
-        while @E_Garmin_Projects_Test_source_Lunar_mc_33_2_35_2_while_test @E_Garmin_Projects_Test_source_Lunar_mc_33_2_35_2_while_end;
-E_Garmin_Projects_Test_source_Lunar_mc_33_2_35_2_while_test:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc" 33 2 ]
+        while @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_33_2_35_2_while_test @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_33_2_35_2_while_end;
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_33_2_35_2_while_test:
         symbol [ day_agg %tmp.3 33 9 16 ];
         %tmp.3 = getv ? :day_agg;
         %tmp.4 = lgetv %index.1;
@@ -760,31 +760,31 @@ E_Garmin_Projects_Test_source_Lunar_mc_33_2_35_2_while_test:
         %tmp.6 = lgetv %agg_days;
         symbol [ agg_days %tmp.6 33 26 34 ];
         %tmp.7 = lt %tmp.5 %tmp.6;
-        bf %tmp.7 @E_Garmin_Projects_Test_source_Lunar_mc_33_2_35_2_while_end;
-E_Garmin_Projects_Test_source_Lunar_mc_33_2_35_2_while_begin:
-E_Garmin_Projects_Test_source_Lunar_mc_33_36_35_2_start:
-[ "E:\Garmin\Projects\Test\source\Lunar.mc" 34 3 ]
+        bf %tmp.7 @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_33_2_35_2_while_end;
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_33_2_35_2_while_begin:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_33_36_35_2_start:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc" 34 3 ]
         %tmp.10 = lgetv %index.1;
         symbol [ index %tmp.10 34 3 8 ];
         %tmp.11 = add %tmp.10 1;
         lputv %index.1 %tmp.11;
         symbol [ index %index.1 34 3 8 ];
-E_Garmin_Projects_Test_source_Lunar_mc_33_36_35_2_stop:
-        goto @E_Garmin_Projects_Test_source_Lunar_mc_33_2_35_2_while_test;
-E_Garmin_Projects_Test_source_Lunar_mc_33_2_35_2_while_end:
-[ "E:\Garmin\Projects\Test\source\Lunar.mc" 36 2 ]
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_33_36_35_2_stop:
+        goto @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_33_2_35_2_while_test;
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_33_2_35_2_while_end:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc" 36 2 ]
         %tmp.12 = lgetv %index.1;
         symbol [ index %tmp.12 36 9 14 ];
         %tmp.13 = 1;
         %tmp.14 = sub %tmp.12 %tmp.13;
         ret %tmp.14;
-E_Garmin_Projects_Test_source_Lunar_mc_31_46_37_1_stop:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_31_46_37_1_stop:
     }
-    [ @file = "E:\Garmin\Projects\Test\source\Lunar.mc"; @line = 39; @symbol_functiondef = [getLunarMonthsInfo,39,18,36]; @symbol_param<0> = [lunar_year_index,39,37,53]; ]
+    [ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc"; @line = 39; @symbol_functiondef = [getLunarMonthsInfo,39,18,36]; @symbol_param<0> = [lunar_year_index,39,37,53]; ]
     private
     function getLunarMonthsInfo(lunar_year_index) {
-E_Garmin_Projects_Test_source_Lunar_mc_39_55_44_1_start:
-[ "E:\Garmin\Projects\Test\source\Lunar.mc" 40 2 ]
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_39_55_44_1_start:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc" 40 2 ]
         %tmp.1 = newd 2;
         %tmp.2 = "pattern";
         symbol [ year_months %tmp.4 41 16 27 ];
@@ -807,28 +807,28 @@ E_Garmin_Projects_Test_source_Lunar_mc_39_55_44_1_start:
         %tmp.18 = dup %tmp.10;
         %tmp.19 = aputv %tmp.18 %tmp.11 %tmp.17;
         ret %tmp.19;
-E_Garmin_Projects_Test_source_Lunar_mc_39_55_44_1_stop:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_39_55_44_1_stop:
     }
-    [ @file = "E:\Garmin\Projects\Test\source\Lunar.mc"; @line = 46; @symbol_functiondef = [getLunarYearMonthsSizeAgg,46,18,43]; @symbol_param<0> = [leap,46,44,48]; @symbol_param<1> = [pattern,46,50,57]; ]
+    [ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc"; @line = 46; @symbol_functiondef = [getLunarYearMonthsSizeAgg,46,18,43]; @symbol_param<0> = [leap,46,44,48]; @symbol_param<1> = [pattern,46,50,57]; ]
     private
     function getLunarYearMonthsSizeAgg(leap, pattern) {
-E_Garmin_Projects_Test_source_Lunar_mc_46_59_75_1_start:
-[ "E:\Garmin\Projects\Test\source\Lunar.mc" 47 2 ]
-        [ "E_Garmin_Projects_Test_source_Lunar_mc_46_59_75_1_start" "E_Garmin_Projects_Test_source_Lunar_mc_46_59_75_1_stop" ]
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_46_59_75_1_start:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc" 47 2 ]
+        [ "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_46_59_75_1_start" "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_46_59_75_1_stop" ]
         %months_size_agg.1 = local;
         symbol [ months_size_agg %months_size_agg.1 47 6 21 ];
         %tmp.1 = newa 0;
         lputv %months_size_agg.1 %tmp.1;
         symbol [ months_size_agg %months_size_agg.1 47 6 21 ];
-[ "E:\Garmin\Projects\Test\source\Lunar.mc" 48 2 ]
-        [ "E_Garmin_Projects_Test_source_Lunar_mc_46_59_75_1_start" "E_Garmin_Projects_Test_source_Lunar_mc_46_59_75_1_stop" ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc" 48 2 ]
+        [ "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_46_59_75_1_start" "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_46_59_75_1_stop" ]
         %months_name.2 = local;
         symbol [ months_name %months_name.2 48 6 17 ];
         %tmp.2 = newa 0;
         lputv %months_name.2 %tmp.2;
         symbol [ months_name %months_name.2 48 6 17 ];
-[ "E:\Garmin\Projects\Test\source\Lunar.mc" 50 2 ]
-        [ "E_Garmin_Projects_Test_source_Lunar_mc_46_59_75_1_start" "E_Garmin_Projects_Test_source_Lunar_mc_46_59_75_1_stop" ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc" 50 2 ]
+        [ "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_46_59_75_1_start" "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_46_59_75_1_stop" ]
         %leap_month.3 = local;
         symbol [ leap_month %leap_month.3 50 6 16 ];
         %tmp.3 = lgetv %leap;
@@ -837,32 +837,32 @@ E_Garmin_Projects_Test_source_Lunar_mc_46_59_75_1_start:
         %tmp.5 = mod %tmp.3 %tmp.4;
         lputv %leap_month.3 %tmp.5;
         symbol [ leap_month %leap_month.3 50 6 16 ];
-[ "E:\Garmin\Projects\Test\source\Lunar.mc" 51 2 ]
-        [ "E_Garmin_Projects_Test_source_Lunar_mc_46_59_75_1_start" "E_Garmin_Projects_Test_source_Lunar_mc_46_59_75_1_stop" ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc" 51 2 ]
+        [ "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_46_59_75_1_start" "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_46_59_75_1_stop" ]
         %agg.4 = local;
         symbol [ agg %agg.4 51 6 9 ];
         %tmp.6 = 0;
         lputv %agg.4 %tmp.6;
         symbol [ agg %agg.4 51 6 9 ];
-[ "E:\Garmin\Projects\Test\source\Lunar.mc" 53 2 ]
-        for @E_Garmin_Projects_Test_source_Lunar_mc_53_2_67_2_for_test @E_Garmin_Projects_Test_source_Lunar_mc_53_2_67_2_for_incr @E_Garmin_Projects_Test_source_Lunar_mc_53_2_67_2_for_end;
-E_Garmin_Projects_Test_source_Lunar_mc_53_2_67_2_for_init:
-        [ "E_Garmin_Projects_Test_source_Lunar_mc_53_2_67_2_for_begin" "E_Garmin_Projects_Test_source_Lunar_mc_53_2_67_2_for_end" ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc" 53 2 ]
+        for @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_53_2_67_2_for_test @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_53_2_67_2_for_incr @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_53_2_67_2_for_end;
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_53_2_67_2_for_init:
+        [ "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_53_2_67_2_for_begin" "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_53_2_67_2_for_end" ]
         %i.5 = local;
         symbol [ i %i.5 53 10 11 ];
         %tmp.7 = 0;
         lputv %i.5 %tmp.7;
         symbol [ i %i.5 53 10 11 ];
-E_Garmin_Projects_Test_source_Lunar_mc_53_2_67_2_for_test:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_53_2_67_2_for_test:
         %tmp.8 = lgetv %i.5;
         symbol [ i %tmp.8 53 17 18 ];
         %tmp.9 = 12;
         %tmp.10 = lt %tmp.8 %tmp.9;
-        bf %tmp.10 @E_Garmin_Projects_Test_source_Lunar_mc_53_2_67_2_for_end;
-E_Garmin_Projects_Test_source_Lunar_mc_53_2_67_2_for_begin:
-E_Garmin_Projects_Test_source_Lunar_mc_53_30_67_2_start:
-[ "E:\Garmin\Projects\Test\source\Lunar.mc" 54 3 ]
-        [ "E_Garmin_Projects_Test_source_Lunar_mc_53_30_67_2_start" "E_Garmin_Projects_Test_source_Lunar_mc_53_30_67_2_stop" ]
+        bf %tmp.10 @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_53_2_67_2_for_end;
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_53_2_67_2_for_begin:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_53_30_67_2_start:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc" 54 3 ]
+        [ "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_53_30_67_2_start" "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_53_30_67_2_stop" ]
         %month.6 = local;
         symbol [ month %month.6 54 7 12 ];
         %tmp.11 = lgetv %i.5;
@@ -871,7 +871,7 @@ E_Garmin_Projects_Test_source_Lunar_mc_53_30_67_2_start:
         %tmp.13 = add %tmp.11 %tmp.12;
         lputv %month.6 %tmp.13;
         symbol [ month %month.6 54 7 12 ];
-[ "E:\Garmin\Projects\Test\source\Lunar.mc" 55 3 ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc" 55 3 ]
         %tmp.14 = lgetv %months_name.2;
         symbol [ months_name %tmp.14 55 3 14 ];
         symbol [ add %tmp.15 55 15 18 ];
@@ -879,7 +879,7 @@ E_Garmin_Projects_Test_source_Lunar_mc_53_30_67_2_start:
         %tmp.16 = lgetv %month.6;
         symbol [ month %tmp.16 55 19 24 ];
         invoke %tmp.14 %tmp.15(%tmp.16);
-[ "E:\Garmin\Projects\Test\source\Lunar.mc" 56 3 ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc" 56 3 ]
         %tmp.17 = lgetv %months_size_agg.1;
         symbol [ months_size_agg %tmp.17 56 3 18 ];
         symbol [ add %tmp.18 56 19 22 ];
@@ -887,8 +887,8 @@ E_Garmin_Projects_Test_source_Lunar_mc_53_30_67_2_start:
         %tmp.19 = lgetv %agg.4;
         symbol [ agg %tmp.19 56 23 26 ];
         invoke %tmp.17 %tmp.18(%tmp.19);
-[ "E:\Garmin\Projects\Test\source\Lunar.mc" 58 3 ]
-        [ "E_Garmin_Projects_Test_source_Lunar_mc_53_30_67_2_start" "E_Garmin_Projects_Test_source_Lunar_mc_53_30_67_2_stop" ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc" 58 3 ]
+        [ "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_53_30_67_2_start" "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_53_30_67_2_stop" ]
         %greater.7 = local;
         symbol [ greater %greater.7 58 7 14 ];
         %tmp.20 = lgetv %pattern;
@@ -902,38 +902,38 @@ E_Garmin_Projects_Test_source_Lunar_mc_53_30_67_2_start:
         %tmp.26 = bitand %tmp.20 %tmp.25;
         lputv %greater.7 %tmp.26;
         symbol [ greater %greater.7 58 7 14 ];
-[ "E:\Garmin\Projects\Test\source\Lunar.mc" 59 3 ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc" 59 3 ]
         %tmp.27 = lgetv %agg.4;
         symbol [ agg %tmp.27 59 3 6 ];
-E_Garmin_Projects_Test_source_Lunar_mc_59_11_59_30_begin:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_59_11_59_30_begin:
         %tmp.28 = lgetv %greater.7;
         symbol [ greater %tmp.28 59 11 18 ];
         %tmp.29 = 0;
         %tmp.30 = gt %tmp.28 %tmp.29;
-        bf %tmp.30 @E_Garmin_Projects_Test_source_Lunar_mc_59_11_59_30_false;
-E_Garmin_Projects_Test_source_Lunar_mc_59_11_59_30_true:
+        bf %tmp.30 @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_59_11_59_30_false;
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_59_11_59_30_true:
         %tmp.31 = 30;
         push %tmp.31;
-        goto @E_Garmin_Projects_Test_source_Lunar_mc_59_11_59_30_end;
-E_Garmin_Projects_Test_source_Lunar_mc_59_11_59_30_false:
+        goto @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_59_11_59_30_end;
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_59_11_59_30_false:
         %tmp.32 = 29;
         push %tmp.32;
-E_Garmin_Projects_Test_source_Lunar_mc_59_11_59_30_end:
-        %tmp.33 = phi [%tmp.30 @E_Garmin_Projects_Test_source_Lunar_mc_59_11_59_30_begin] [%tmp.31 @E_Garmin_Projects_Test_source_Lunar_mc_59_11_59_30_true] [%tmp.32 @E_Garmin_Projects_Test_source_Lunar_mc_59_11_59_30_false] [%tmp.33 @E_Garmin_Projects_Test_source_Lunar_mc_59_11_59_30_end];
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_59_11_59_30_end:
+        %tmp.33 = phi [%tmp.30 @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_59_11_59_30_begin] [%tmp.31 @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_59_11_59_30_true] [%tmp.32 @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_59_11_59_30_false] [%tmp.33 @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_59_11_59_30_end];
         %tmp.34 = add %tmp.27 %tmp.33;
         lputv %agg.4 %tmp.34;
         symbol [ agg %agg.4 59 3 6 ];
-[ "E:\Garmin\Projects\Test\source\Lunar.mc" 61 3 ]
-E_Garmin_Projects_Test_source_Lunar_mc_61_3_66_3_if_stmt:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc" 61 3 ]
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_61_3_66_3_if_stmt:
         %tmp.35 = lgetv %leap_month.3;
         symbol [ leap_month %tmp.35 61 6 16 ];
         %tmp.36 = lgetv %month.6;
         symbol [ month %tmp.36 61 20 25 ];
         %tmp.37 = eq %tmp.35 %tmp.36;
-        bf %tmp.37 @E_Garmin_Projects_Test_source_Lunar_mc_61_3_66_3_if_end;
-E_Garmin_Projects_Test_source_Lunar_mc_61_3_66_3_if_true:
-E_Garmin_Projects_Test_source_Lunar_mc_61_27_66_3_start:
-[ "E:\Garmin\Projects\Test\source\Lunar.mc" 62 4 ]
+        bf %tmp.37 @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_61_3_66_3_if_end;
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_61_3_66_3_if_true:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_61_27_66_3_start:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc" 62 4 ]
         %tmp.38 = lgetv %months_name.2;
         symbol [ months_name %tmp.38 62 4 15 ];
         symbol [ add %tmp.39 62 16 19 ];
@@ -943,7 +943,7 @@ E_Garmin_Projects_Test_source_Lunar_mc_61_27_66_3_start:
         symbol [ month %tmp.41 62 26 31 ];
         %tmp.42 = add %tmp.40 %tmp.41;
         invoke %tmp.38 %tmp.39(%tmp.42);
-[ "E:\Garmin\Projects\Test\source\Lunar.mc" 63 4 ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc" 63 4 ]
         %tmp.43 = lgetv %months_size_agg.1;
         symbol [ months_size_agg %tmp.43 63 4 19 ];
         symbol [ add %tmp.44 63 20 23 ];
@@ -951,48 +951,48 @@ E_Garmin_Projects_Test_source_Lunar_mc_61_27_66_3_start:
         %tmp.45 = lgetv %agg.4;
         symbol [ agg %tmp.45 63 24 27 ];
         invoke %tmp.43 %tmp.44(%tmp.45);
-[ "E:\Garmin\Projects\Test\source\Lunar.mc" 64 4 ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc" 64 4 ]
         %tmp.46 = lgetv %leap;
         symbol [ leap %tmp.46 64 14 18 ];
         %tmp.47 = 4;
         %tmp.48 = shr %tmp.46 %tmp.47;
         lputv %greater.7 %tmp.48;
         symbol [ greater %greater.7 64 4 11 ];
-[ "E:\Garmin\Projects\Test\source\Lunar.mc" 65 4 ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc" 65 4 ]
         %tmp.49 = lgetv %agg.4;
         symbol [ agg %tmp.49 65 4 7 ];
-E_Garmin_Projects_Test_source_Lunar_mc_65_12_65_31_begin:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_65_12_65_31_begin:
         %tmp.50 = lgetv %greater.7;
         symbol [ greater %tmp.50 65 12 19 ];
         %tmp.51 = 0;
         %tmp.52 = gt %tmp.50 %tmp.51;
-        bf %tmp.52 @E_Garmin_Projects_Test_source_Lunar_mc_65_12_65_31_false;
-E_Garmin_Projects_Test_source_Lunar_mc_65_12_65_31_true:
+        bf %tmp.52 @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_65_12_65_31_false;
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_65_12_65_31_true:
         %tmp.53 = 30;
         push %tmp.53;
-        goto @E_Garmin_Projects_Test_source_Lunar_mc_65_12_65_31_end;
-E_Garmin_Projects_Test_source_Lunar_mc_65_12_65_31_false:
+        goto @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_65_12_65_31_end;
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_65_12_65_31_false:
         %tmp.54 = 29;
         push %tmp.54;
-E_Garmin_Projects_Test_source_Lunar_mc_65_12_65_31_end:
-        %tmp.55 = phi [%tmp.52 @E_Garmin_Projects_Test_source_Lunar_mc_65_12_65_31_begin] [%tmp.53 @E_Garmin_Projects_Test_source_Lunar_mc_65_12_65_31_true] [%tmp.54 @E_Garmin_Projects_Test_source_Lunar_mc_65_12_65_31_false] [%tmp.55 @E_Garmin_Projects_Test_source_Lunar_mc_65_12_65_31_end];
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_65_12_65_31_end:
+        %tmp.55 = phi [%tmp.52 @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_65_12_65_31_begin] [%tmp.53 @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_65_12_65_31_true] [%tmp.54 @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_65_12_65_31_false] [%tmp.55 @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_65_12_65_31_end];
         %tmp.56 = add %tmp.49 %tmp.55;
         lputv %agg.4 %tmp.56;
         symbol [ agg %agg.4 65 4 7 ];
-E_Garmin_Projects_Test_source_Lunar_mc_61_27_66_3_stop:
-        goto @E_Garmin_Projects_Test_source_Lunar_mc_61_3_66_3_if_end;
-E_Garmin_Projects_Test_source_Lunar_mc_61_3_66_3_if_end:
-E_Garmin_Projects_Test_source_Lunar_mc_53_30_67_2_stop:
-E_Garmin_Projects_Test_source_Lunar_mc_53_2_67_2_for_incr:
-[ "E:\Garmin\Projects\Test\source\Lunar.mc" 53 ]
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_61_27_66_3_stop:
+        goto @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_61_3_66_3_if_end;
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_61_3_66_3_if_end:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_53_30_67_2_stop:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_53_2_67_2_for_incr:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc" 53 ]
         %tmp.59 = lgetv %i.5;
         symbol [ i %tmp.59 53 25 26 ];
         %tmp.60 = add %tmp.59 1;
         lputv %i.5 %tmp.60;
         symbol [ i %i.5 53 25 26 ];
-        goto @E_Garmin_Projects_Test_source_Lunar_mc_53_2_67_2_for_test;
-E_Garmin_Projects_Test_source_Lunar_mc_53_2_67_2_for_end:
-[ "E:\Garmin\Projects\Test\source\Lunar.mc" 69 2 ]
+        goto @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_53_2_67_2_for_test;
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_53_2_67_2_for_end:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc" 69 2 ]
         %tmp.61 = lgetv %months_size_agg.1;
         symbol [ months_size_agg %tmp.61 69 2 17 ];
         symbol [ add %tmp.62 69 18 21 ];
@@ -1000,7 +1000,7 @@ E_Garmin_Projects_Test_source_Lunar_mc_53_2_67_2_for_end:
         %tmp.63 = lgetv %agg.4;
         symbol [ agg %tmp.63 69 22 25 ];
         invoke %tmp.61 %tmp.62(%tmp.63);
-[ "E:\Garmin\Projects\Test\source\Lunar.mc" 71 2 ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc" 71 2 ]
         %tmp.64 = newd 2;
         %tmp.65 = "name";
         %tmp.66 = lgetv %months_name.2;
@@ -1013,14 +1013,14 @@ E_Garmin_Projects_Test_source_Lunar_mc_53_2_67_2_for_end:
         %tmp.71 = dup %tmp.68;
         %tmp.72 = aputv %tmp.71 %tmp.69 %tmp.70;
         ret %tmp.72;
-E_Garmin_Projects_Test_source_Lunar_mc_46_59_75_1_stop:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_46_59_75_1_stop:
     }
-    [ @file = "E:\Garmin\Projects\Test\source\Lunar.mc"; @line = 77; @symbol_functiondef = [getLunarDate,77,18,30]; @symbol_param<0> = [agg_days,77,31,39]; @symbol_param<1> = [lunar_year_index,77,41,57]; @symbol_param<2> = [lunar_months_size_agg,77,59,80]; ]
+    [ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc"; @line = 77; @symbol_functiondef = [getLunarDate,77,18,30]; @symbol_param<0> = [agg_days,77,31,39]; @symbol_param<1> = [lunar_year_index,77,41,57]; @symbol_param<2> = [lunar_months_size_agg,77,59,80]; ]
     private
     function getLunarDate(agg_days, lunar_year_index, lunar_months_size_agg) {
-E_Garmin_Projects_Test_source_Lunar_mc_77_82_93_1_start:
-[ "E:\Garmin\Projects\Test\source\Lunar.mc" 78 2 ]
-        [ "E_Garmin_Projects_Test_source_Lunar_mc_77_82_93_1_start" "E_Garmin_Projects_Test_source_Lunar_mc_77_82_93_1_stop" ]
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_77_82_93_1_start:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc" 78 2 ]
+        [ "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_77_82_93_1_start" "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_77_82_93_1_stop" ]
         %base_day.1 = local;
         symbol [ base_day %base_day.1 78 6 14 ];
         symbol [ day_agg %tmp.2 78 17 24 ];
@@ -1030,8 +1030,8 @@ E_Garmin_Projects_Test_source_Lunar_mc_77_82_93_1_start:
         %tmp.4 = agetv %tmp.2 %tmp.3;
         lputv %base_day.1 %tmp.4;
         symbol [ base_day %base_day.1 78 6 14 ];
-[ "E:\Garmin\Projects\Test\source\Lunar.mc" 79 2 ]
-        [ "E_Garmin_Projects_Test_source_Lunar_mc_77_82_93_1_start" "E_Garmin_Projects_Test_source_Lunar_mc_77_82_93_1_stop" ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc" 79 2 ]
+        [ "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_77_82_93_1_start" "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_77_82_93_1_stop" ]
         %size_agg.2 = local;
         symbol [ size_agg %size_agg.2 79 6 14 ];
         %tmp.5 = lgetv %lunar_months_size_agg;
@@ -1040,8 +1040,8 @@ E_Garmin_Projects_Test_source_Lunar_mc_77_82_93_1_start:
         %tmp.7 = agetv %tmp.5 %tmp.6;
         lputv %size_agg.2 %tmp.7;
         symbol [ size_agg %size_agg.2 79 6 14 ];
-[ "E:\Garmin\Projects\Test\source\Lunar.mc" 80 2 ]
-        [ "E_Garmin_Projects_Test_source_Lunar_mc_77_82_93_1_start" "E_Garmin_Projects_Test_source_Lunar_mc_77_82_93_1_stop" ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc" 80 2 ]
+        [ "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_77_82_93_1_start" "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_77_82_93_1_stop" ]
         %index.3 = local;
         symbol [ index %index.3 80 6 11 ];
         %tmp.8 = lgetv %size_agg.2;
@@ -1053,9 +1053,9 @@ E_Garmin_Projects_Test_source_Lunar_mc_77_82_93_1_start:
         %tmp.12 = sub %tmp.10 %tmp.11;
         lputv %index.3 %tmp.12;
         symbol [ index %index.3 80 6 11 ];
-[ "E:\Garmin\Projects\Test\source\Lunar.mc" 81 2 ]
-        while @E_Garmin_Projects_Test_source_Lunar_mc_81_2_83_2_while_test @E_Garmin_Projects_Test_source_Lunar_mc_81_2_83_2_while_end;
-E_Garmin_Projects_Test_source_Lunar_mc_81_2_83_2_while_test:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc" 81 2 ]
+        while @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_81_2_83_2_while_test @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_81_2_83_2_while_end;
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_81_2_83_2_while_test:
         %tmp.13 = lgetv %agg_days;
         symbol [ agg_days %tmp.13 81 9 17 ];
         %tmp.14 = lgetv %base_day.1;
@@ -1067,20 +1067,20 @@ E_Garmin_Projects_Test_source_Lunar_mc_81_2_83_2_while_test:
         %tmp.17 = agetv %tmp.15 %tmp.16;
         %tmp.18 = add %tmp.14 %tmp.17;
         %tmp.19 = lte %tmp.13 %tmp.18;
-        bf %tmp.19 @E_Garmin_Projects_Test_source_Lunar_mc_81_2_83_2_while_end;
-E_Garmin_Projects_Test_source_Lunar_mc_81_2_83_2_while_begin:
-E_Garmin_Projects_Test_source_Lunar_mc_81_49_83_2_start:
-[ "E:\Garmin\Projects\Test\source\Lunar.mc" 82 3 ]
+        bf %tmp.19 @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_81_2_83_2_while_end;
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_81_2_83_2_while_begin:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_81_49_83_2_start:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc" 82 3 ]
         %tmp.22 = lgetv %index.3;
         symbol [ index %tmp.22 82 3 8 ];
         %tmp.23 = sub %tmp.22 1;
         lputv %index.3 %tmp.23;
         symbol [ index %index.3 82 3 8 ];
-E_Garmin_Projects_Test_source_Lunar_mc_81_49_83_2_stop:
-        goto @E_Garmin_Projects_Test_source_Lunar_mc_81_2_83_2_while_test;
-E_Garmin_Projects_Test_source_Lunar_mc_81_2_83_2_while_end:
-[ "E:\Garmin\Projects\Test\source\Lunar.mc" 85 2 ]
-        [ "E_Garmin_Projects_Test_source_Lunar_mc_77_82_93_1_start" "E_Garmin_Projects_Test_source_Lunar_mc_77_82_93_1_stop" ]
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_81_49_83_2_stop:
+        goto @C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_81_2_83_2_while_test;
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_81_2_83_2_while_end:
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc" 85 2 ]
+        [ "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_77_82_93_1_start" "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_77_82_93_1_stop" ]
         %day.4 = local;
         symbol [ day %day.4 85 6 9 ];
         %tmp.24 = lgetv %agg_days;
@@ -1096,8 +1096,8 @@ E_Garmin_Projects_Test_source_Lunar_mc_81_2_83_2_while_end:
         %tmp.30 = sub %tmp.24 %tmp.29;
         lputv %day.4 %tmp.30;
         symbol [ day %day.4 85 6 9 ];
-[ "E:\Garmin\Projects\Test\source\Lunar.mc" 86 2 ]
-        [ "E_Garmin_Projects_Test_source_Lunar_mc_77_82_93_1_start" "E_Garmin_Projects_Test_source_Lunar_mc_77_82_93_1_stop" ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc" 86 2 ]
+        [ "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_77_82_93_1_start" "C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_77_82_93_1_stop" ]
         %last_day.5 = local;
         symbol [ last_day %last_day.5 86 6 14 ];
         %tmp.31 = lgetv %base_day.1;
@@ -1117,7 +1117,7 @@ E_Garmin_Projects_Test_source_Lunar_mc_81_2_83_2_while_end:
         %tmp.41 = add %tmp.39 %tmp.40;
         lputv %last_day.5 %tmp.41;
         symbol [ last_day %last_day.5 86 6 14 ];
-[ "E:\Garmin\Projects\Test\source\Lunar.mc" 88 2 ]
+[ "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc" 88 2 ]
         %tmp.42 = newd 3;
         %tmp.43 = "month";
         %tmp.44 = lgetv %lunar_months_size_agg;
@@ -1149,9 +1149,9 @@ E_Garmin_Projects_Test_source_Lunar_mc_81_2_83_2_while_end:
         %tmp.63 = dup %tmp.58;
         %tmp.64 = aputv %tmp.63 %tmp.59 %tmp.62;
         ret %tmp.64;
-E_Garmin_Projects_Test_source_Lunar_mc_77_82_93_1_stop:
+C_Users_Bofeng_Documents_Garmin_Lunar_Watchface_source_Lunar_mc_77_82_93_1_stop:
     }
 }
-[ @file = "E:\Garmin\Projects\Test\source\Lunar.mc"; @line = 1; ]
+[ @file = "C:\Users\Bofeng\Documents\Garmin-Lunar-Watchface\source\Lunar.mc"; @line = 1; ]
 <init> {
 }
